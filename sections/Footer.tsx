@@ -91,7 +91,7 @@ export default function Footer({
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
     href: "https://deco.cx",
   },
-  copyright = "© 2024 deco.cx. All rights reserved.",
+  copyright = "© 2024 Issacar Church. All rights reserved.",
   bottomLinks = [
     { label: "Privacy Policy", href: "/" },
     { label: "Terms of Service", href: "/" },
@@ -113,7 +113,6 @@ export default function Footer({
             <Image
               src={logo.src || ""}
               width={100}
-              height={28}
               alt={logo.alt}
             />
           </div>
@@ -134,8 +133,9 @@ export default function Footer({
           </div>
           <div class="lg:w-[40%]">
             <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
-            <form class="flex flex-col gap-4">
-              <p class="font-normal">{subscribe.description}</p>
+            <p class="font-normal">{subscribe.description}</p>
+            {/* <form class="flex flex-col gap-4">
+
               <div class="flex gap-4">
                 <input
                   type="text"
@@ -155,7 +155,7 @@ export default function Footer({
                 dangerouslySetInnerHTML={{ __html: subscribe.instructions }}
               >
               </p>
-            </form>
+            </form> */}
           </div>
         </div>
         <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
@@ -169,7 +169,6 @@ export default function Footer({
               <Image
                 src={madeWith?.src || ""}
                 width={100}
-                height={28}
                 alt={madeWith?.label}
               />
             </a>
