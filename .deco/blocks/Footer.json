@@ -1,1 +1,18 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [],
+  "subscribe": {
+    "title": "Issacar Church",
+    "description": "Lugar de adoração",
+    "instructions": "<p>Site em evolução </p>"
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/38b0eef8-edbf-4006-bd4a-f0926a0ae38a"
+  },
+  "madeWith": {
+    "label": "Sendo construído com carinho pela  Mídia Issacar",
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/a51c5033-3452-4222-a146-9c130855dad4"
+  }
+}

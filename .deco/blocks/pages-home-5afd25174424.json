@@ -1,42 +1,65 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Lugar de Adoração</p>",
+      "cta": [],
+      "description": "Nosso proposito é adorar ao Senhor, obedecendo sua palavra, alcançando todas as pessoas, apresentando o profundo poder de adorar em espírito e em verdade!"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Venha cultuar conosco",
+      "cta": [
+        {
+          "style": "Ghost",
+          "id": "Maps",
+          "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
+          "text": "Nosso endereço"
+        }
+      ],
+      "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesso no google maps",
+      "tagline": "Nosso endereço",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "tagline": "Como contribuir",
+      "title": "Quer contribuir conosco?",
+      "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Workship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino ",
+      "cta": [
+        {
+          "style": "Outline",
+          "href": "/",
+          "text": "/"
+        }
+      ],
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "tagline": "Nossa Lojinha",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
+      "description": "Na nossa lojinha temos uma variedade de camisetas e canecas, e ao comprar um de nossos itens você ajuda no crescimento dos projetos de nosso ministério e também contribui para causas sociais, pois parte do valor arrecadado é doado para instituições.",
+      "cta": [
+        {
+          "style": "Ghost",
+          "href": "https://umapenca.com/lojinhaissacar/",
+          "id": "Site ",
+          "text": "Visite nossa lojinha"
+        }
+      ],
+      "placement": "left",
+      "title": "Visite Nossa Lojinha"
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
