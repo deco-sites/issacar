@@ -24,7 +24,11 @@
           "id": "Maps"
         }
       ],
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
+      "disableSpacing": {
+        "top": true,
+        "bottom": true
+      }
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -39,7 +43,11 @@
         }
       ],
       "placement": "right",
-      "title": "Quer contribuir conosco?"
+      "title": "Quer contribuir conosco?",
+      "disableSpacing": {
+        "top": true,
+        "bottom": true
+      }
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -55,7 +63,11 @@
         }
       ],
       "placement": "left",
-      "title": "Visite Nossa Lojinha"
+      "title": "Visite Nossa Lojinha",
+      "disableSpacing": {
+        "top": true,
+        "bottom": true
+      }
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -71,7 +83,11 @@
         }
       ],
       "placement": "right",
-      "title": "Foi fotografado no culto?"
+      "title": "Foi fotografado no culto?",
+      "disableSpacing": {
+        "top": true,
+        "bottom": true
+      }
     },
     {
       "__resolveType": "Footer"
