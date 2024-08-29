@@ -20,28 +20,28 @@ import * as $$$$$$7 from "./sections/Testimonials.tsx";
 import * as $$$$$$8 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
-    "sections": {
-        "site/sections/BlogPosts.tsx": $$$$$$0,
-        "site/sections/Faq.tsx": $$$$$$1,
-        "site/sections/Footer.tsx": $$$$$$2,
-        "site/sections/Header.tsx": $$$$$$3,
-        "site/sections/hero-1.tsx": $$$$$$9,
-        "site/sections/hero-2.tsx": $$$$$$10,
-        "site/sections/Hero.tsx": $$$$$$4,
-        "site/sections/hero2.tsx": $$$$$$11,
-        "site/sections/ImageWithParagraph.tsx": $$$$$$5,
-        "site/sections/Logos.tsx": $$$$$$6,
-        "site/sections/Testimonials.tsx": $$$$$$7,
-        "site/sections/Theme/Theme.tsx": $$$$$$8,
-    },
-    "apps": {
-        "site/apps/deco/analytics.ts": $$$$$$$$$$$0,
-        "site/apps/deco/records.ts": $$$$$$$$$$$1,
-        "site/apps/decohub.ts": $$$$$$$$$$$2,
-        "site/apps/site.ts": $$$$$$$$$$$3,
-    },
-    "name": "site",
-    "baseUrl": import.meta.url,
+  "sections": {
+    "site/sections/BlogPosts.tsx": $$$$$$0,
+    "site/sections/Faq.tsx": $$$$$$1,
+    "site/sections/Footer.tsx": $$$$$$2,
+    "site/sections/Header.tsx": $$$$$$3,
+    "site/sections/hero-1.tsx": $$$$$$9,
+    "site/sections/hero-2.tsx": $$$$$$10,
+    "site/sections/Hero.tsx": $$$$$$4,
+    "site/sections/hero2.tsx": $$$$$$11,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$5,
+    "site/sections/Logos.tsx": $$$$$$6,
+    "site/sections/Testimonials.tsx": $$$$$$7,
+    "site/sections/Theme/Theme.tsx": $$$$$$8,
+  },
+  "apps": {
+    "site/apps/deco/analytics.ts": $$$$$$$$$$$0,
+    "site/apps/deco/records.ts": $$$$$$$$$$$1,
+    "site/apps/decohub.ts": $$$$$$$$$$$2,
+    "site/apps/site.ts": $$$$$$$$$$$3,
+  },
+  "name": "site",
+  "baseUrl": import.meta.url,
 };
 
 export type Manifest = typeof manifest;
