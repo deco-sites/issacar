@@ -53,7 +53,7 @@ export default function Header({
         </a>
 
         <div class="hidden items-center justify-between lg:flex w-full">
-          <ul class="flex">
+          {/* <ul class="flex">
             {navigation.links.map((link) => (
               <li>
                 <a
@@ -65,8 +65,8 @@ export default function Header({
                 </a>
               </li>
             ))}
-          </ul>
-          <ul class="flex gap-3">
+          </ul> */}
+          {/* <ul class="flex gap-3">
             {navigation.buttons?.map((item) => (
               <a
                 key={item?.id}
@@ -80,7 +80,7 @@ export default function Header({
                 {item?.text}
               </a>
             ))}
-          </ul>
+          </ul> */}
         </div>
 
         <label
@@ -105,7 +105,6 @@ export default function Header({
             <Image
               src={logo.src || ""}
               width={100}
-              height={28}
               alt={logo.alt}
             />
           </a>
