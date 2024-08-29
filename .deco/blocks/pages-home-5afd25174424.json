@@ -3,6 +3,9 @@
   "path": "/",
   "sections": [
     {
+      "__resolveType": "Header"
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Lugar de Adoração</p>",
       "cta": [],
@@ -10,23 +13,23 @@
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "tagline": "Nosso endereço",
       "title": "Venha cultuar conosco",
+      "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesso no google maps",
       "cta": [
         {
           "style": "Ghost",
-          "id": "Maps",
           "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
-          "text": "Nosso endereço"
+          "text": "Nosso endereço",
+          "id": "Maps"
         }
       ],
-      "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesso no google maps",
-      "tagline": "Nosso endereço",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "tagline": "Como contribuir",
-      "title": "Quer contribuir conosco?",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
       "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Workship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino ",
       "cta": [
         {
@@ -35,8 +38,8 @@
           "text": "/"
         }
       ],
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
-      "placement": "right"
+      "placement": "right",
+      "title": "Quer contribuir conosco?"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
