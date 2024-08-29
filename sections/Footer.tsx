@@ -134,7 +134,8 @@ export default function Footer({
           <div class="lg:w-[40%]">
             <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
             <p class="font-normal">{subscribe.description}</p>
-            {/* <form class="flex flex-col gap-4">
+            {
+              /* <form class="flex flex-col gap-4">
 
               <div class="flex gap-4">
                 <input
@@ -155,7 +156,8 @@ export default function Footer({
                 dangerouslySetInnerHTML={{ __html: subscribe.instructions }}
               >
               </p>
-            </form> */}
+            </form> */
+            }
           </div>
         </div>
         <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
