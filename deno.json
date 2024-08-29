@@ -35,16 +35,11 @@
     "@std/testing": "jsr:@std/testing@^1.0.0",
     "@zaubrik/djwt": "jsr:@zaubrik/djwt@^3.0.2",
     "fast-json-patch": "npm:fast-json-patch@^3.1.1",
-<<<<<<< HEAD
-    "partytown/": "https://deno.land/x/partytown@0.3.0/",
-    "simple-git": "npm:simple-git@^3.25.0"
-=======
     "partytown/": "https://deno.land/x/partytown@0.4.8/",
     "simple-git": "npm:simple-git@^3.25.0",
     "drizzle-orm": "https://esm.sh/drizzle-orm@0.30.10",
     "drizzle-orm/": "https://esm.sh/drizzle-orm@0.30.10/",
     "drizzle-kit": "https://esm.sh/drizzle-kit@0.21.2"
->>>>>>> b973b1c2b646e7093637ddd4d53a8bae26457d7c
   },
   "tasks": {
     "start": "deno task bundle && deno run -A --env --config=deno.json $(deno eval 'console.log(import.meta.resolve(\"deco/hypervisor/main.ts\"))') --build-cmd 'deno task build' -- deno task dev",
