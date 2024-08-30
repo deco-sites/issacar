@@ -38,14 +38,10 @@
             "__resolveType": "website/matchers/location.ts",
             "includeLocations": [
               {
-                "coordinates": "-21.145657507771258,-48.799804283380475,26538.362588517644"
+                "coordinates": "-21.136686286621295,-48.803923086338735,26538.362588517644"
               }
             ],
-            "excludeLocations": [
-              {
-                "coordinates": "-20.661951093403474,-48.45354884764977,31737.670741789676"
-              }
-            ]
+            "excludeLocations": []
           }
         },
         {
@@ -69,7 +65,13 @@
             }
           },
           "rule": {
-            "__resolveType": "website/matchers/always.ts"
+            "__resolveType": "website/matchers/location.ts",
+            "includeLocations": [],
+            "excludeLocations": [
+              {
+                "coordinates": "-21.06644122499622,-48.83152726763813,23362.557091919625"
+              }
+            ]
           }
         }
       ]
