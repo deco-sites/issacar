@@ -38,10 +38,14 @@
             "__resolveType": "website/matchers/location.ts",
             "includeLocations": [
               {
-                "coordinates": "-21.06613698638338,-48.78605250200015,20118.804010618584"
+                "coordinates": "-21.145657507771258,-48.799804283380475,26538.362588517644"
               }
             ],
-            "excludeLocations": []
+            "excludeLocations": [
+              {
+                "coordinates": "-20.661951093403474,-48.45354884764977,31737.670741789676"
+              }
+            ]
           }
         },
         {
