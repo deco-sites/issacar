@@ -19,36 +19,6 @@
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Nosso endereço",
             "title": "Venha cultuar conosco",
-            "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesse o google maps",
-            "cta": [
-              {
-                "style": "Ghost",
-                "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
-                "text": "Nosso endereço",
-                "id": "Maps"
-              }
-            ],
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
-            "disableSpacing": {
-              "top": true,
-              "bottom": true
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/location.ts",
-            "includeLocations": [],
-            "excludeLocations": [
-              {
-                "coordinates": "-21.072266440854737,-48.80023495332518,21033.350924224495"
-              }
-            ]
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Nosso endereço",
-            "title": "Venha cultuar conosco",
             "description": "Nossos cultos acontecem as Quartas e e Domingos. Estamos localizados na Rua São Paulo, número 796, Paraíso - SP.\n\nClique no Link Abaixo e acesse o Google Maps",
             "cta": [
               {
@@ -72,6 +42,30 @@
               }
             ],
             "excludeLocations": []
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Nosso endereço",
+            "title": "Venha cultuar conosco",
+            "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesse o google maps",
+            "cta": [
+              {
+                "style": "Ghost",
+                "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
+                "text": "Nosso endereço",
+                "id": "Maps"
+              }
+            ],
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
+            "disableSpacing": {
+              "top": true,
+              "bottom": true
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
           }
         }
       ]
