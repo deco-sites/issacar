@@ -66,10 +66,12 @@
           },
           "rule": {
             "__resolveType": "website/matchers/location.ts",
-            "includeLocations": [],
+            "includeLocations": [
+              {}
+            ],
             "excludeLocations": [
               {
-                "coordinates": "-21.06644122499622,-48.83152726763813,23362.557091919625"
+                "coordinates": "-21.072266440854737,-48.80023495332518,21033.350924224495"
               }
             ]
           }
