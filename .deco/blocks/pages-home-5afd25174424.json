@@ -8,7 +8,13 @@
     {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Lugar de Adoração</p>",
-      "cta": [],
+      "cta": [
+        {
+          "text": "NOSSO ENDEREÇO",
+          "outline": false,
+          "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8"
+        }
+      ],
       "description": "Nosso proposito é adorar ao Senhor, obedecendo sua palavra, alcançando todas as pessoas, apresentando o profundo poder de adorar em espírito e em verdade!"
     },
     {
@@ -71,22 +77,25 @@
       ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "tagline": "Como contribuir",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
-      "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Workship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino ",
-      "cta": [
-        {
-          "style": "Outline",
-          "href": "/",
-          "text": "/"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "tagline": "Como contribuir",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
+        "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Workship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino ",
+        "cta": [
+          {
+            "style": "Outline",
+            "href": "/",
+            "text": "/"
+          }
+        ],
+        "placement": "right",
+        "title": "Quer contribuir conosco?",
+        "disableSpacing": {
+          "top": false,
+          "bottom": true
         }
-      ],
-      "placement": "right",
-      "title": "Quer contribuir conosco?",
-      "disableSpacing": {
-        "top": true,
-        "bottom": true
       }
     },
     {
@@ -105,28 +114,31 @@
       "placement": "left",
       "title": "Visite Nossa Lojinha",
       "disableSpacing": {
-        "top": true,
+        "top": false,
         "bottom": true
       }
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "tagline": "Fotos do culto ",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/7314c07b-7b73-4fa1-aa98-b7230518ebe5",
-      "description": "Acesse nosso Google Drive, baixe as imagens, e poste em suas redes sociais, marcando nosso perfil! \nClique no link abaixo",
-      "cta": [
-        {
-          "style": "Ghost",
-          "href": "https://drive.google.com/drive/folders/1-xY9pAoxpJLXBJQZImXrgS8xfsdq350I?usp=drive_link",
-          "id": "Site ",
-          "text": "Baixe as imagens do culto"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "tagline": "Fotos do culto ",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/7314c07b-7b73-4fa1-aa98-b7230518ebe5",
+        "description": "Acesse nosso Google Drive, baixe as imagens, e poste em suas redes sociais, marcando nosso perfil! \nClique no link abaixo",
+        "cta": [
+          {
+            "style": "Ghost",
+            "href": "https://drive.google.com/drive/folders/1-xY9pAoxpJLXBJQZImXrgS8xfsdq350I?usp=drive_link",
+            "id": "Site ",
+            "text": "Baixe as imagens do culto"
+          }
+        ],
+        "placement": "right",
+        "title": "Foi fotografado no culto?",
+        "disableSpacing": {
+          "top": false,
+          "bottom": true
         }
-      ],
-      "placement": "right",
-      "title": "Foi fotografado no culto?",
-      "disableSpacing": {
-        "top": true,
-        "bottom": true
       }
     },
     {
