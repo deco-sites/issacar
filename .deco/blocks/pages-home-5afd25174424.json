@@ -16,14 +16,19 @@
       "section": {
         "__resolveType": "site/sections/Social.tsx",
         "content": {
+          "title": "Siga nos",
           "items": [
             {
               "label": "Instagram",
-              "link": "#"
+              "link": "instagram"
+            },
+            {
+              "label": "Facebook",
+              "link": "https://www.facebook.com/AssembleiadeDeusIssacarSedeBarretos?mibextid=JRoKGi"
             }
-          ],
-          "title": "Siga - nos "
-        }
+          ]
+        },
+        "vertical": false
       }
     },
     {
