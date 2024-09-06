@@ -38,66 +38,187 @@
       }
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "tagline": "Nosso endereço",
-      "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesse o google maps",
-      "cta": [
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
         {
-          "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
-          "text": "Nosso endereço",
-          "id": "Maps"
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Nosso endereço",
+            "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesse o google maps",
+            "cta": [
+              {
+                "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
+                "text": "Nosso endereço",
+                "id": "Maps"
+              }
+            ],
+            "title": "Venha cultuar conosco",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
+            "disableSpacing": {
+              "top": false
+            },
+            "showImage": false
+          },
+          "rule": {
+            "__resolveType": "Mobile"
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Nosso endereço",
+            "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesse o google maps",
+            "cta": [
+              {
+                "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
+                "text": "Nosso endereço",
+                "id": "Maps"
+              }
+            ],
+            "title": "Venha cultuar conosco",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
+            "disableSpacing": {
+              "top": false
+            },
+            "showImage": true
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
         }
-      ],
-      "title": "Venha cultuar conosco",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
-      "disableSpacing": {
-        "top": false
-      }
+      ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "tagline": "Como contribuir",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
-      "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Workship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino ",
-      "cta": [],
-      "placement": "right",
-      "title": "Quer contribuir conosco?",
-      "disableSpacing": {
-        "top": true
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Como contribuir",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
+            "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Workship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino ",
+            "cta": [],
+            "placement": "bottom",
+            "title": "Quer contribuir conosco?",
+            "disableSpacing": {
+              "top": true
+            }
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Como contribuir",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
+            "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Workship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino ",
+            "cta": [],
+            "placement": "bottom",
+            "title": "Quer contribuir conosco?",
+            "disableSpacing": {
+              "top": true
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "tagline": "Nossa Lojinha",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
-      "description": "Na nossa lojinha temos uma variedade de camisetas e canecas, e ao comprar um de nossos itens você ajuda no crescimento dos projetos de nosso ministério e também contribui para causas sociais, pois parte do valor arrecadado é doado para instituições.",
-      "cta": [
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
         {
-          "href": "https://umapenca.com/lojinhaissacar/",
-          "id": "Site ",
-          "text": "Visite nossa lojinha"
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Nossa Lojinha",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
+            "description": "Na nossa lojinha temos uma variedade de camisetas e canecas, e ao comprar um de nossos itens você ajuda no crescimento dos projetos de nosso ministério e também contribui para causas sociais, pois parte do valor arrecadado é doado para instituições.",
+            "cta": [
+              {
+                "href": "https://umapenca.com/lojinhaissacar/",
+                "id": "Site ",
+                "text": "Visite nossa lojinha"
+              }
+            ],
+            "placement": "bottom",
+            "title": "Visite Nossa Lojinha",
+            "disableSpacing": {
+              "top": true
+            }
+          },
+          "rule": {
+            "__resolveType": "Mobile"
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Nossa Lojinha",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
+            "description": "Na nossa lojinha temos uma variedade de camisetas e canecas, e ao comprar um de nossos itens você ajuda no crescimento dos projetos de nosso ministério e também contribui para causas sociais, pois parte do valor arrecadado é doado para instituições.",
+            "cta": [
+              {
+                "href": "https://umapenca.com/lojinhaissacar/",
+                "id": "Site ",
+                "text": "Visite nossa lojinha"
+              }
+            ],
+            "placement": "left",
+            "title": "Visite Nossa Lojinha",
+            "disableSpacing": {
+              "top": true
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
         }
-      ],
-      "placement": "left",
-      "title": "Visite Nossa Lojinha",
-      "disableSpacing": {
-        "top": true
-      }
+      ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "tagline": "Fotos do culto ",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/7314c07b-7b73-4fa1-aa98-b7230518ebe5",
-      "description": "Acesse nosso Google Drive, baixe as imagens, e poste em suas redes sociais, marcando nosso perfil! \nClique no link abaixo",
-      "cta": [
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
         {
-          "href": "https://drive.google.com/drive/folders/1-xY9pAoxpJLXBJQZImXrgS8xfsdq350I?usp=drive_link",
-          "id": "Site ",
-          "text": "Baixe as imagens do culto"
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Fotos do culto ",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/7314c07b-7b73-4fa1-aa98-b7230518ebe5",
+            "description": "Acesse nosso Google Drive, baixe as imagens, e poste em suas redes sociais, marcando nosso perfil! \nClique no link abaixo",
+            "cta": [
+              {
+                "href": "https://drive.google.com/drive/folders/1-xY9pAoxpJLXBJQZImXrgS8xfsdq350I?usp=drive_link",
+                "id": "Site ",
+                "text": "Baixe as imagens do culto"
+              }
+            ],
+            "placement": "bottom",
+            "title": "Foi fotografado no culto?"
+          },
+          "rule": {
+            "__resolveType": "Mobile"
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Fotos do culto ",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/7314c07b-7b73-4fa1-aa98-b7230518ebe5",
+            "description": "Acesse nosso Google Drive, baixe as imagens, e poste em suas redes sociais, marcando nosso perfil! \nClique no link abaixo",
+            "cta": [
+              {
+                "href": "https://drive.google.com/drive/folders/1-xY9pAoxpJLXBJQZImXrgS8xfsdq350I?usp=drive_link",
+                "id": "Site ",
+                "text": "Baixe as imagens do culto"
+              }
+            ],
+            "placement": "right",
+            "title": "Foi fotografado no culto?"
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
         }
-      ],
-      "placement": "right",
-      "title": "Foi fotografado no culto?"
+      ]
     },
     {
       "__resolveType": "Footer"

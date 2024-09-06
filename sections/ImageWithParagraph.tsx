@@ -13,18 +13,22 @@ export interface Props {
   /** @format textarea */
   description?: string;
   tagline?: string;
+  showImage?: boolean;
   image?: ImageWidget;
-  placement?: "left" | "right";
+  placement?: "left" | "right" | "top" | "bottom";
   cta?: CTA[];
   disableSpacing?: {
     top?: boolean;
     bottom?: boolean;
   };
+
 }
 
 const PLACEMENT = {
   left: "flex-col md:flex-row-reverse",
   right: "flex-col md:flex-row",
+  top: "flex-col md:flex-col sm:flex-col",
+  bottom: "flex-col-reverse md:flex-col-reverse sm:flex-col-reverse"
 };
 
 const DEFAULT_IMAGE =
@@ -36,6 +40,7 @@ export default function ImageWithParagraph({
     "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   tagline = "Tagline",
   image = DEFAULT_IMAGE,
+  showImage = true,
   placement = "left",
   disableSpacing,
   cta = [
@@ -53,7 +58,7 @@ export default function ImageWithParagraph({
         } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
         <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
-          <Image
+          {showImage && <Image
             width={640}
             height={640}
             class="object-fit z-10"
@@ -63,6 +68,7 @@ export default function ImageWithParagraph({
             decoding="async"
             loading="lazy"
           />
+          }
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
           <p class="text-sm font-semibold">
