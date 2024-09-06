@@ -103,6 +103,9 @@
             "disableSpacing": {
               "top": true
             }
+          },
+          "rule": {
+            "__resolveType": "Mobile"
           }
         },
         {
