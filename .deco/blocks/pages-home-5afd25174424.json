@@ -52,7 +52,7 @@
                 "id": "Maps"
               }
             ],
-            "title": "Venha cultuar conosco",
+            "title": "Venha cultuar conosco!",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
             "disableSpacing": {
               "top": false
@@ -75,7 +75,7 @@
                 "id": "Maps"
               }
             ],
-            "title": "Venha cultuar conosco",
+            "title": "Venha cultuar conosco!",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
             "disableSpacing": {
               "top": false
@@ -94,12 +94,12 @@
         {
           "value": {
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Como contribuir",
+            "tagline": "Dízimos e ofertas",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
-            "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Workship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino ",
+            "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Workship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino.",
             "cta": [],
             "placement": "bottom",
-            "title": "Quer contribuir conosco?",
+            "title": "Contribua com amor!",
             "disableSpacing": {
               "top": true
             }
@@ -144,7 +144,7 @@
               }
             ],
             "placement": "bottom",
-            "title": "Visite Nossa Lojinha",
+            "title": "Conheça Nossa Lojinha",
             "disableSpacing": {
               "top": true
             }
@@ -167,7 +167,7 @@
               }
             ],
             "placement": "left",
-            "title": "Visite Nossa Lojinha",
+            "title": "Conheça nossa lojinha",
             "disableSpacing": {
               "top": true
             }
