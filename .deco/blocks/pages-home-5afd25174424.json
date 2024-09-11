@@ -10,12 +10,12 @@
       "title": "<p>Lugar de Adoração</p>",
       "cta": [
         {
-          "text": "Nosso Endereço",
+          "text": "Venha cultuar conosco",
           "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
           "outline": false
         }
       ],
-      "description": "Nosso proposito é adorar ao Senhor, obedecendo sua palavra, alcançando todas as pessoas, apresentando o profundo poder de adorar em espírito e em verdade!"
+      "description": "Nosso propósito é glorificar ao Senhor, vivendo em obediência à Sua Palavra e alcançando todas as pessoas com o poder transformador de adorar em espírito e em verdade!"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
