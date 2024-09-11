@@ -44,15 +44,15 @@
           "value": {
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Nosso endereço",
-            "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesse o google maps",
+            "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual:\n\nTerças-feiras: Culto exclusivo para mulheres.\nQuintas-feiras: Culto aberto para todos.\nDomingos: Um culto especial para toda a família.\nEstamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!\n\nComo chegar:",
             "cta": [
               {
                 "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
-                "text": "Nosso endereço",
+                "text": "Acesse o Google Maps",
                 "id": "Maps"
               }
             ],
-            "title": "Venha cultuar conosco!",
+            "title": "Participe de Nossos Cultos na Issacar Church!",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
             "disableSpacing": {
               "top": false
@@ -67,15 +67,15 @@
           "value": {
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Nosso endereço",
-            "description": "Nossos cultos acontecem as Terças (Culto voltado para mulheres), Quintas-feiras e Domingos. Estamos localizados na Rua Santa Rita, número 636, Bairro Celina, Barretos - SP.\n\nClique no Link Abaixo e acesse o google maps",
+            "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual:\n\nTerças-feiras: Culto exclusivo para mulheres.\nQuintas-feiras: Culto aberto para todos.\nDomingos: Um culto especial para toda a família.\nEstamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!\n\nComo chegar:",
             "cta": [
               {
                 "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
-                "text": "Nosso endereço",
+                "text": "Acesse o Google Maps",
                 "id": "Maps"
               }
             ],
-            "title": "Venha cultuar conosco!",
+            "title": "Participe de Nossos Cultos na Issacar Church!",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
             "disableSpacing": {
               "top": false
@@ -96,10 +96,10 @@
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Dízimos e ofertas",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
-            "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Worship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino. \n\nAbaixo você encontra nossa chave pix:",
+            "description": "Ao apoiar a Issacar Church, você está investindo em projetos transformadores como o Movimento Unidas, Movimento Life's Hope, Asáfe Worship, Ide e Pregai, Issacar Kids, e muitos outros projetos que impactam vidas e ampliam o Reino de Deus.\n\nSua contribuição é essencial para que possamos continuar levando amor, esperança e a Palavra a cada vez mais pessoas.\n\nFaça sua doação agora:\n\nChave PIX: 38.204.603/0001-88",
             "cta": [],
             "placement": "bottom",
-            "title": "Contribua com amor!",
+            "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
               "top": true
             }
@@ -113,10 +113,10 @@
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Como contribuir",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
-            "description": "Contribuindo com a Issacar Church, você ajudará a manter projetos como Movimento Unidas, Movimento Life's Hope,  Asáfe Worship,  Ide e pregai, Issacar Kids e muitos outros projetos importantes para o reino! \nAo lado você encontra nossa chave pix.",
+            "description": "Ao apoiar a Issacar Church, você está investindo em projetos transformadores como o Movimento Unidas, Movimento Life's Hope, Asáfe Worship, Ide e Pregai, Issacar Kids, e muitos outros projetos que impactam vidas e ampliam o Reino de Deus.\n\nSua contribuição é essencial para que possamos continuar levando amor, esperança e a Palavra a cada vez mais pessoas.\n\nFaça sua doação agora:\n\nChave PIX: 38.204.603/0001-88",
             "cta": [],
             "placement": "right",
-            "title": "Quer contribuir conosco?",
+            "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
               "top": true
             }
@@ -135,7 +135,7 @@
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Nossa Lojinha",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
-            "description": "Na nossa lojinha temos uma variedade de camisetas e canecas, e ao comprar um de nossos itens você ajuda no crescimento dos projetos de nosso ministério e também contribui para causas sociais, pois parte do valor arrecadado é doado para instituições.",
+            "description": "Na nossa lojinha, você encontra uma variedade de camisetas e canecas personalizadas, ideais para quem deseja expressar sua fé no dia a dia. Ao comprar qualquer um de nossos itens, você está ajudando diretamente no crescimento dos projetos do nosso ministério e também contribuindo para causas sociais, já que uma parte do valor arrecadado é destinada a instituições de caridade.",
             "cta": [
               {
                 "href": "https://umapenca.com/lojinhaissacar/",
@@ -144,7 +144,7 @@
               }
             ],
             "placement": "bottom",
-            "title": "Conheça Nossa Lojinha",
+            "title": "Conheça Nossa Lojinha e Apoie o Ministério da Issacar Church",
             "disableSpacing": {
               "top": true
             }
@@ -158,7 +158,7 @@
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Nossa Lojinha",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
-            "description": "Na nossa lojinha temos uma variedade de camisetas e canecas, e ao comprar um de nossos itens você ajuda no crescimento dos projetos de nosso ministério e também contribui para causas sociais, pois parte do valor arrecadado é doado para instituições.",
+            "description": "Na nossa lojinha, você encontra uma variedade de camisetas e canecas personalizadas, ideais para quem deseja expressar sua fé no dia a dia. Ao comprar qualquer um de nossos itens, você está ajudando diretamente no crescimento dos projetos do nosso ministério e também contribuindo para causas sociais, já que uma parte do valor arrecadado é destinada a instituições de caridade.",
             "cta": [
               {
                 "href": "https://umapenca.com/lojinhaissacar/",
@@ -167,7 +167,7 @@
               }
             ],
             "placement": "left",
-            "title": "Conheça nossa lojinha",
+            "title": "Conheça Nossa Lojinha e Apoie o Ministério da Issacar Church",
             "disableSpacing": {
               "top": true
             }
