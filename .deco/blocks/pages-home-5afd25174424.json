@@ -186,12 +186,12 @@
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Fotos do culto ",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/7314c07b-7b73-4fa1-aa98-b7230518ebe5",
-            "description": "Acesse nosso Google Drive, baixe as imagens, e poste em suas redes sociais, marcando nosso perfil! \nClique no link abaixo",
+            "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
             "cta": [
               {
                 "href": "https://drive.google.com/drive/folders/1-xY9pAoxpJLXBJQZImXrgS8xfsdq350I?usp=drive_link",
                 "id": "Site ",
-                "text": "Baixe as imagens do culto"
+                "text": "Clique aqui e baixe as imagens do culto "
               }
             ],
             "placement": "bottom",
@@ -206,12 +206,12 @@
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Fotos do culto ",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/7314c07b-7b73-4fa1-aa98-b7230518ebe5",
-            "description": "Acesse nosso Google Drive, baixe as imagens, e poste em suas redes sociais, marcando nosso perfil! \nClique no link abaixo",
+            "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
             "cta": [
               {
                 "href": "https://drive.google.com/drive/folders/1-xY9pAoxpJLXBJQZImXrgS8xfsdq350I?usp=drive_link",
                 "id": "Site ",
-                "text": "Baixe as imagens do culto"
+                "text": "Clique aqui e baixe as imagens do culto "
               }
             ],
             "placement": "right",
