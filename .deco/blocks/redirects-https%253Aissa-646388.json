@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "https://issacar.deco.site/?fbclid=PAZXh0bgNhZW0CMTEAAab3lU3yrVFX0oWj3EaS-09f0q4LipRRr3JSojFLzFUyATxeoNvct8SBMl8_aem_gC1P0eFQj3HvTOSzme-8vw",
+    "to": "/",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}
