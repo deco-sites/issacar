@@ -38,55 +38,44 @@
       }
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Nosso endereço",
-            "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual:\n\nTerças-feiras: Culto exclusivo para mulheres.\nQuintas-feiras: Culto aberto para todos.\nDomingos: Um culto especial para toda a família.\nEstamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!\n\nComo chegar:",
-            "cta": [
-              {
-                "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
-                "text": "Acesse o Google Maps",
-                "id": "Maps"
-              }
-            ],
-            "title": "Participe de Nossos Cultos na Issacar Church!",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
-            "disableSpacing": {
-              "top": false
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
+          {
+            "value": {
+              "__resolveType": "site/sections/Maps.tsx",
+              "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
+              "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual: Terças-feiras: Culto exclusivo para mulheres. Quintas-feiras: Culto aberto para todos. Domingos: Um culto especial para toda a família. Estamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!",
+              "title": "Participe de Nossos Cultos na Issacar Church!",
+              "tagline": "Nosso endereço",
+              "showMap": true,
+              "placement": "bottom",
+              "cta": []
             },
-            "showImage": false
+            "rule": {
+              "__resolveType": "website/matchers/device.ts",
+              "mobile": true,
+              "tablet": true
+            }
           },
-          "rule": {
-            "__resolveType": "Mobile"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Nosso endereço",
-            "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual:\n\nTerças-feiras: Culto exclusivo para mulheres.\nQuintas-feiras: Culto aberto para todos.\nDomingos: Um culto especial para toda a família.\nEstamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!\n\nComo chegar:",
-            "cta": [
-              {
-                "href": "https://maps.app.goo.gl/QWuE49GbXrXYUJYp8",
-                "text": "Acesse o Google Maps",
-                "id": "Maps"
-              }
-            ],
-            "title": "Participe de Nossos Cultos na Issacar Church!",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/39f2c723-88ef-4d41-a75a-3cf3f9df232f",
-            "disableSpacing": {
-              "top": false
+          {
+            "value": {
+              "__resolveType": "site/sections/Maps.tsx",
+              "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
+              "title": "Participe de Nossos Cultos na Issacar Church!",
+              "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual: Terças-feiras: Culto exclusivo para mulheres. Quintas-feiras: Culto aberto para todos. Domingos: Um culto especial para toda a família. Estamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!",
+              "tagline": "Nosso endereço",
+              "placement": "left",
+              "showMap": true,
+              "cta": []
             },
-            "showImage": true
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
+            "rule": {
+              "__resolveType": "Desktop"
+            }
           }
-        }
-      ]
+        ]
+      }
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",
@@ -98,11 +87,11 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
             "description": "Ao apoiar a Issacar Church, você está investindo em projetos transformadores como o Movimento Unidas, Movimento Life's Hope, Asáfe Worship, Ide e Pregai, Issacar Kids, e muitos outros projetos que impactam vidas e ampliam o Reino de Deus.\n\nSua contribuição é essencial para que possamos continuar levando amor, esperança e a Palavra a cada vez mais pessoas.\n\nFaça sua doação agora:\n\nChave PIX: 38.204.603/0001-88",
             "cta": [],
-            "placement": "bottom",
             "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
               "top": true
-            }
+            },
+            "placement": "bottom"
           },
           "rule": {
             "__resolveType": "Mobile"
@@ -115,11 +104,11 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
             "description": "Ao apoiar a Issacar Church, você está investindo em projetos transformadores como o Movimento Unidas, Movimento Life's Hope, Asáfe Worship, Ide e Pregai, Issacar Kids, e muitos outros projetos que impactam vidas e ampliam o Reino de Deus.\n\nSua contribuição é essencial para que possamos continuar levando amor, esperança e a Palavra a cada vez mais pessoas.\n\nFaça sua doação agora:\n\nChave PIX: 38.204.603/0001-88",
             "cta": [],
-            "placement": "right",
             "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
               "top": true
-            }
+            },
+            "placement": "right"
           },
           "rule": {
             "__resolveType": "website/matchers/always.ts"
