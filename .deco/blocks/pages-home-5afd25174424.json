@@ -51,7 +51,9 @@
               "tagline": "Nosso endereço",
               "showMap": true,
               "placement": "bottom",
-              "cta": []
+              "cta": [],
+              "mapWidth": "375",
+              "mapHeight": "400"
             },
             "rule": {
               "__resolveType": "website/matchers/device.ts",
@@ -68,7 +70,9 @@
               "tagline": "Nosso endereço",
               "placement": "left",
               "showMap": true,
-              "cta": []
+              "cta": [],
+              "mapWidth": "600",
+              "mapHeight": "450"
             },
             "rule": {
               "__resolveType": "Desktop"

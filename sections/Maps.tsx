@@ -12,6 +12,8 @@ export interface Props {
     tagline?: string;
     showMap?: boolean;
     api?: string;
+    mapWidth: string;
+    mapHeight: string;
     placement?: "left" | "right" | "top" | "bottom";
     cta?: CTA[];
     disableSpacing?: {
@@ -36,6 +38,8 @@ export default function Maps({
     api = '',
     showMap = true,
     placement = "left",
+    mapWidth = '600',
+    mapHeight = '450',
     disableSpacing,
     cta = [
         { id: "change-me-1", href: "/", text: "Change me", style: "Outline" },
@@ -51,8 +55,8 @@ export default function Maps({
             >
                 <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
                     {showMap && <iframe
-            width="600"
-            height="450"
+                        width={mapWidth}
+                        height={mapHeight}
             style={{ border: 0 }}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
