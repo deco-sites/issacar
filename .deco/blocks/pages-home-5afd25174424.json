@@ -52,7 +52,7 @@
               "showMap": true,
               "placement": "bottom",
               "cta": [],
-              "mapWidth": "375",
+              "mapWidth": "370",
               "mapHeight": "400"
             },
             "rule": {
@@ -71,8 +71,8 @@
               "placement": "left",
               "showMap": true,
               "cta": [],
-              "mapWidth": "600",
-              "mapHeight": "450"
+              "mapHeight": "400",
+              "mapWidth": "600"
             },
             "rule": {
               "__resolveType": "Desktop"
