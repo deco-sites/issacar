@@ -18,7 +18,7 @@ export default function Social(
     },
 ) {
     return (
-        <nav class="lg:container lg:mx-auto mx-4">
+        <nav class="lg:container lg:mx-auto mx-4" id="#social">
             <div class="flex flex-col items-center gap-8">
                 {content && content.items && content.items.length > 0 && (
                     <div class="flex flex-col gap-4">

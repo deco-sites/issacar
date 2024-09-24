@@ -172,6 +172,13 @@
       ]
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CopyContent.tsx",
+        "contentCopy": "PIX DA IGREJA"
+      }
+    },
+    {
       "__resolveType": "website/flags/multivariate/section.ts",
       "variants": [
         {

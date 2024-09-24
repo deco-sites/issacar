@@ -47,7 +47,7 @@ export default function Maps({
     ],
 }: Props) {
     return (
-        <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
+        <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm" id="#local">
             <div
                 class={`flex ${PLACEMENT[placement]
                     } gap-12 md:gap-20 text-left items-center z-10 ${disableSpacing?.top ? "" : "pt-12 lg:pt-28"
