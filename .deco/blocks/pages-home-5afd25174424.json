@@ -91,11 +91,11 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
             "description": "Ao apoiar a Issacar Church, você está investindo em projetos transformadores como o Movimento Unidas, Movimento Life's Hope, Asáfe Worship, Ide e Pregai, Issacar Kids, e muitos outros projetos que impactam vidas e ampliam o Reino de Deus.\n\nSua contribuição é essencial para que possamos continuar levando amor, esperança e a Palavra a cada vez mais pessoas.\n\nFaça sua doação agora:\n\nChave PIX: 38.204.603/0001-88",
             "cta": [],
+            "placement": "bottom",
             "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
               "top": true
-            },
-            "placement": "bottom"
+            }
           },
           "rule": {
             "__resolveType": "Mobile"
@@ -108,17 +108,24 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
             "description": "Ao apoiar a Issacar Church, você está investindo em projetos transformadores como o Movimento Unidas, Movimento Life's Hope, Asáfe Worship, Ide e Pregai, Issacar Kids, e muitos outros projetos que impactam vidas e ampliam o Reino de Deus.\n\nSua contribuição é essencial para que possamos continuar levando amor, esperança e a Palavra a cada vez mais pessoas.\n\nFaça sua doação agora:\n\nChave PIX: 38.204.603/0001-88",
             "cta": [],
+            "placement": "right",
             "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
               "top": true
-            },
-            "placement": "right"
+            }
           },
           "rule": {
             "__resolveType": "website/matchers/always.ts"
           }
         }
       ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CopyContentSession.tsx",
+        "contentCopy": "TEXTO"
+      }
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",
@@ -170,13 +177,6 @@
           }
         }
       ]
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/CopyContent.tsx",
-        "contentCopy": "PIX DA IGREJA"
-      }
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",
