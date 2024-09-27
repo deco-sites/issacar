@@ -1,1 +1,10 @@
-{"__resolveType":"site/apps/deco/ai-assistants.ts"}
+{
+  "__resolveType": "site/apps/deco/ai-assistants.ts",
+  "assistants": [],
+  "assistantAwsProps": {
+    "assistantBucketRegion": {},
+    "accessKeyId": {},
+    "secretAccessKey": {},
+    "assistantBucketName": {}
+  }
+}
