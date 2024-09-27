@@ -21,14 +21,13 @@ export interface Props {
     top?: boolean;
     bottom?: boolean;
   };
-
 }
 
 const PLACEMENT = {
   left: "flex-col md:flex-row-reverse",
   right: "flex-col md:flex-row",
   top: "flex-col md:flex-col sm:flex-col",
-  bottom: "flex-col-reverse md:flex-col-reverse sm:flex-col-reverse"
+  bottom: "flex-col-reverse md:flex-col-reverse sm:flex-col-reverse",
 };
 
 const DEFAULT_IMAGE =
@@ -58,17 +57,18 @@ export default function ImageWithParagraph({
         } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
         <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
-          {showImage && <Image
-            width={640}
-            height={640}
-            class="object-fit z-10"
-            sizes="(max-width: 640px) 100vw, 30vw"
-            src={image}
-            alt={image}
-            decoding="async"
-            loading="lazy"
-          />
-          }
+          {showImage && (
+            <Image
+              width={640}
+              height={640}
+              class="object-fit z-10"
+              sizes="(max-width: 640px) 100vw, 30vw"
+              src={image}
+              alt={image}
+              decoding="async"
+              loading="lazy"
+            />
+          )}
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
           <p class="text-sm font-semibold">

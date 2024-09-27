@@ -1,4 +1,3 @@
-import { useState } from 'preact/hooks';
 import CopyContent from "site/islands/CopyContent.tsx";
 
 export interface Props {
@@ -6,11 +5,7 @@ export interface Props {
 }
 
 export default function Copy({
-    contentCopy = ""
+    contentCopy = "",
 }: Props) {
-
-    return (
-        <CopyContent contentCopy={contentCopy} />
-    );
-
+    return <CopyContent contentCopy={contentCopy} />;
 }
