@@ -2762,6 +2762,14 @@ input.tab:checked + .tab-content,
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -2814,6 +2822,9 @@ input.tab:checked + .tab-content,
 }
 .block {
   display: block;
+}
+.inline-block {
+  display: inline-block;
 }
 .inline {
   display: inline;
@@ -3404,6 +3415,10 @@ input.tab:checked + .tab-content,
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -3525,6 +3540,9 @@ input.tab:checked + .tab-content,
 .font-light {
   font-weight: 300;
 }
+.font-medium {
+  font-weight: 500;
+}
 .font-normal {
   font-weight: 400;
 }
@@ -3555,6 +3573,9 @@ input.tab:checked + .tab-content,
 .leading-\[10px\] {
   line-height: 10px;
 }
+.leading-\[150\%\] {
+  line-height: 150%;
+}
 .leading-\[15px\] {
   line-height: 15px;
 }
@@ -3572,6 +3593,9 @@ input.tab:checked + .tab-content,
 }
 .leading-\[22px\] {
   line-height: 22px;
+}
+.leading-none {
+  line-height: 1;
 }
 .leading-normal {
   line-height: 1.5;
@@ -3715,6 +3739,49 @@ input.tab:checked + .tab-content,
     }
   }
 }
+@media (min-width: 1280px) {
+
+  .xl\:container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 640px) {
+
+    .xl\:container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    .xl\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+
+    .xl\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+
+    .xl\:container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+
+    .xl\:container {
+      max-width: 1536px;
+    }
+  }
+}
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -3798,6 +3865,11 @@ input.tab:checked + .tab-content,
   }
 }
 @media (min-width: 768px) {
+
+  .md\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
 
   .md\:w-1\/2 {
     width: 50%;
@@ -3900,6 +3972,18 @@ input.tab:checked + .tab-content,
     width: 40%;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:max-w-3xl {
+    max-width: 48rem;
+  }
+
+  .lg\:max-w-xl {
+    max-width: 36rem;
+  }
+
   .lg\:flex-\[100px\] {
     flex: 100px;
   }
@@ -3910,6 +3994,10 @@ input.tab:checked + .tab-content,
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .lg\:flex-col {
@@ -3956,6 +4044,11 @@ input.tab:checked + .tab-content,
     padding-bottom: 7rem;
   }
 
+  .lg\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
   .lg\:pb-16 {
     padding-bottom: 4rem;
   }
@@ -3966,5 +4059,16 @@ input.tab:checked + .tab-content,
 
   .lg\:pt-28 {
     padding-top: 7rem;
+  }
+
+  .lg\:text-\[80px\] {
+    font-size: 80px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
