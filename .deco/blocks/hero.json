@@ -1,1 +1,7 @@
-{"__resolveType":"site/sections/Hero.tsx"}
+{
+  "__resolveType": "site/sections/Hero.tsx",
+  "ctaActive": false,
+  "title": "<p><strong>Issacar Church - <em>Lugar de Adoração</em></strong></p>",
+  "subtitle": "Manifestar o Reino de Deus, seguindo sua palavra, adorando em espírito e em verdade.",
+  "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/9197935f-152d-466d-aa93-07cd05426a23"
+}

@@ -11,6 +11,7 @@ interface Props {
   subtitle?: string;
   ctaText?: string;
   ctaHref?: string;
+  ctaActive: boolean;
   /**
    * @format color-input
    */
@@ -33,6 +34,7 @@ export default function HeroSection({
   ctaHref = "#",
   textColor = "#ffffff",
   ctaBackgroundColor = "#4CAF50",
+  ctaActive = true,
   ctaTextColor = "#ffffff",
   backgroundImage =
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/6fe9404a-f69c-472a-b521-78f6c1f87326",
@@ -58,6 +60,7 @@ export default function HeroSection({
         >
           {subtitle}
         </p>
+        {ctaActive &&
         <a
           href={ctaHref}
           class="btn btn-lg"
@@ -67,7 +70,7 @@ export default function HeroSection({
           }}
         >
           {ctaText}
-        </a>
+          </a>}
       </div>
     </div>
   );
