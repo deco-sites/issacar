@@ -41,7 +41,7 @@
     "drizzle-kit": "https://esm.sh/drizzle-kit@0.21.2",
     "@deco/codemod-toolkit": "jsr:@deco/codemod-toolkit@0.3.4",
     "https://esm.sh/*preact-render-to-string@6.3.1": "npm:preact-render-to-string@6.4.2",
-    "@deco/deco": "jsr:@deco/deco@1.102.5",
+    "@deco/deco": "jsr:@deco/deco@1.99.3",
     "@deco/deno-ast-wasm": "jsr:@deco/deno-ast-wasm@^0.5.4",
     "@deco/dev": "jsr:@deco/dev@1.102.0"
   },
