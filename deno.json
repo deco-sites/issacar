@@ -1,8 +1,8 @@
 {
   "imports": {
     "site/": "./",
-    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.101.19/",
-    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.59.14/",
+    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.102.4/",
+    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.59.16/",
     "$fresh/": "https://deno.land/x/fresh@1.6.8/",
     "preact": "npm:preact@10.23.1",
     "preact-render-to-string": "npm:preact-render-to-string@6.4.2",
@@ -39,9 +39,10 @@
     "drizzle-orm": "https://esm.sh/drizzle-orm@0.30.10",
     "drizzle-orm/": "https://esm.sh/drizzle-orm@0.30.10/",
     "drizzle-kit": "https://esm.sh/drizzle-kit@0.21.2",
-    "@deco/codemod-toolkit": "jsr:@deco/codemod-toolkit@0.3.2",
+    "@deco/codemod-toolkit": "jsr:@deco/codemod-toolkit@0.3.4",
     "https://esm.sh/*preact-render-to-string@6.3.1": "npm:preact-render-to-string@6.4.2",
-    "@deco/deco": "jsr:@deco/deco@1.99.3"
+    "@deco/deco": "jsr:@deco/deco@1.99.3",
+    "@deco/deno-ast-wasm": "jsr:@deco/deno-ast-wasm@^0.5.4"
   },
   "tasks": {
     "start": "deno run -A --unstable-http --env https://deco.cx/run -- deno task dev",
