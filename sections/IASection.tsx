@@ -10,9 +10,10 @@ interface Product {
 interface Props {
   /**
    * @description Title of the product shelf
-   * @format rich-text
+   * @format string
    */
   title?: string;
+
   /**
    * @description List of products to display
    */
@@ -23,10 +24,20 @@ interface Props {
    */
   backgroundColor?: string;
   /**
-   * @description Text color
+   * @description Button color
    * @format color-input
    */
   textColor?: string;
+  /**
+    * @description Title of the product shelf
+    * @format string
+    */
+  buttonTitle?: string;
+   /**
+   * @description Text color
+   * @format color-input
+   */
+  buttonColor?: string;
   /**
    * @description Number of products to show per slide
    */
@@ -63,6 +74,8 @@ export default function ProductShelfSlider({
   ],
   backgroundColor = "#f3f4f6",
   textColor = "#1f2937",
+  buttonTitle = "Buy Now",
+  buttonColor = "#000000",
   productsPerSlide = 3
 }: Props) {
   return (
@@ -77,9 +90,9 @@ export default function ProductShelfSlider({
                   <div key={index} class="flex flex-col items-center bg-white rounded-lg shadow-md p-4">
                     <img src={product.image} alt={product.name} class="w-full h-48 object-cover rounded-t-lg mb-4" />
                     <h3 class="text-xl font-semibold mb-2">{product.name}</h3>
-                    <p class="text-lg font-bold mb-4">${product.price.toFixed(2)}</p>
-                    <a href={product.purchaseUrl} class="btn btn-primary w-full">
-                      Buy Now
+                    <p class="text-lg font-bold mb-4">R${product.price.toFixed(2)}</p>
+                    <a href={product.purchaseUrl} class="btn btn-primary w-full" style={{ backgroundColor: buttonColor }}>
+                      {buttonTitle}
                     </a>
                   </div>
                 ))}

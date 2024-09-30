@@ -2832,9 +2832,6 @@ input.tab:checked + .tab-content,
 .inline-block {
   display: inline-block;
 }
-.inline {
-  display: inline;
-}
 .flex {
   display: flex;
 }
@@ -3574,9 +3571,6 @@ input.tab:checked + .tab-content,
 }
 .uppercase {
   text-transform: uppercase;
-}
-.lowercase {
-  text-transform: lowercase;
 }
 .capitalize {
   text-transform: capitalize;
