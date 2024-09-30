@@ -1,31 +1,52 @@
-interface Props {
-  /**
-   * @description The description of name.
-   */
-  name?: string;
-  /**
-   * @description The description of color.
-   */
-  color?: string;
+import { ImageWidget } from 'apps/admin/widgets.ts';
+
+interface ImageItem {
+  image: ImageWidget;
+  alt: string;
 }
 
-export default function Section({ name = "Capy", color = "green" }: Props) {
+interface Props {
+  /**
+   * @description List of images for the gallery
+   */
+  images?: ImageItem[];
+  /**
+   * @description Title of the gallery
+   * @format rich-text
+   */
+  title?: string;
+  /**
+   * @description Background color of the gallery
+   * @format color-input
+   */
+  backgroundColor?: string;
+}
+
+export default function ImageGallery({
+  images = [
+    { image: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e", alt: "Image 1" },
+    { image: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e", alt: "Image 2" },
+    { image: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e", alt: "Image 3" },
+  ],
+  title = "Image Gallery",
+  backgroundColor = "#f3f4f6"
+}: Props) {
   return (
-    <div class={`bg-${color}-200 p-8 rounded-md shadow-md`}>
-      <h2 class="text-2xl font-semibold mb-4">Fancy Component</h2>
-
-      <div class="space-y-4">
-        <button class={`btn btn-${color}`}>Click me</button>
-
-        <input
-          type="text"
-          class="input input-bordered"
-          placeholder="Type something"
-        />
-
-        <div class={`alert alert-${color}`}>
-          {name}
-        </div>
+    <div style={{ backgroundColor }} class="p-8">
+      <h2 class="text-3xl font-bold mb-6 text-center">{title}</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        {images.map((item, index) => (
+          <div key={index} class="flex flex-col items-center">
+            <img src={item.image} alt={item.alt} class="w-full h-64 object-cover rounded-lg shadow-md" />
+            <a
+              href={item.image}
+              download
+              class="mt-4 btn btn-primary"
+            >
+              Download
+            </a>
+          </div>
+        ))}
       </div>
     </div>
   );

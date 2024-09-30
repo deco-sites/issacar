@@ -2856,6 +2856,9 @@ input.tab:checked + .tab-content,
 .h-2 {
   height: 0.5rem;
 }
+.h-64 {
+  height: 16rem;
+}
 .h-\[10px\] {
   height: 10px;
 }
@@ -3491,6 +3494,10 @@ input.tab:checked + .tab-content,
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -3838,6 +3845,10 @@ input.tab:checked + .tab-content,
 
   .sm\:max-w-\[488px\] {
     max-width: 488px;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:flex-row {
