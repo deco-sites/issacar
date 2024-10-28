@@ -1,8 +1,8 @@
 {
   "imports": {
     "site/": "./",
-    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.104.2/",
-    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.59.17/",
+    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.106.2/",
+    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.63.0/",
     "$fresh/": "https://deno.land/x/fresh@1.6.8/",
     "preact": "npm:preact@10.23.1",
     "preact-render-to-string": "npm:preact-render-to-string@6.4.2",
@@ -41,9 +41,9 @@
     "drizzle-kit": "https://esm.sh/drizzle-kit@0.21.2",
     "@deco/codemod-toolkit": "jsr:@deco/codemod-toolkit@0.3.4",
     "https://esm.sh/*preact-render-to-string@6.3.1": "npm:preact-render-to-string@6.4.2",
-    "@deco/deco": "jsr:@deco/deco@1.104.2",
+    "@deco/deco": "jsr:@deco/deco@1.106.2",
     "@deco/deno-ast-wasm": "jsr:@deco/deno-ast-wasm@^0.5.4",
-    "@deco/dev": "jsr:@deco/dev@1.104.0"
+    "@deco/dev": "jsr:@deco/dev@1.106.2"
   },
   "tasks": {
     "start": "deno run -A --unstable-http --env https://deco.cx/run -- deno task dev",
@@ -59,7 +59,7 @@
     "cache_clean": "rm deno.lock; deno cache -r main.ts",
     "build": "deno run -A dev.ts build",
     "preview": "deno run -A main.ts",
-    "dev": "deno run -A --env --unstable --unstable-hmr dev.ts",
+    "dev": "deno run -A --env --unstable-kv --unstable-hmr dev.ts",
     "db:setup:deps": "deno cache -r --node-modules-dir npm:drizzle-orm@0.30.10 npm:drizzle-kit@0.21.2 npm:@libsql/client@0.6.0/node",
     "db:check:credentials": "deno eval --env 'import{getDbCredentials}from\"apps/records/scripts/checkDbCredential.ts\";getDbCredentials();'",
     "db:pull:prod": "deno eval --env 'import \"apps/records/scripts/pullProd.ts\"'",
