@@ -14,26 +14,6 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Social.tsx",
-        "content": {
-          "title": "Siga nos",
-          "items": [
-            {
-              "label": "Instagram",
-              "link": "instagram"
-            },
-            {
-              "label": "Facebook",
-              "link": "https://www.facebook.com/AssembleiadeDeusIssacarSedeBarretos?mibextid=JRoKGi"
-            }
-          ]
-        },
-        "vertical": false
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "website/flags/multivariate/section.ts",
         "variants": [
           {
@@ -76,6 +56,26 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Social.tsx",
+        "content": {
+          "title": "Siga nos",
+          "items": [
+            {
+              "label": "Instagram",
+              "link": "instagram"
+            },
+            {
+              "label": "Facebook",
+              "link": "https://www.facebook.com/AssembleiadeDeusIssacarSedeBarretos?mibextid=JRoKGi"
+            }
+          ]
+        },
+        "vertical": false
+      }
+    },
+    {
       "__resolveType": "website/flags/multivariate/section.ts",
       "variants": [
         {
@@ -88,7 +88,7 @@
             "placement": "bottom",
             "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
-              "top": true
+              "top": false
             }
           },
           "rule": {
@@ -105,58 +105,7 @@
             "placement": "right",
             "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
-              "top": true
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
-        }
-      ]
-    },
-    {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Nossa Lojinha",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
-            "description": "Na nossa lojinha, você encontra uma variedade de camisetas e canecas personalizadas, ideais para quem deseja expressar sua fé no dia a dia. Ao comprar qualquer um de nossos itens, você está ajudando diretamente no crescimento dos projetos do nosso ministério e também contribuindo para causas sociais, já que uma parte do valor arrecadado é destinada a instituições de caridade.",
-            "cta": [
-              {
-                "href": "https://umapenca.com/lojinhaissacar/",
-                "id": "Site ",
-                "text": "Visite nossa lojinha"
-              }
-            ],
-            "placement": "bottom",
-            "title": "Conheça Nossa Lojinha e Apoie o Ministério da Issacar Church",
-            "disableSpacing": {
-              "top": true
-            }
-          },
-          "rule": {
-            "__resolveType": "Mobile"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Nossa Lojinha",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
-            "description": "Na nossa lojinha, você encontra uma variedade de camisetas e canecas personalizadas, ideais para quem deseja expressar sua fé no dia a dia. Ao comprar qualquer um de nossos itens, você está ajudando diretamente no crescimento dos projetos do nosso ministério e também contribuindo para causas sociais, já que uma parte do valor arrecadado é destinada a instituições de caridade.",
-            "cta": [
-              {
-                "href": "https://umapenca.com/lojinhaissacar/",
-                "id": "Site ",
-                "text": "Visite nossa lojinha"
-              }
-            ],
-            "placement": "left",
-            "title": "Conheça Nossa Lojinha e Apoie o Ministério da Issacar Church",
-            "disableSpacing": {
-              "top": true
+              "top": false
             }
           },
           "rule": {
