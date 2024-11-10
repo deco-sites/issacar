@@ -1,11 +1,11 @@
 import CopyContent from "site/islands/CopyContent.tsx";
 
 export interface Props {
-    contentCopy: string;
+  contentCopy: string;
 }
 
 export default function Copy({
-    contentCopy = "",
+  contentCopy = "",
 }: Props) {
-    return <CopyContent contentCopy={contentCopy} />;
+  return <CopyContent contentCopy={contentCopy} />;
 }

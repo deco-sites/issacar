@@ -46,7 +46,8 @@ export default function HeroSection({
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
       </div>
-      <div class="absolute inset-0 bg-black opacity-50"></div>
+      {ctaActive == true &&
+        <div class="absolute inset-0 bg-black opacity-50"></div>}
       <div class="relative z-10 px-4">
         <h1
           class="text-4xl md:text-6xl font-bold mb-4"
@@ -61,16 +62,18 @@ export default function HeroSection({
           {subtitle}
         </p>
         {ctaActive &&
-        <a
-          href={ctaHref}
-          class="btn btn-lg"
-          style={{
-            backgroundColor: ctaBackgroundColor,
-            color: ctaTextColor,
-          }}
-        >
-          {ctaText}
-          </a>}
+          (
+            <a
+              href={ctaHref}
+              class="btn btn-lg"
+              style={{
+                backgroundColor: ctaBackgroundColor,
+                color: ctaTextColor,
+              }}
+            >
+              {ctaText}
+            </a>
+          )}
       </div>
     </div>
   );

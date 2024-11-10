@@ -1,4 +1,4 @@
-import { ImageWidget } from 'apps/admin/widgets.ts';
+import { ImageWidget } from "apps/admin/widgets.ts";
 
 interface ImageItem {
   image: ImageWidget;
@@ -24,12 +24,24 @@ interface Props {
 
 export default function ImageGallery({
   images = [
-    { image: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e", alt: "Image 1" },
-    { image: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e", alt: "Image 2" },
-    { image: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e", alt: "Image 3" },
+    {
+      image:
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+      alt: "Image 1",
+    },
+    {
+      image:
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+      alt: "Image 2",
+    },
+    {
+      image:
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+      alt: "Image 3",
+    },
   ],
   title = "Image Gallery",
-  backgroundColor = "#f3f4f6"
+  backgroundColor = "#f3f4f6",
 }: Props) {
   return (
     <div style={{ backgroundColor }} class="p-8">
@@ -37,7 +49,11 @@ export default function ImageGallery({
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {images.map((item, index) => (
           <div key={index} class="flex flex-col items-center">
-            <img src={item.image} alt={item.alt} class="w-full h-64 object-cover rounded-lg shadow-md" />
+            <img
+              src={item.image}
+              alt={item.alt}
+              class="w-full h-64 object-cover rounded-lg shadow-md"
+            />
             <a
               href={item.image}
               download

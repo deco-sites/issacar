@@ -33,7 +33,7 @@ interface Props {
 export async function action(
   props: Props,
   req: Request,
-  ctx: AppContext
+  ctx: AppContext,
 ): Promise<Props> {
   const form = await req.formData();
   const inputText = form.get("inputText")?.toString() || "";
@@ -50,10 +50,13 @@ export default function TextInputAndCopy({
   copyButtonText = "Copy Text",
   backgroundColor = "#f3f4f6",
   textColor = "#1f2937",
-  inputText = ""
+  inputText = "",
 }: Props) {
   return (
-    <div style={{ backgroundColor, color: textColor }} class="p-6 rounded-lg shadow-md">
+    <div
+      style={{ backgroundColor, color: textColor }}
+      class="p-6 rounded-lg shadow-md"
+    >
       <label class="block mb-2 font-bold">{inputLabel}</label>
       <form
         hx-post="/api/sections/TextInputAndCopy"
