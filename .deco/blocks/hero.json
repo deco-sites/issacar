@@ -14,7 +14,7 @@
         }
       },
       {
-        "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/04d88de0-72a4-41b7-9fc1-d0cf3ae4365e/mobile.jpeg",
+        "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/69f8034e-8374-4534-bed4-7a28c21bd5fe/mobilebbanner.jpeg",
         "rule": {
           "__resolveType": "website/matchers/device.ts",
           "desktop": false,
