@@ -7,7 +7,7 @@
     "__resolveType": "website/flags/multivariate/image.ts",
     "variants": [
       {
-        "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/8912b30b-270e-4377-8bf5-84cdb77b8d64/banner.jpeg",
+        "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/7a0811bf-7fc1-4fed-ba4a-f4d34e3632f5/bannerdesk.jpeg",
         "rule": {
           "__resolveType": "website/matchers/device.ts",
           "desktop": true
