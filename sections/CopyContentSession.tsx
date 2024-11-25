@@ -1,6 +1,7 @@
 import CopyContent from "site/islands/CopyContent.tsx";
 
 export interface Props {
+  
   contentCopy: string;
 }
 
