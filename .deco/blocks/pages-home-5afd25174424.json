@@ -99,14 +99,14 @@
           "value": {
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Dízimos e ofertas",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
             "description": "Ao apoiar a Issacar Church, você está investindo em projetos transformadores como o Movimento Unidas, Movimento Life's Hope, Asáfe Worship, Ide e Pregai, Issacar Kids, e muitos outros projetos que impactam vidas e ampliam o Reino de Deus.\n\nSua contribuição é essencial para que possamos continuar levando amor, esperança e a Palavra a cada vez mais pessoas.\n\nFaça sua doação agora:\n\nChave PIX: 38.204.603/0001-88",
             "cta": [],
             "placement": "bottom",
             "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
               "top": false
-            }
+            },
+            "showImage": false
           },
           "rule": {
             "__resolveType": "Mobile"
@@ -123,13 +123,23 @@
             "title": "Contribua com a Issacar Church e Faça a Diferença!",
             "disableSpacing": {
               "top": false
-            }
+            },
+            "showImage": true
           },
           "rule": {
             "__resolveType": "website/matchers/always.ts"
           }
         }
       ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CopyContentSession.tsx",
+        "contentCopy": "38.204.603/0001-88",
+        "buttonTextValue": "Clique aqui e copie o pix",
+        "backgroundColor": "#fff"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

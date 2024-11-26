@@ -1,3 +1,6 @@
 {
-  "__resolveType": "site/sections/CopyContentSession.tsx"
+  "__resolveType": "site/sections/CopyContentSession.tsx",
+  "contentCopy": "38.204.603/0001-88",
+  "buttonTextValue": "Clique aqui para copiar o pix",
+  "backgroundColor": "#949494"
 }
