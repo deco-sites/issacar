@@ -1,12 +1,12 @@
 {
   "__resolveType": "site/sections/Hero.tsx",
-  "ctaActive": true,
-  "title": "<p>Lugar de Adoração</p>",
-  "subtitle": "Movidos por adorar aquele que nos salvou!",
+  "ctaActive": false,
+  "title": "<p></p>",
+  "subtitle": null,
   "ctaBackgroundColor": "#ffffff",
-  "backgroundImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/320dd722-2273-4ee7-9868-cc1e1db7ac51/IMG_9804.jpg",
   "ctaText": "Siga - nos ",
   "textColor": "#ffffff",
   "ctaTextColor": "#0d0d0d",
-  "ctaHref": "https://www.instagram.com/issacar.church"
+  "ctaHref": "https://www.instagram.com/issacar.church",
+  "backgroundImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/50b02814-37a5-42a5-8354-397f0a0cb0c5/banner-(2)-(1).jpeg"
 }

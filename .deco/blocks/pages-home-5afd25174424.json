@@ -6,70 +6,39 @@
       "__resolveType": "Header"
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "hero"
-          },
-          "rule": {
-            "__resolveType": "website/matchers/device.ts",
-            "mobile": true
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "hero"
-          },
-          "rule": {
-            "__resolveType": "website/matchers/device.ts",
-            "desktop": true
-          }
-        }
-      ]
-    },
-    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "website/flags/multivariate/section.ts",
-        "variants": [
-          {
-            "value": {
-              "__resolveType": "site/sections/Maps.tsx",
-              "title": "Participe de Nossos Cultos na Issacar Church!",
-              "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
-              "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual: Terças-feiras: Culto exclusivo para mulheres. Quintas-feiras: Culto aberto para todos. Domingos: Um culto especial para toda a família. Estamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!",
-              "tagline": "Nosso endereço",
-              "showMap": true,
-              "placement": "bottom",
-              "cta": [],
-              "mapWidth": "370",
-              "mapHeight": "400"
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p></p>",
+        "ctaActive": false,
+        "subtitle": null,
+        "backgroundImage": {
+          "__resolveType": "website/flags/multivariate/image.ts",
+          "variants": [
+            {
+              "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/30a0fd79-23c9-4558-9a14-c8973c007a1f/mobile_celebracao_2.png",
+              "rule": {
+                "__resolveType": "website/matchers/device.ts",
+                "mobile": true
+              }
             },
-            "rule": {
-              "__resolveType": "website/matchers/device.ts",
-              "mobile": true,
-              "tablet": true
-            }
-          },
-          {
-            "value": {
-              "__resolveType": "site/sections/Maps.tsx",
-              "title": "Participe de Nossos Cultos na Issacar Church!",
-              "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
-              "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual: Terças-feiras: Culto exclusivo para mulheres. Quintas-feiras: Culto aberto para todos. Domingos: Um culto especial para toda a família. Estamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!",
-              "tagline": "Nosso endereço",
-              "placement": "left",
-              "showMap": true,
-              "cta": [],
-              "mapHeight": "400",
-              "mapWidth": "600"
+            {
+              "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/4193d767-bd13-4e65-b627-ca3ff5a5d4e1/dezembro.jpeg",
+              "rule": {
+                "__resolveType": "website/matchers/device.ts",
+                "desktop": true
+              }
             },
-            "rule": {
-              "__resolveType": "Desktop"
+            {
+              "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/a2441ab0-a8fd-43bb-9c28-2df6d2524820/mobile_celebracao.png",
+              "rule": {
+                "__resolveType": "website/matchers/device.ts",
+                "mobile": false,
+                "tablet": true
+              }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     {
@@ -148,7 +117,52 @@
         "variants": [
           {
             "value": {
+              "__resolveType": "site/sections/Maps.tsx",
+              "title": "Participe de Nossos Cultos na Issacar Church!",
+              "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
+              "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual: Terças-feiras: Culto exclusivo para mulheres. Quintas-feiras: Culto aberto para todos. Domingos: Um culto especial para toda a família. Estamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!",
+              "tagline": "Nosso endereço",
+              "showMap": true,
+              "placement": "bottom",
+              "cta": [],
+              "mapWidth": "370",
+              "mapHeight": "400"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/device.ts",
+              "mobile": true,
+              "tablet": true
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/Maps.tsx",
+              "title": "Participe de Nossos Cultos na Issacar Church!",
+              "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
+              "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual: Terças-feiras: Culto exclusivo para mulheres. Quintas-feiras: Culto aberto para todos. Domingos: Um culto especial para toda a família. Estamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!",
+              "tagline": "Nosso endereço",
+              "placement": "left",
+              "showMap": true,
+              "cta": [],
+              "mapHeight": "400",
+              "mapWidth": "600"
+            },
+            "rule": {
+              "__resolveType": "Desktop"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
+          {
+            "value": {
               "__resolveType": "site/sections/IASection.tsx",
+              "title": "Destaques da Lojinha Issacar",
               "buttonColor": "#326d26",
               "buttonTitle": "Ver mais",
               "products": [
@@ -171,7 +185,6 @@
                   "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/salmos-91-de-todo-coracao-180555.html"
                 }
               ],
-              "title": "Destaques da Lojinha Issacar",
               "productsPerSlide": 1
             },
             "rule": {
@@ -181,6 +194,7 @@
           {
             "value": {
               "__resolveType": "site/sections/IASection.tsx",
+              "title": "Destaques da Lojinha Issacar",
               "buttonColor": "#326d26",
               "buttonTitle": "Ver mais",
               "products": [
@@ -203,7 +217,6 @@
                   "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/salmos-91-de-todo-coracao-180555.html"
                 }
               ],
-              "title": "Destaques da Lojinha Issacar",
               "productsPerSlide": 3
             },
             "rule": {
