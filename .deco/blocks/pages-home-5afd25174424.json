@@ -19,7 +19,8 @@
               "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/30a0fd79-23c9-4558-9a14-c8973c007a1f/mobile_celebracao_2.png",
               "rule": {
                 "__resolveType": "website/matchers/device.ts",
-                "mobile": true
+                "mobile": true,
+                "tablet": true
               }
             },
             {
@@ -27,14 +28,6 @@
               "rule": {
                 "__resolveType": "website/matchers/device.ts",
                 "desktop": true
-              }
-            },
-            {
-              "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/a2441ab0-a8fd-43bb-9c28-2df6d2524820/mobile_celebracao.png",
-              "rule": {
-                "__resolveType": "website/matchers/device.ts",
-                "mobile": false,
-                "tablet": true
               }
             }
           ]
