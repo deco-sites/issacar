@@ -9,14 +9,14 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p></p>",
-        "ctaActive": false,
-        "subtitle": null,
+        "title": "<p>Bem-vindo ao nosso </p>",
+        "ctaActive": true,
+        "subtitle": "Lugar de Adoração",
         "backgroundImage": {
           "__resolveType": "website/flags/multivariate/image.ts",
           "variants": [
             {
-              "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/f91778d6-873e-455f-886e-9c58738f1ad6/story.png",
+              "value": "https://data.decoassets.com/issacar/55cfdcc9-23a1-4055-9ec2-b2d8d7541a38/Unsplash-picture.jpg",
               "rule": {
                 "__resolveType": "website/matchers/device.ts",
                 "mobile": true,
@@ -24,14 +24,17 @@
               }
             },
             {
-              "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/4193d767-bd13-4e65-b627-ca3ff5a5d4e1/dezembro.jpeg",
+              "value": "https://data.decoassets.com/issacar/55cfdcc9-23a1-4055-9ec2-b2d8d7541a38/Unsplash-picture.jpg",
               "rule": {
                 "__resolveType": "website/matchers/device.ts",
                 "desktop": true
               }
             }
           ]
-        }
+        },
+        "ctaText": "Siga-nos",
+        "ctaBackgroundColor": "#ffffff",
+        "ctaTextColor": "#000000"
       }
     },
     {
