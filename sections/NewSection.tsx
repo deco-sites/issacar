@@ -1,4 +1,4 @@
-import type { AppContext } from "../apps/site.ts";
+// import type { AppContext } from "../apps/site.ts";
 
 interface Props {
   /**
@@ -33,7 +33,7 @@ interface Props {
 export async function action(
   props: Props,
   req: Request,
-  ctx: AppContext,
+  // ctx: AppContext,
 ): Promise<Props> {
   const form = await req.formData();
   const inputText = form.get("inputText")?.toString() || "";

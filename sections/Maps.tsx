@@ -61,7 +61,6 @@ export default function Maps({
               height={mapHeight}
               style={{ border: 0 }}
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
               src={`https://www.google.com/maps/embed/v1/place?key=${api}&q=Issacar+Church+Lugar+de+Adoração`}
               class="w-100 flex justify-center"
             />
