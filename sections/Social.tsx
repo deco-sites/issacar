@@ -12,37 +12,38 @@ export interface SocialItem {
 }
 
 export default function Social(
-  { content, vertical = false }: {
+  { content, vertical = false, position }: {
     content?: { title?: string; items?: SocialItem[] };
     vertical?: boolean;
+    position?: "start" | "end";
   },
 ) {
   return (
-    <nav class="lg:container lg:mx-auto mx-4" id="#social">
-      <div class="flex flex-col items-center gap-8">
+    <nav class="lg:container lg:mx-auto mx-4 relative " id="#social">
+      <div class={`flex flex-col items-${position} gap-8 relative`}>
         {content && content.items && content.items.length > 0 && (
-          <div class="flex flex-col gap-4">
+          <div class={`flex flex-col gap-4 `}>
             {content.title && (
               <h3 class="text-4xl leading-snug">{content.title}</h3>
             )}
             <ul
-              class={`flex gap-4 ${
+              class={`list-none flex gap-2 ${
                 vertical
                   ? "lg:flex-col lg:items-start"
                   : "flex-wrap items-center"
-              }`}
+              } ` }
             >
               {content.items.map((item) => {
                 return (
-                  <li>
+                  <li >
                     <a
                       href={item.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`${item.label} Logo`}
-                      class="flex gap-2 items-center"
+                      class="flex gap-1 items-center relative"
                     >
-                      <span class="block p-1 border rounded-full">
+                      <span class="block p-1 ">
                         <Icon size={40} id={item.label} />
                       </span>
                       {vertical && (
