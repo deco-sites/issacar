@@ -2,6 +2,7 @@ export interface CTA {
   id?: string;
   href: string;
   text: string;
+  complement?:string;
   style?: "Outline" | "Ghost";
 }
 
@@ -46,7 +47,7 @@ export default function Maps({
   ],
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm" id="#local">
+    <nav class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm" id="local">
       <div
         class={`flex ${
           PLACEMENT[placement]
@@ -67,16 +68,16 @@ export default function Maps({
           )}
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
-          <p class="text-sm font-semibold">
+          <p class="text-sm font-semibold xl:text-left md:text-left text-center">
             {tagline}
           </p>
-          <p class="text-4xl leading-snug">
+          <p class="text-4xl leading-snug xl:text-left md:text-left text-center">
             {title}
           </p>
-          <p class="leading-normal">
+          <p class="leading-normal xl:text-left md:text-left text-center">
             {description}
           </p>
-          <div class="flex gap-3 pt-4">
+          <div class="flex gap-3 pt-4 xl:flex-row md:flex-row flex-col justify-center">
             {cta.length > 0 && cta?.map((item) => (
               <a
                 key={item?.id}
@@ -88,26 +89,18 @@ export default function Maps({
                     ${item.style == "Ghost" && "btn-ghost"}
                   `}
               >
-                {item?.text}
-                {item.style == "Ghost" && (
-                  <svg
-                    width="24"
-                    height="25"
-                    viewBox="0 0 24 25"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M9.70697 16.9767L15.414 11.2697L9.70697 5.56274L8.29297 6.97674L12.586 11.2697L8.29297 15.5627L9.70697 16.9767Z"
-                      fill="#18181B"
-                    />
-                  </svg>
-                )}
+                <div class={`flex flex-col `}>
+                  <p class={`font-medium`}>{item?.text}</p>
+                  <p class={`font-bold`}>{item?.complement}</p> 
+                  {item.style == "Ghost"} 
+                </div>
+                
+                
               </a>
             ))}
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }

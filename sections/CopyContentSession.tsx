@@ -25,8 +25,10 @@ export default function Copy({
   buttonTextValue = "Copiar",
 }: Props) {
   return (
-    <div class="p-2 rounded-lg" style={{ backgroundColor }}>
-      <CopyContent contentCopy={contentCopy} buttonText={buttonTextValue} />
-    </div>
+    <nav class="lg:container lg:mx-auto mx-4  p-4 relative  " id="pixdata">
+      <div class="p-2 rounded-lg" style={{ backgroundColor }}>
+        <CopyContent contentCopy={contentCopy} buttonText={buttonTextValue} />
+      </div>
+    </nav>
   );
 }

@@ -15,11 +15,11 @@ export default function Social(
   { content, vertical = false, position }: {
     content?: { title?: string; items?: SocialItem[] };
     vertical?: boolean;
-    position?: "start" | "end";
+    position?: "start"|"center"| "end";
   },
 ) {
   return (
-    <nav class="lg:container lg:mx-auto mx-4 relative " id="#social">
+    <nav class="lg:container lg:mx-auto mx-4  p-4 relative  " id="#social">
       <div class={`flex flex-col items-${position} gap-8 relative`}>
         {content && content.items && content.items.length > 0 && (
           <div class={`flex flex-col gap-4 `}>
@@ -44,7 +44,7 @@ export default function Social(
                       class="flex gap-1 items-center relative"
                     >
                       <span class="block p-1 ">
-                        <Icon size={40} id={item.label} />
+                        <Icon size={30} id={item.label} />
                       </span>
                       {vertical && (
                         <div class="text-sm hidden lg:block">{item.label}</div>

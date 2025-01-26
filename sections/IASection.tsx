@@ -83,6 +83,7 @@ export default function ProductShelfSlider({
   productsPerSlide = 3,
 }: Props) {
   return (
+    <nav id="lojinha">
     <div style={{ backgroundColor, color: textColor }} class="p-8">
       <h2 class="text-3xl font-bold mb-6 text-center">{title}</h2>
       <div class="carousel w-full">
@@ -148,5 +149,6 @@ export default function ProductShelfSlider({
           ))}
       </div>
     </div>
+    </nav>
   );
 }

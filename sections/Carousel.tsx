@@ -127,6 +127,7 @@ function Carousel({ images = [], preload, interval }: Props) {
   const id = useId();
 
   return (
+    <nav id="banners">
     <div
       id={id}
       class={clx(
@@ -176,7 +177,7 @@ function Carousel({ images = [], preload, interval }: Props) {
             <Slider.Dot
               index={index}
               class={clx(
-                "bg-black opacity-20 h-3 w-3 no-animation rounded-full",
+                "bg-white opacity-20 h-3 w-3 no-animation rounded-full",
                 "disabled:w-8 disabled:bg-base-100 disabled:opacity-100 transition-[width]",
               )}
             >
@@ -187,6 +188,7 @@ function Carousel({ images = [], preload, interval }: Props) {
 
       <Slider.JS rootId={id} interval={interval && interval * 1e3} infinite />
     </div>
+  </nav>
   );
 }
 
