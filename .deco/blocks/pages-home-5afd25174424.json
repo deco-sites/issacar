@@ -212,37 +212,6 @@
       ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/IASection.tsx",
-        "backgroundColor": "#050505",
-        "textColor": "#000000",
-        "buttonColor": "#065c05",
-        "title": "Destaques da Lojinha",
-        "buttonTitle": "Comprar",
-        "products": [
-          {
-            "name": "Caneca Salmos 9:1",
-            "price": 58.75,
-            "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/das-minhas-feridas-180423.html",
-            "image": "https://data.decoassets.com/issacar/43358016-7f2c-4bfd-a733-f87d8eef26c2/mockup.jpg"
-          },
-          {
-            "image": "https://data.decoassets.com/issacar/8e1cc2df-bf24-450b-a313-29501cdae45c/mockup-(1).jpg",
-            "name": "Caneca Romanos 8:39",
-            "price": 58.75,
-            "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/nada-nos-separara-180418.html"
-          },
-          {
-            "image": "https://data.decoassets.com/issacar/31f92609-0cd9-4114-a8c3-f971ba71114e/mockup-(3).jpg",
-            "name": "Caneca \"Issacar Church \"",
-            "price": 58.75,
-            "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/issacar-church-oficial-170571.html"
-          }
-        ]
-      }
-    },
-    {
       "__resolveType": "website/flags/multivariate/section.ts",
       "variants": [
         {
@@ -288,6 +257,39 @@
           }
         }
       ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/IASection.tsx",
+        "backgroundColor": "#050505",
+        "textColor": "#000000",
+        "buttonColor": "#065c05",
+        "title": "Destaques da Lojinha",
+        "buttonTitle": "Comprar",
+        "products": [
+          {
+            "name": "Caneca Salmos 9:1",
+            "price": 58.75,
+            "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/das-minhas-feridas-180423.html",
+            "image": "https://data.decoassets.com/issacar/43358016-7f2c-4bfd-a733-f87d8eef26c2/mockup.jpg"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/8e1cc2df-bf24-450b-a313-29501cdae45c/mockup-(1).jpg",
+            "name": "Caneca Romanos 8:39",
+            "price": 58.75,
+            "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/nada-nos-separara-180418.html"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/31f92609-0cd9-4114-a8c3-f971ba71114e/mockup-(3).jpg",
+            "name": "Caneca \"Issacar Church \"",
+            "price": 58.75,
+            "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/issacar-church-oficial-170571.html"
+          }
+        ],
+        "titleColor": "#FFFFFF",
+        "subtitle": "Contribua com a obra e leve um presentinho"
+      }
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
