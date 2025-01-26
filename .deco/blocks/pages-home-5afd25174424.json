@@ -54,28 +54,25 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Carousel.tsx",
-        "images": [
-          {
-            "desktop": "https://data.decoassets.com/issacar/ec0d71ab-07da-4782-9e01-f9666c81af76/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px).png",
-            "mobile": "https://data.decoassets.com/issacar/fe8884ab-fbce-4081-a8fd-8efeff913acc/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px)-(412-x-660-px).png",
-            "alt": "Sorteio"
-          },
-          {
-            "desktop": "https://data.decoassets.com/issacar/5d628ea1-926c-4386-9fbf-ce5196a875ca/Tema-Mes-JANEIRO-(1920-x-1080-px)-(1440-x-600-px).png",
-            "mobile": "https://data.decoassets.com/issacar/afe110b3-1348-406c-b56b-d5a4a14605d4/Tema-Mes-JANEIRO-(1920-x-1080-px)-(1440-x-600-px)-(412-x-660-px).png",
-            "alt": "Consagração"
-          },
-          {
-            "desktop": "https://data.decoassets.com/issacar/37c924ea-7361-4edf-912d-cc176fa33e4b/Quinta-(1920-x-1080-px)-(1440-x-600-px)-(1).jpg",
-            "mobile": "https://data.decoassets.com/issacar/0350c4ac-eff0-4d3c-9a8d-88303bfca513/Quinta-(1920-x-1080-px)-(1440-x-600-px)-(412-x-660-px).jpg"
-          }
-        ],
-        "interval": 5,
-        "preload": false
-      }
+      "__resolveType": "site/sections/Carousel.tsx",
+      "images": [
+        {
+          "desktop": "https://data.decoassets.com/issacar/ec0d71ab-07da-4782-9e01-f9666c81af76/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px).png",
+          "mobile": "https://data.decoassets.com/issacar/fe8884ab-fbce-4081-a8fd-8efeff913acc/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px)-(412-x-660-px).png",
+          "alt": "Sorteio"
+        },
+        {
+          "desktop": "https://data.decoassets.com/issacar/5d628ea1-926c-4386-9fbf-ce5196a875ca/Tema-Mes-JANEIRO-(1920-x-1080-px)-(1440-x-600-px).png",
+          "mobile": "https://data.decoassets.com/issacar/afe110b3-1348-406c-b56b-d5a4a14605d4/Tema-Mes-JANEIRO-(1920-x-1080-px)-(1440-x-600-px)-(412-x-660-px).png",
+          "alt": "Consagração"
+        },
+        {
+          "desktop": "https://data.decoassets.com/issacar/37c924ea-7361-4edf-912d-cc176fa33e4b/Quinta-(1920-x-1080-px)-(1440-x-600-px)-(1).jpg",
+          "mobile": "https://data.decoassets.com/issacar/0350c4ac-eff0-4d3c-9a8d-88303bfca513/Quinta-(1920-x-1080-px)-(1440-x-600-px)-(412-x-660-px).jpg"
+        }
+      ],
+      "interval": 5,
+      "preload": false
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
