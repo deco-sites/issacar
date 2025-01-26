@@ -101,7 +101,7 @@ export default function ProductShelfSlider({
     <nav id="lojinha">
     <div style={{ backgroundColor, color: textColor }} class="p-8">
       <h2 class="text-3xl font-bold mb-6 text-center" style={{color:titleColor}}>{title}</h2>
-      <h2 class="text-2xl font-bold mb-6 text-center" style={{color:titleColor}}>{subtitle}</h2>
+      <h2 class="text-2xl font-medium mb-6 text-center" style={{color:titleColor}}>{subtitle}</h2>
       <div class="carousel w-full">
         {Array.from({ length: Math.ceil(products.length / productsPerSlide) })
           .map((_, slideIndex) => (
