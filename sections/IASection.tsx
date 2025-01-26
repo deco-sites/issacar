@@ -14,6 +14,12 @@ interface Props {
    */
   title?: string;
 
+    /**
+   * @description SubTitle of the product shelf
+   * @format string
+   */
+    subtitle?: string;
+
   /**
    * @description List of products to display
    */
@@ -28,6 +34,13 @@ interface Props {
    * @format color-input
    */
   textColor?: string;
+
+    /**
+   * @description Title color
+   * @format color-input
+   */
+    titleColor?: string;
+
   /**
    * @description Title of the product shelf
    * @format string
@@ -46,6 +59,7 @@ interface Props {
 
 export default function ProductShelfSlider({
   title = "Featured Products",
+  subtitle = "Check out our latest products",
   products = [
     {
       image:
@@ -78,6 +92,7 @@ export default function ProductShelfSlider({
   ],
   backgroundColor = "#f3f4f6",
   textColor = "#1f2937",
+  titleColor = "#000000",
   buttonTitle = "Buy Now",
   buttonColor = "#000000",
   productsPerSlide = 3,
@@ -85,7 +100,8 @@ export default function ProductShelfSlider({
   return (
     <nav id="lojinha">
     <div style={{ backgroundColor, color: textColor }} class="p-8">
-      <h2 class="text-3xl font-bold mb-6 text-center">{title}</h2>
+      <h2 class="text-3xl font-bold mb-6 text-center" style={{color:titleColor}}>{title}</h2>
+      <h2 class="text-2xl font-bold mb-6 text-center" style={{color:titleColor}}>{subtitle}</h2>
       <div class="carousel w-full">
         {Array.from({ length: Math.ceil(products.length / productsPerSlide) })
           .map((_, slideIndex) => (
