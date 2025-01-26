@@ -140,7 +140,7 @@ export default function ProductShelfSlider({
                   ))}
                 </div>
               </div>
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              {/* <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a
                   href={`#slide${
                     (slideIndex - 1 +
@@ -160,7 +160,7 @@ export default function ProductShelfSlider({
                 >
                   ❯
                 </a>
-              </div>
+              </div> */}
             </div>
           ))}
       </div>
