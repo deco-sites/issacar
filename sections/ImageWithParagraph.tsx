@@ -1,5 +1,6 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import Copy from "site/sections/CopyContentSession.tsx";
 
 export interface CTA {
   id?: string;
@@ -15,6 +16,11 @@ export interface Props {
   tagline?: string;
   showImage?: boolean;
   image?: ImageWidget;
+  isMobile?: boolean;
+  copyContent?: string;
+  backgroundColor?: string;
+  buttonTextValue?: string;
+  idcustom?: string;
   placement?: "left" | "right" | "top" | "bottom";
   cta?: CTA[];
   disableSpacing?: {
@@ -40,23 +46,29 @@ export default function ImageWithParagraph({
   tagline = "Tagline",
   image = DEFAULT_IMAGE,
   showImage = true,
+  isMobile=false,
   placement = "left",
   disableSpacing,
+  backgroundColor="#000000",
+  buttonTextValue="Copiar",
+  copyContent="Your content here",
+  idcustom="setyourid",
   cta = [
     { id: "change-me-1", href: "/", text: "Change me", style: "Outline" },
     { id: "change-me-2", href: "/", text: "Change me", style: "Ghost" },
   ],
 }: Props) {
   return (
+    <nav id={idcustom} >
     <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
       <div
         class={`flex ${
           PLACEMENT[placement]
-        } gap-12 md:gap-20 text-left items-center z-10 ${
+        } gap-2 md:gap-20 text-left items-center z-10 ${
           disableSpacing?.top ? "" : "pt-12 lg:pt-28"
         } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
-        <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
+        <div class="w-full md:w-1/2  overflow-hidden">
           {showImage && (
             <Image
               width={640}
@@ -68,26 +80,30 @@ export default function ImageWithParagraph({
               decoding="async"
               loading="lazy"
             />
-          )}
+          )}{
+            isMobile && (
+              <Copy contentCopy={copyContent} backgroundColor={backgroundColor} buttonTextValue={buttonTextValue}/>
+            )
+          }
         </div>
-        <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
-          <p class="text-sm font-semibold">
+        <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-2 z-10">
+          <p class="text-sm font-semibold text-center xl:text-left sm:text-left">
             {tagline}
           </p>
-          <p class="text-4xl leading-snug">
+          <p class="text-4xl leading-snug text-center xl:text-left sm:text-left">
             {title}
           </p>
-          <p class="leading-normal">
+          <p class="leading-normal text-center xl:text-left sm:text-left">
             {description}
           </p>
-          <div class="flex gap-3 pt-4">
+          <div class="flex justify-center gap-2 pt-4">
             {cta?.map((item) => (
               <a
                 key={item?.id}
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary
+                class={`font-normal btn btn-secondary
                   ${!item.style || item.style == "Outline" && "btn-outline"}
                   ${item.style == "Ghost" && "btn-ghost"}
                 `}
@@ -113,5 +129,6 @@ export default function ImageWithParagraph({
         </div>
       </div>
     </div>
+</nav>
   );
 }

@@ -1591,6 +1591,10 @@ input.tab:checked + .tab-content,
   .btn-accent {
     --btn-color: var(--fallback-a);
   }
+
+  .btn-neutral {
+    --btn-color: var(--fallback-n);
+  }
 }
 @supports (color: color-mix(in oklab, black, black)) {
 
@@ -1652,6 +1656,10 @@ input.tab:checked + .tab-content,
   .btn-accent {
     --btn-color: var(--a);
   }
+
+  .btn-neutral {
+    --btn-color: var(--n);
+  }
 }
 .btn-secondary {
   --tw-text-opacity: 1;
@@ -1662,6 +1670,11 @@ input.tab:checked + .tab-content,
   --tw-text-opacity: 1;
   color: var(--fallback-ac,oklch(var(--ac)/var(--tw-text-opacity)));
   outline-color: var(--fallback-a,oklch(var(--a)/1));
+}
+.btn-neutral {
+  --tw-text-opacity: 1;
+  color: var(--fallback-nc,oklch(var(--nc)/var(--tw-text-opacity)));
+  outline-color: var(--fallback-n,oklch(var(--n)/1));
 }
 .btn.glass {
   --tw-shadow: 0 0 #0000;
@@ -2471,6 +2484,11 @@ input.tab:checked + .tab-content,
   --togglehandleborder: 0 0 0 3px var(--fallback-bc,oklch(var(--bc)/1)) inset,
       var(--handleoffsetcalculator) 0 0 3px var(--fallback-bc,oklch(var(--bc)/1)) inset;
 }
+.no-animation {
+  --btn-focus-scale: 1;
+  --animation-btn: 0;
+  --animation-input: 0;
+}
 .tab-border {
   --tab-border: 1px;
 }
@@ -2901,6 +2919,9 @@ input.tab:checked + .tab-content,
 .h-2 {
   height: 0.5rem;
 }
+.h-3 {
+  height: 0.75rem;
+}
 .h-48 {
   height: 12rem;
 }
@@ -2961,6 +2982,9 @@ input.tab:checked + .tab-content,
 .min-h-\[42px\] {
   min-height: 42px;
 }
+.min-h-\[660px\] {
+  min-height: 660px;
+}
 .min-h-full {
   min-height: 100%;
 }
@@ -2976,6 +3000,9 @@ input.tab:checked + .tab-content,
 }
 .w-2 {
   width: 0.5rem;
+}
+.w-3 {
+  width: 0.75rem;
 }
 .w-80 {
   width: 20rem;
@@ -3011,6 +3038,9 @@ input.tab:checked + .tab-content,
   width: -moz-min-content;
   width: min-content;
 }
+.w-screen {
+  width: 100vw;
+}
 .min-w-\[100px\] {
   min-width: 100px;
 }
@@ -3019,6 +3049,9 @@ input.tab:checked + .tab-content,
 }
 .min-w-\[157px\] {
   min-width: 157px;
+}
+.min-w-\[180px\] {
+  min-width: 180px;
 }
 .min-w-\[400px\] {
   min-width: 400px;
@@ -3145,8 +3178,17 @@ input.tab:checked + .tab-content,
 .list-disc {
   list-style-type: disc;
 }
+.list-none {
+  list-style-type: none;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-\[32px_1fr_32px\] {
+  grid-template-columns: 32px 1fr 32px;
+}
+.grid-rows-\[1fr_32px_1fr_64px\] {
+  grid-template-rows: 1fr 32px 1fr 64px;
 }
 .flex-row {
   flex-direction: row;
@@ -3453,6 +3495,10 @@ input.tab:checked + .tab-content,
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
 .px-60 {
   padding-left: 15rem;
   padding-right: 15rem;
@@ -3563,6 +3609,10 @@ input.tab:checked + .tab-content,
 }
 .text-5xl {
   font-size: 3rem;
+  line-height: 1;
+}
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 .text-\[12px\] {
@@ -3690,6 +3740,10 @@ input.tab:checked + .tab-content,
   --tw-text-opacity: 1;
   color: var(--fallback-a,oklch(var(--a)/var(--tw-text-opacity)));
 }
+.text-base-100 {
+  --tw-text-opacity: 1;
+  color: var(--fallback-b1,oklch(var(--b1)/var(--tw-text-opacity)));
+}
 .text-base-content {
   --tw-text-opacity: 1;
   color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
@@ -3711,6 +3765,9 @@ input.tab:checked + .tab-content,
 }
 .no-underline {
   text-decoration-line: none;
+}
+.opacity-20 {
+  opacity: 0.2;
 }
 .opacity-50 {
   opacity: 0.5;
@@ -3735,6 +3792,11 @@ input.tab:checked + .tab-content,
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-\[width\] {
+  transition-property: width;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -3858,6 +3920,16 @@ input.tab:checked + .tab-content,
 .disabled\:hidden:disabled {
   display: none;
 }
+.disabled\:w-8:disabled {
+  width: 2rem;
+}
+.disabled\:bg-base-100:disabled {
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
+}
+.disabled\:opacity-100:disabled {
+  opacity: 1;
+}
 .group[open] .group-open\:rotate-180 {
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -3878,8 +3950,21 @@ input.tab:checked + .tab-content,
 }
 @media (min-width: 640px) {
 
+  .sm\:left-40 {
+    left: 10rem;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:h-\[273px\] {
     height: 273px;
+  }
+
+  .sm\:min-h-min {
+    min-height: -moz-min-content;
+    min-height: min-content;
   }
 
   .sm\:w-1\/2 {
@@ -3892,6 +3977,10 @@ input.tab:checked + .tab-content,
 
   .sm\:w-\[552px\] {
     width: 552px;
+  }
+
+  .sm\:max-w-96 {
+    max-width: 24rem;
   }
 
   .sm\:max-w-\[440px\] {
@@ -3910,6 +3999,10 @@ input.tab:checked + .tab-content,
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .sm\:grid-cols-\[112px_1fr_112px\] {
+    grid-template-columns: 112px 1fr 112px;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -3924,6 +4017,19 @@ input.tab:checked + .tab-content,
 
   .sm\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .sm\:items-start {
+    align-items: flex-start;
+  }
+
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sm\:text-left {
+    text-align: left;
   }
 
   .sm\:text-\[20px\] {
@@ -3981,6 +4087,10 @@ input.tab:checked + .tab-content,
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-2xl {
@@ -4140,5 +4250,13 @@ input.tab:checked + .tab-content,
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:text-left {
+    text-align: left;
   }
 }

@@ -1,6 +1,6 @@
 {
   "__resolveType": "site/sections/Theme/Theme.tsx",
-  "colorScheme": "dark",
+  "colorScheme": "any",
   "buttonStyle": {
     "--border-btn": "1px",
     "--rounded-btn": "0.2rem",
@@ -14,9 +14,10 @@
     "--tab-border": "1px",
     "--tab-radius": "0.5rem"
   },
-  "mode": "light",
+  "mode": "dark",
   "mainColors": {
-    "primary": "#ffffff",
-    "success": "#ffdd00"
+    "primary": "#000000",
+    "success": "#ffdd00",
+    "base-100": "#000000"
   }
 }

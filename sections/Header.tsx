@@ -43,7 +43,7 @@ export default function Header({
   },
 }: Nav) {
   return (
-    <nav class="drawer drawer-end">
+    <nav class="drawer drawer-end" id="#header">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
@@ -54,7 +54,7 @@ export default function Header({
 
         <div class="hidden items-center justify-between lg:flex w-full">
           {
-            /* <ul class="flex">
+            <ul class="flex">
             {navigation.links.map((link) => (
               <li>
                 <a
@@ -66,10 +66,10 @@ export default function Header({
                 </a>
               </li>
             ))}
-          </ul> */
+          </ul> 
           }
           {
-            /* <ul class="flex gap-3">
+             <ul class="flex gap-3">
             {navigation.buttons?.map((item) => (
               <a
                 key={item?.id}
@@ -83,7 +83,7 @@ export default function Header({
                 {item?.text}
               </a>
             ))}
-          </ul> */
+          </ul> 
           }
         </div>
 

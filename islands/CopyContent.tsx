@@ -26,9 +26,9 @@ export default function Copy({
   };
 
   return (
-    <div class="bg-base-200 p-4 rounded-lg shadow-md max-w-md mx-auto justify-center">
-      <p class="text-4xl font-black mb-8">{contentCopy}</p>
-      <button class="btn btn-primary" onClick={copyToClipboard}>
+    <div class="flex flex-col bg-base-200 rounded-lg shadow-md max-w-md mx-auto justify-center">
+      <p class="text-2xl text-center font-black mb-8">{contentCopy}</p>
+      <button class="btn btn-secondary btn-large" onClick={copyToClipboard}>
         {buttonText}
       </button>
     </div>

@@ -55,7 +55,7 @@ interface Props extends JSX.SVGAttributes<SVGSVGElement> {
 }
 
 function Icon(
-  { id, strokeWidth = 16, size, width, height, ...otherProps }: Props,
+  { id, strokeWidth = 16, size=24, width, height, ...otherProps }: Props,
 ) {
   return (
     <svg

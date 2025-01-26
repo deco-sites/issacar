@@ -3,46 +3,10 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Bem-vindo ao nosso </p>",
-        "ctaActive": true,
-        "subtitle": "Lugar de Adoração",
-        "backgroundImage": {
-          "__resolveType": "website/flags/multivariate/image.ts",
-          "variants": [
-            {
-              "value": "https://data.decoassets.com/issacar/55cfdcc9-23a1-4055-9ec2-b2d8d7541a38/Unsplash-picture.jpg",
-              "rule": {
-                "__resolveType": "website/matchers/device.ts",
-                "mobile": true,
-                "tablet": true
-              }
-            },
-            {
-              "value": "https://data.decoassets.com/issacar/55cfdcc9-23a1-4055-9ec2-b2d8d7541a38/Unsplash-picture.jpg",
-              "rule": {
-                "__resolveType": "website/matchers/device.ts",
-                "desktop": true
-              }
-            }
-          ]
-        },
-        "ctaText": "Siga-nos",
-        "ctaBackgroundColor": "#ffffff",
-        "ctaTextColor": "#000000"
-      }
-    },
-    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Social.tsx",
         "content": {
-          "title": "Siga nos",
           "items": [
             {
               "label": "Instagram",
@@ -54,56 +18,58 @@
             }
           ]
         },
-        "vertical": false
+        "vertical": false,
+        "position": "center"
       }
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Dízimos e ofertas",
-            "description": "Ao apoiar a Issacar Church, você está investindo em projetos transformadores como o Movimento Unidas, Movimento Life's Hope, Asáfe Worship, Ide e Pregai, Issacar Kids, e muitos outros projetos que impactam vidas e ampliam o Reino de Deus.\n\nSua contribuição é essencial para que possamos continuar levando amor, esperança e a Palavra a cada vez mais pessoas.\n\nFaça sua doação agora:\n\nChave PIX: 38.204.603/0001-88",
-            "cta": [],
-            "placement": "bottom",
-            "title": "Contribua com a Issacar Church e Faça a Diferença!",
-            "disableSpacing": {
-              "top": false
-            },
-            "showImage": false
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "url": "#banners",
+            "label": "Avisos"
           },
-          "rule": {
-            "__resolveType": "Mobile"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Como contribuir",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/4ff7588b-26b6-4d77-95e2-b70c118ee699",
-            "description": "Ao apoiar a Issacar Church, você está investindo em projetos transformadores como o Movimento Unidas, Movimento Life's Hope, Asáfe Worship, Ide e Pregai, Issacar Kids, e muitos outros projetos que impactam vidas e ampliam o Reino de Deus.\n\nSua contribuição é essencial para que possamos continuar levando amor, esperança e a Palavra a cada vez mais pessoas.\n\nFaça sua doação agora:\n\nChave PIX: 38.204.603/0001-88",
-            "cta": [],
-            "placement": "right",
-            "title": "Contribua com a Issacar Church e Faça a Diferença!",
-            "disableSpacing": {
-              "top": false
-            },
-            "showImage": true
+          {
+            "label": "Como Contribuir",
+            "url": "/#contribute"
           },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
+          {
+            "label": "Nossos Cultos",
+            "url": "/#local"
+          },
+          {
+            "label": "Lojinha ",
+            "url": "/#lojinha"
+          },
+          {
+            "label": "Fotos do Culto",
+            "url": "/#images"
           }
-        }
-      ]
+        ],
+        "buttons": []
+      },
+      "logo": {
+        "src": "https://data.decoassets.com/issacar/08fe739a-b18b-47cc-b930-a5bb5059ca42/LOGO-DA-IGREJA.png"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/CopyContentSession.tsx",
-        "contentCopy": "38.204.603/0001-88",
-        "buttonTextValue": "Clique aqui e copie o pix",
-        "backgroundColor": "#fff"
+        "__resolveType": "site/sections/Carousel.tsx",
+        "images": [
+          {
+            "desktop": "https://data.decoassets.com/issacar/55cfdcc9-23a1-4055-9ec2-b2d8d7541a38/Unsplash-picture.jpg",
+            "mobile": "https://data.decoassets.com/issacar/55cfdcc9-23a1-4055-9ec2-b2d8d7541a38/Unsplash-picture.jpg"
+          },
+          {
+            "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/4193d767-bd13-4e65-b627-ca3ff5a5d4e1/dezembro.jpeg",
+            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/a2441ab0-a8fd-43bb-9c28-2df6d2524820/mobile_celebracao.png",
+            "alt": "Desembro"
+          }
+        ],
+        "interval": 5,
+        "preload": false
       }
     },
     {
@@ -114,13 +80,35 @@
           {
             "value": {
               "__resolveType": "site/sections/Maps.tsx",
-              "title": "Participe de Nossos Cultos na Issacar Church!",
+              "title": "Adore conosco",
               "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
-              "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual: Terças-feiras: Culto exclusivo para mulheres. Quintas-feiras: Culto aberto para todos. Domingos: Um culto especial para toda a família. Estamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!",
-              "tagline": "Nosso endereço",
+              "description": "Nossos cultos acontecem:",
+              "tagline": "Lugar de Adoração",
               "showMap": true,
               "placement": "bottom",
-              "cta": [],
+              "cta": [
+                {
+                  "style": "Ghost",
+                  "href": "/#local",
+                  "text": "Aos Domingos",
+                  "complement": "19:00",
+                  "id": "Domingos"
+                },
+                {
+                  "style": "Ghost",
+                  "id": "TercasFeiras",
+                  "href": "/#local",
+                  "text": "Terças-Feiras| Mov.Unidas",
+                  "complement": "19:30"
+                },
+                {
+                  "style": "Ghost",
+                  "id": "QuintaFeira",
+                  "href": "/#local",
+                  "text": "Quintas-Feiras",
+                  "complement": "19:30"
+                }
+              ],
               "mapWidth": "370",
               "mapHeight": "400"
             },
@@ -133,15 +121,40 @@
           {
             "value": {
               "__resolveType": "site/sections/Maps.tsx",
-              "title": "Participe de Nossos Cultos na Issacar Church!",
+              "title": "Adore conosco",
               "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
-              "description": "Nossos cultos acontecem em diferentes dias da semana, oferecendo momentos de comunhão e crescimento espiritual: Terças-feiras: Culto exclusivo para mulheres. Quintas-feiras: Culto aberto para todos. Domingos: Um culto especial para toda a família. Estamos localizados na Rua Santa Rita, 636, Bairro Celina, Barretos - SP. Todos são bem-vindos para adorar e compartilhar da presença de Deus conosco!",
-              "tagline": "Nosso endereço",
+              "description": "Nossos cultos acontecem:",
+              "tagline": "Lugar de adoração",
               "placement": "left",
               "showMap": true,
-              "cta": [],
+              "cta": [
+                {
+                  "style": "Ghost",
+                  "href": "/#local",
+                  "text": "As Quintas-Feiras",
+                  "complement": "19:30",
+                  "id": "Quinta-Feira"
+                },
+                {
+                  "style": "Ghost",
+                  "id": "Domingos",
+                  "href": "/#local",
+                  "text": "Aos Domingos",
+                  "complement": "19:00"
+                },
+                {
+                  "style": "Ghost",
+                  "id": "tercasfeiras",
+                  "href": "/#local",
+                  "text": "Terças-Feiras | Mov. Unidas",
+                  "complement": "19:30"
+                }
+              ],
               "mapHeight": "400",
-              "mapWidth": "600"
+              "mapWidth": "600",
+              "disableSpacing": {
+                "bottom": true
+              }
             },
             "rule": {
               "__resolveType": "Desktop"
@@ -149,6 +162,52 @@
           }
         ]
       }
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Dízimos e ofertas",
+            "description": "Para contribuir copie a chave pix abaixo:",
+            "cta": [],
+            "placement": "bottom",
+            "title": "Como contribuir:",
+            "disableSpacing": {
+              "top": true,
+              "bottom": true
+            },
+            "showImage": false,
+            "isMobile": true,
+            "copyContent": "38.204.603/0001-88",
+            "idcustom": "contribute"
+          },
+          "rule": {
+            "__resolveType": "website/matchers/device.ts",
+            "mobile": true
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "tagline": "Como contribuir",
+            "image": "https://data.decoassets.com/issacar/cfb82a10-936a-4c02-8ca7-36891071dd6e/DIZIMOS-E-OFERTAS-(640-x-640-px).png",
+            "description": null,
+            "cta": [],
+            "placement": "right",
+            "disableSpacing": {
+              "top": false
+            },
+            "showImage": true,
+            "idcustom": "contribute",
+            "title": "Para contribuir escaneie o QR Code"
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -229,7 +288,7 @@
           "value": {
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Fotos do culto ",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/7314c07b-7b73-4fa1-aa98-b7230518ebe5",
+            "image": "https://data.decoassets.com/issacar/14e2d176-8eee-405e-b947-b6db0ea829b6/IMG_7526.jpg",
             "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
             "cta": [
               {
@@ -239,7 +298,8 @@
               }
             ],
             "placement": "bottom",
-            "title": "Foi fotografado no culto?"
+            "title": "Foi fotografado pela mídia?",
+            "idcustom": "images"
           },
           "rule": {
             "__resolveType": "Mobile"
@@ -249,17 +309,18 @@
           "value": {
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Fotos do culto ",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/7314c07b-7b73-4fa1-aa98-b7230518ebe5",
+            "image": "https://data.decoassets.com/issacar/14e2d176-8eee-405e-b947-b6db0ea829b6/IMG_7526.jpg",
             "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
             "cta": [
               {
-                "href": "https://drive.google.com/drive/folders/1-xY9pAoxpJLXBJQZImXrgS8xfsdq350I?usp=drive_link",
+                "href": "https://drive.google.com/drive/folders/19KqPRe7t8Loj_ynWZBtBvfyqsbGd8NjR?usp=sharing",
                 "id": "Site ",
                 "text": "Clique aqui e baixe as imagens do culto "
               }
             ],
             "placement": "right",
-            "title": "Foi fotografado no culto?"
+            "title": "Foi fotografado pela mídia?",
+            "idcustom": "images"
           },
           "rule": {
             "__resolveType": "website/matchers/always.ts"
@@ -287,10 +348,10 @@
         "instructions": "<p>Site em evolução </p>"
       },
       "logo": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/38b0eef8-edbf-4006-bd4a-f0926a0ae38a"
+        "src": "https://data.decoassets.com/issacar/08fe739a-b18b-47cc-b930-a5bb5059ca42/LOGO-DA-IGREJA.png"
       },
       "madeWith": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/a51c5033-3452-4222-a146-9c130855dad4"
+        "src": "https://data.decoassets.com/issacar/4a641fec-0451-4399-8d96-4800d275d5dd/Midia.png"
       }
     }
   ],
