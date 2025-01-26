@@ -212,78 +212,6 @@
       ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/flags/multivariate/section.ts",
-        "variants": [
-          {
-            "value": {
-              "__resolveType": "site/sections/IASection.tsx",
-              "title": "Destaques da Lojinha Issacar",
-              "buttonColor": "#326d26",
-              "buttonTitle": "Ver mais",
-              "products": [
-                {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
-                  "name": "Caneca - Flores ",
-                  "price": 57.85,
-                  "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/das-minhas-feridas-180423.html"
-                },
-                {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/36272508-4149-4bed-b8a0-b64c1ab9b4d5/mockup-(2).jpg",
-                  "name": "Caneca - Café Frases",
-                  "price": 57.85,
-                  "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/cafe-mateus-22-issacar-church-180420.html"
-                },
-                {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/f81bb569-acd3-4d63-8b48-03c1b3d12e1f/mockup.jpg",
-                  "name": "Caneca - Salmos 9:1",
-                  "price": 57.85,
-                  "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/salmos-91-de-todo-coracao-180555.html"
-                }
-              ],
-              "productsPerSlide": 1
-            },
-            "rule": {
-              "__resolveType": "Mobile"
-            }
-          },
-          {
-            "value": {
-              "__resolveType": "site/sections/IASection.tsx",
-              "title": "Destaques da Lojinha Issacar",
-              "buttonColor": "#326d26",
-              "buttonTitle": "Ver mais",
-              "products": [
-                {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/fed8470e-f2ac-44f8-a59a-0f7ecdc68808",
-                  "name": "Caneca - Flores ",
-                  "price": 57.85,
-                  "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/das-minhas-feridas-180423.html"
-                },
-                {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/36272508-4149-4bed-b8a0-b64c1ab9b4d5/mockup-(2).jpg",
-                  "name": "Caneca - Café Frases",
-                  "price": 57.85,
-                  "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/cafe-mateus-22-issacar-church-180420.html"
-                },
-                {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/issacar/f81bb569-acd3-4d63-8b48-03c1b3d12e1f/mockup.jpg",
-                  "name": "Caneca - Salmos 9:1",
-                  "price": 57.85,
-                  "purchaseUrl": "https://umapenca.com/lojinhaissacar/caneca/salmos-91-de-todo-coracao-180555.html"
-                }
-              ],
-              "productsPerSlide": 3
-            },
-            "rule": {
-              "__resolveType": "Desktop"
-            }
-          }
-        ]
-      }
-    },
-    {
       "__resolveType": "website/flags/multivariate/section.ts",
       "variants": [
         {
@@ -320,7 +248,7 @@
                 "text": "Clique aqui e baixe as imagens do culto "
               }
             ],
-            "placement": "right",
+            "placement": "left",
             "title": "Foi fotografado pela mídia?",
             "idcustom": "images"
           },
