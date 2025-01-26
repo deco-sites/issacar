@@ -131,7 +131,7 @@ export default function ProductShelfSlider({
                       Math.ceil(products.length / productsPerSlide)) %
                     Math.ceil(products.length / productsPerSlide)
                   }`}
-                  class="btn btn-circle"
+                  class="btn btn-circle btn-secondary"
                 >
                   ❮
                 </a>
@@ -140,7 +140,7 @@ export default function ProductShelfSlider({
                     (slideIndex + 1) %
                     Math.ceil(products.length / productsPerSlide)
                   }`}
-                  class="btn btn-circle"
+                  class="btn btn-circle btn-secondary" 
                 >
                   ❯
                 </a>
