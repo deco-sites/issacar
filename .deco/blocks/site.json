@@ -1,13 +1,13 @@
 {
   "seo": {
     "type": "website",
-    "title": "Issacar Church",
+    "title": "Issacar Church - Lugar de Adoração",
     "jsonLDs": [],
-    "noIndexing": true,
-    "titleTemplate": "Issacar Church  ",
+    "noIndexing": false,
+    "titleTemplate": "Issacar Church  - Lugar de Adoração",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/a7f636fe-39c9-426c-ad26-89d14102bf42",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/f4e5aa84-af8c-44df-afcd-85203067b7ff",
-    "description": "Lugar de adoração - Barretos SP",
+    "description": "Lugar de adoração - Barretos SP - Rua Santa Rita, 636, Barretos-SP",
     "descriptionTemplate": "%s"
   },
   "global": [
