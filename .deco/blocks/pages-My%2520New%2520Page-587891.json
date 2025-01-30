@@ -103,7 +103,11 @@
     }
   ],
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Retiro - Life's Hope",
+    "type": "website",
+    "description": "Dias 01 a 04 de Março",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12092/38b0eef8-edbf-4006-bd4a-f0926a0ae38a"
   },
   "__resolveType": "website/pages/Page.tsx",
   "name": "retiro"
