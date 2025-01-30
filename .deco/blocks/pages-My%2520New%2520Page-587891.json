@@ -78,6 +78,12 @@
             "id": "Cadastro",
             "href": "https://forms.gle/EsJv2MQ1NDoPQ1hE6",
             "text": "Fazer Insrição"
+          },
+          {
+            "style": "Outline",
+            "id": "comprovante",
+            "href": "https://wa.me/17981048717/?text=Olá+meu+nome+é+[Insira+seu+nome]+e+estou+enviando+o+comprovante+do+retiro",
+            "text": "Enviar comprovante"
           }
         ],
         "disableSpacing": {
