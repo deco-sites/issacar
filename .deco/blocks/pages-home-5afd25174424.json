@@ -5,56 +5,11 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Social.tsx",
-        "content": {
-          "items": [
-            {
-              "label": "Instagram",
-              "link": "https://www.instagram.com/issacar.church"
-            },
-            {
-              "label": "Facebook",
-              "link": "https://www.facebook.com/AssembleiadeDeusIssacarSedeBarretos?mibextid=JRoKGi"
-            }
-          ]
-        },
-        "vertical": false,
-        "position": "center"
+        "__resolveType": "SocialDefault"
       }
     },
     {
-      "__resolveType": "site/sections/Header.tsx",
-      "navigation": {
-        "links": [
-          {
-            "url": "#banners",
-            "label": "Avisos"
-          },
-          {
-            "label": "Como Contribuir",
-            "url": "/#contribute"
-          },
-          {
-            "label": "Nossos Cultos",
-            "url": "/#local"
-          },
-          {
-            "label": "Fotos do Culto",
-            "url": "/#images"
-          }
-        ],
-        "buttons": [
-          {
-            "id": "RIFA",
-            "href": "https://wa.me/17981048717?text=Quero+concorrer+ao+iphone+ou+pix",
-            "text": "Participar da ação entre amigos",
-            "outline": false
-          }
-        ]
-      },
-      "logo": {
-        "src": "https://data.decoassets.com/issacar/08fe739a-b18b-47cc-b930-a5bb5059ca42/LOGO-DA-IGREJA.png"
-      }
+      "__resolveType": "HeaderDefault"
     },
     {
       "__resolveType": "site/sections/Carousel.tsx",
@@ -262,30 +217,7 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Footer.tsx",
-      "links": [],
-      "bottomLinks": [],
-      "social": [
-        {
-          "network": "Instagram",
-          "href": "https://www.instagram.com/issacar.church/"
-        },
-        {
-          "network": "Facebook",
-          "href": "https://www.facebook.com/AssembleiadeDeusIssacarSedeBarretos?mibextid=JRoKGi"
-        }
-      ],
-      "subscribe": {
-        "title": "Issacar Church",
-        "description": "Site em construção",
-        "instructions": "<p>Site em evolução </p>"
-      },
-      "logo": {
-        "src": "https://data.decoassets.com/issacar/08fe739a-b18b-47cc-b930-a5bb5059ca42/LOGO-DA-IGREJA.png"
-      },
-      "madeWith": {
-        "src": "https://data.decoassets.com/issacar/4a641fec-0451-4399-8d96-4800d275d5dd/Midia.png"
-      }
+      "__resolveType": "FooterDefault"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

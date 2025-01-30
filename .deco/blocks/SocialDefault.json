@@ -1,0 +1,17 @@
+{
+  "__resolveType": "site/sections/Social.tsx",
+  "content": {
+    "items": [
+      {
+        "label": "Instagram",
+        "link": "https://www.instagram.com/issacar.church"
+      },
+      {
+        "label": "Facebook",
+        "link": "https://www.facebook.com/AssembleiadeDeusIssacarSedeBarretos?mibextid=JRoKGi"
+      }
+    ]
+  },
+  "vertical": false,
+  "position": "center"
+}

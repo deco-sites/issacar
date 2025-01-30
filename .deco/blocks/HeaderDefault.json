@@ -1,0 +1,34 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "url": "#banners",
+        "label": "Avisos"
+      },
+      {
+        "label": "Como Contribuir",
+        "url": "/#contribute"
+      },
+      {
+        "label": "Nossos Cultos",
+        "url": "/#local"
+      },
+      {
+        "label": "Fotos do Culto",
+        "url": "/#images"
+      }
+    ],
+    "buttons": [
+      {
+        "id": "RIFA",
+        "href": "https://wa.me/17981048717?text=Quero+concorrer+ao+iphone+ou+pix",
+        "text": "Participar da ação entre amigos",
+        "outline": false
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://data.decoassets.com/issacar/08fe739a-b18b-47cc-b930-a5bb5059ca42/LOGO-DA-IGREJA.png"
+  }
+}

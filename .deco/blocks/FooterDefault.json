@@ -1,0 +1,26 @@
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Instagram",
+      "href": "https://www.instagram.com/issacar.church/"
+    },
+    {
+      "network": "Facebook",
+      "href": "https://www.facebook.com/AssembleiadeDeusIssacarSedeBarretos?mibextid=JRoKGi"
+    }
+  ],
+  "subscribe": {
+    "title": "Issacar Church",
+    "description": "Site em construção",
+    "instructions": "<p>Site em evolução </p>"
+  },
+  "logo": {
+    "src": "https://data.decoassets.com/issacar/08fe739a-b18b-47cc-b930-a5bb5059ca42/LOGO-DA-IGREJA.png"
+  },
+  "madeWith": {
+    "src": "https://data.decoassets.com/issacar/4a641fec-0451-4399-8d96-4800d275d5dd/Midia.png"
+  }
+}

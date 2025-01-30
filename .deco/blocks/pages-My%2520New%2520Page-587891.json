@@ -4,6 +4,18 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "SocialDefault"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "HeaderDefault"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Hero.tsx",
         "title": "<p>Retiro Lifes's Hope </p>",
         "subtitle": "Onde adoração e diversão andam juntos na presença de Deus",
@@ -19,8 +31,8 @@
       "section": {
         "__resolveType": "site/sections/HeroNormal.tsx",
         "title": "<p>O que você vai precisar?</p><p></p>",
-        "cta": [],
-        "description": "Para participar do retiro Life's Hope, você vai precisar trazer itens essenciais como Bíblia, roupas confortáveis, itens de higiene pessoal, toalhas, roupa de cama, protetor solar e disposição para momentos de adoração e diversão. Não se esqueça de fazer sua inscrição através do formulário disponível."
+        "description": "Para participar do retiro Life's Hope, você vai precisar trazer itens essenciais como Bíblia, roupas confortáveis, itens de higiene pessoal, toalhas, roupa de cama, protetor solar e disposição para momentos de adoração e diversão. Não se esqueça de fazer sua inscrição através do formulário disponível.",
+        "cta": []
       }
     },
     {
@@ -52,6 +64,35 @@
           }
         ],
         "description": "Gincanas, festas, momentos de adoração e diversão em um ambiente cristão acolhedor"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "title": "Faça sua inscrição",
+        "description": "Para participar o do retiro Life's Hope, faça a sua inscrição no link abaixo, realize o pagamento da taxa de inscrição de R$150,00 e envie para o comprovante para (17) 981048717",
+        "cta": [
+          {
+            "style": "Outline",
+            "id": "Cadastro",
+            "href": "https://forms.gle/EsJv2MQ1NDoPQ1hE6",
+            "text": "Fazer Insrição"
+          }
+        ],
+        "disableSpacing": {
+          "top": true,
+          "bottom": true
+        },
+        "image": "https://data.decoassets.com/issacar/9c07411b-bb34-4c7b-a88d-ef7e8390e488/Unsplash-picture.jpg",
+        "tagline": " ",
+        "showImage": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "FooterDefault"
       }
     }
   ],
