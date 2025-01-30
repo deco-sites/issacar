@@ -1,0 +1,63 @@
+{
+  "path": "/retiro",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Retiro Lifes's Hope </p>",
+        "subtitle": "Onde adoração e diversão andam juntos na presença de Deus",
+        "ctaText": "Fazer Cadastro",
+        "ctaHref": "https://forms.gle/NHT7Ufj9aHkctFQg9",
+        "ctaActive": true,
+        "textColor": "#FFFFFF",
+        "backgroundImage": "https://data.decoassets.com/issacar/8fa68b21-970b-4674-9b99-4b34933ed087/Unsplash-picture.jpg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/HeroNormal.tsx",
+        "title": "<p>O que você vai precisar?</p><p></p>",
+        "cta": [],
+        "description": "Para participar do retiro Life's Hope, você vai precisar trazer itens essenciais como Bíblia, roupas confortáveis, itens de higiene pessoal, toalhas, roupa de cama, protetor solar e disposição para momentos de adoração e diversão. Não se esqueça de fazer sua inscrição através do formulário disponível."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BlogPosts.tsx",
+        "title": "O que teremos de especial?",
+        "posts": [
+          {
+            "tags": [],
+            "title": "Gincanas bíblicas",
+            "excerpt": "Muita diversão com nossas gincanas",
+            "image": "https://data.decoassets.com/issacar/0d182c78-ada0-4dc2-afd1-93886c39dc0d/Unsplash-picture.jpg",
+            "author": "-"
+          },
+          {
+            "tags": [],
+            "title": "Festas temáticas",
+            "excerpt": "Festas temáticas recheadas de diversão, e alegria no Senhor ",
+            "image": "https://data.decoassets.com/issacar/ca98aa3b-9836-4e12-afb1-3bb787b0303a/Unsplash-picture.jpg",
+            "author": "-"
+          },
+          {
+            "tags": [],
+            "title": "Adoração e Meditação",
+            "author": "-",
+            "excerpt": "Momentos especiais de adoração, meditação e conexão espiritual durante o retiro",
+            "image": "https://data.decoassets.com/issacar/c2fc4723-73fd-4ee3-94b6-d8e57545c32c/Unsplash-picture.jpg"
+          }
+        ],
+        "description": "Gincanas, festas, momentos de adoração e diversão em um ambiente cristão acolhedor"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "retiro"
+}
