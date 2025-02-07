@@ -18,6 +18,14 @@ const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
   altText: "Logo",
 }));
 
+export const LoadingFallback = () => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
 export default function Logos({
   title = "Edit this heading however you want",
   logos = IMG_PLACEHODLER,
@@ -30,7 +38,7 @@ export default function Logos({
             src={logo.src || ""}
             alt={logo.altText || ""}
             width={110}
-            height={25}
+            height={60}
           />
         );
       })}

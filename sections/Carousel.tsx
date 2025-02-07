@@ -46,6 +46,14 @@ export interface Props {
   interval?: number;
 }
 
+export const LoadingFallback = () => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
 function BannerItem(
   { image, lcp }: { image: Banner; lcp?: boolean },
 ) {

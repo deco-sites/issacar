@@ -18,6 +18,15 @@ export interface Props {
   questions?: Question[];
 }
 
+
+export const LoadingFallback = () => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
 export default function BlogPosts({
   title = "FAQs",
   description =

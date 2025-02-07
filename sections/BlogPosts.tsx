@@ -17,6 +17,14 @@ export interface Props {
   posts?: Post[];
 }
 
+export const LoadingFallback = () => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
 const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
 

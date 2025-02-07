@@ -36,6 +36,25 @@ const PLACEMENT = {
   bottom: "flex-col-reverse md:flex-col-reverse sm:flex-col-reverse",
 };
 
+export const LoadingFallback = (props: Props) => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
+export function ErrorFallback({ error = { name: "Error", message: "Unknown error" } }: { error?: Error }) {
+  // Your error handling logic goes here
+  // You can display an error message, log the error, or render a fallback UI
+  return (
+    <div>
+      <h2>Oops! Something went wrong.</h2>
+      <p>{error.message}</p>
+    </div>
+  );
+};
+
 const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
 

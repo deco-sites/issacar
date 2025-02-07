@@ -9,6 +9,15 @@ interface Props {
   color?: string;
 }
 
+export const LoadingFallback = () => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
+
 export default function Section({ name = "Capy", color = "green" }: Props) {
   return (
     <div class={"bg-" + color + "-200 p-8 rounded-md shadow-md text-white"}>

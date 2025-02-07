@@ -28,6 +28,15 @@ const PLACEMENT = {
   right: "flex-col text-left lg:flex-row",
 };
 
+export const LoadingFallback = () => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
+
 export default function HeroFlats({
   title = "Click here to tweak this text however you want.",
   description =

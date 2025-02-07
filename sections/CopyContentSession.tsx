@@ -19,6 +19,14 @@ export interface Props {
   buttonTextValue?: string;
 }
 
+export const LoadingFallback = () => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
 export default function Copy({
   contentCopy = "",
   backgroundColor = "#f3f4f6",

@@ -23,6 +23,15 @@ export interface Social {
   href: string;
 }
 
+export const LoadingFallback = () => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
+
 export interface Props {
   logo?: {
     src?: ImageWidget;

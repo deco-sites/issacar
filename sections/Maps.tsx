@@ -30,6 +30,15 @@ const PLACEMENT = {
   bottom: "flex-col-reverse md:flex-col-reverse sm:flex-col-reverse",
 };
 
+export const LoadingFallback = () => {
+  return (
+   <div style={{ height: "716px" }} class="flex justify-center items-center">
+     <span class="loading loading-spinner" />
+   </div>
+  );
+};
+
+
 export default function Maps({
   title = "Here's an intermediate size heading you can edit",
   description =
