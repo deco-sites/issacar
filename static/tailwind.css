@@ -2917,9 +2917,6 @@ input.tab:checked + .tab-content,
 .aspect-\[156\/87\] {
   aspect-ratio: 156/87;
 }
-.h-11 {
-  height: 2.75rem;
-}
 .h-12 {
   height: 3rem;
 }
@@ -2949,6 +2946,9 @@ input.tab:checked + .tab-content,
 }
 .h-\[3px\] {
   height: 3px;
+}
+.h-\[4rem\] {
+  height: 4rem;
 }
 .h-auto {
   height: auto;
