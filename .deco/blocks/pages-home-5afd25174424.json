@@ -171,18 +171,6 @@
       ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Logos.tsx",
-        "title": "Nossos Ministérios",
-        "logos": [
-          {
-            "src": "https://data.decoassets.com/issacar/4ab43708-29c7-450c-ad71-3880a1c365b8/1.png"
-          }
-        ]
-      }
-    },
-    {
       "__resolveType": "website/flags/multivariate/section.ts",
       "variants": [
         {
