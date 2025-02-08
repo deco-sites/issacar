@@ -20,7 +20,7 @@ import * as $$$$$$6 from "./sections/Hero.tsx";
 import * as $$$$$$20 from "./sections/hero2.tsx";
 import * as $$$$$$7 from "./sections/HeroNormal.tsx";
 import * as $$$$$$8 from "./sections/IASection.tsx";
-import * as $$$$$$9 from "./sections/ImageGallery.tsx";
+import * as $$$$$$9 from "./sections/ImageGalleryView.tsx";
 import * as $$$$$$10 from "./sections/ImageSlider2.tsx";
 import * as $$$$$$11 from "./sections/ImageSlider3.tsx";
 import * as $$$$$$12 from "./sections/ImageWithParagraph.tsx";
@@ -44,7 +44,7 @@ const manifest = {
     "site/sections/hero2.tsx": $$$$$$20,
     "site/sections/HeroNormal.tsx": $$$$$$7,
     "site/sections/IASection.tsx": $$$$$$8,
-    "site/sections/ImageGallery.tsx": $$$$$$9,
+    "site/sections/ImageGalleryView.tsx": $$$$$$9,
     "site/sections/ImageSlider2.tsx": $$$$$$10,
     "site/sections/ImageSlider3.tsx": $$$$$$11,
     "site/sections/ImageWithParagraph.tsx": $$$$$$12,

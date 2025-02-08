@@ -171,6 +171,13 @@
       ]
     },
     {
+      "__resolveType": "site/sections/ImageGalleryView.tsx",
+      "folderId": "1hFavv6XYP__GlsktzoNhrIM6H4TujhxZ",
+      "accessToken": "AIzaSyARuLcgh_9_DwywPJlez4A-l0Zg4XJZ6wo",
+      "maxImages": 10,
+      "displayStyle": "grid"
+    },
+    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Logos.tsx",
