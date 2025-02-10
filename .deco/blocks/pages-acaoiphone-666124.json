@@ -15,9 +15,9 @@
         "title": "<p>Já imaginou...</p><p></p>",
         "subtitle": "Receber um iphone novinho, ou ao valor em dinheiro no pix?",
         "ctaText": "Quero Agora",
-        "ctaHref": "/#cta",
         "ctaActive": true,
-        "backgroundImage": "https://data.decoassets.com/issacar/ce7a4a3f-e8da-4470-a558-6999e8fbc8c7/Unsplash-picture.jpg"
+        "backgroundImage": "https://data.decoassets.com/issacar/ce7a4a3f-e8da-4470-a558-6999e8fbc8c7/Unsplash-picture.jpg",
+        "ctaHref": "#cta"
       }
     },
     {
@@ -111,24 +111,61 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "title": "Vai ficar de fora dessa?",
-        "description": "Clique no link e fale com um de nossos obreiros para adquirir seus números e contribuir",
-        "tagline": " ",
-        "image": "https://data.decoassets.com/issacar/e0c14248-f014-4efb-a508-bcb4a3eae177/Unsplash-picture.jpg",
-        "cta": [
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
           {
-            "style": "Outline",
-            "href": "https://wa.me/17981048717/?text=Quero+concorrer+ao+iphone14+ou+pix+na+conta",
-            "text": "Falar com Voluntário"
+            "value": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "title": "Vai ficar de fora dessa?",
+              "description": "Clique no link e fale com um de nossos obreiros para adquirir seus números e contribuir",
+              "tagline": " ",
+              "image": "https://data.decoassets.com/issacar/e0c14248-f014-4efb-a508-bcb4a3eae177/Unsplash-picture.jpg",
+              "cta": [
+                {
+                  "style": "Outline",
+                  "href": "https://wa.me/17981048717/?text=Quero+concorrer+ao+iphone14+ou+pix+na+conta",
+                  "text": "Falar com Voluntário"
+                }
+              ],
+              "disableSpacing": {
+                "top": true,
+                "bottom": true
+              },
+              "placement": "bottom",
+              "idcustom": "cta"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/device.ts",
+              "mobile": true,
+              "tablet": true
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "title": "Vai ficar de fora dessa?",
+              "description": "Clique no link e fale com um de nossos obreiros para adquirir seus números e contribuir",
+              "tagline": " ",
+              "image": "https://data.decoassets.com/issacar/e0c14248-f014-4efb-a508-bcb4a3eae177/Unsplash-picture.jpg",
+              "cta": [
+                {
+                  "style": "Outline",
+                  "href": "https://wa.me/17981048717/?text=Quero+concorrer+ao+iphone14+ou+pix+na+conta",
+                  "text": "Falar com Voluntário"
+                }
+              ],
+              "disableSpacing": {
+                "top": true,
+                "bottom": true
+              },
+              "placement": "right",
+              "idcustom": "cta"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/always.ts"
+            }
           }
-        ],
-        "disableSpacing": {
-          "top": true,
-          "bottom": true
-        },
-        "placement": "bottom",
-        "idcustom": "cta"
+        ]
       }
     },
     {
