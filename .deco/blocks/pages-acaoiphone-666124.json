@@ -34,7 +34,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/BlogPosts.tsx",
-        "title": "Caso ganhe você poderá escolher",
+        "title": "Caso ganhe você poderá escolher entre",
         "description": " ",
         "posts": [
           {
@@ -90,7 +90,7 @@
               "showImage": true,
               "image": "https://data.decoassets.com/issacar/f9b24526-1e85-4f23-93ee-f804f60e2875/Unsplash-picture.jpg",
               "title": "O Sorteio ocorrerá no dia 04/03",
-              "description": "E será transmitido ao vivo pelo instagram @issacar.curch",
+              "description": "E será transmitido ao vivo pelo instagram @issacar.church",
               "tagline": " ",
               "placement": "left",
               "cta": [
@@ -144,7 +144,7 @@
             "value": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
               "title": "Vai ficar de fora dessa?",
-              "description": "Clique no link e fale com um de nossos obreiros para adquirir seus números e contribuir",
+              "description": "Clique no link e fale com um de nossos voluntários para adquirir seus números e contribuir",
               "tagline": " ",
               "image": "https://data.decoassets.com/issacar/e0c14248-f014-4efb-a508-bcb4a3eae177/Unsplash-picture.jpg",
               "cta": [
