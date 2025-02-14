@@ -51,7 +51,7 @@ export default function Logos({
       <div class="flex flex-col gap-12">
         <p class="text-center text-4xl">{title}</p>
         <div class="relative w-full overflow-hidden h-[4rem]">
-          <div class={`${animate?"animate-sliding":"justify-center"} absolute top-0 ${animate?"":"left-0"} flex flex-nowrap h-full`}>
+          <div class={`${animate?"animate-sliding":"justify-center"} absolute top-0 ${animate?"":"left-0"} flex ${animate?"flex-nowrap":""} h-full`}>
             {slideContent}
           </div>
         </div>
