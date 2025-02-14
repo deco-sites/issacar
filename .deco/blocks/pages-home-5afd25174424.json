@@ -171,6 +171,40 @@
       ]
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/hero-1.tsx",
+        "backgroundColor": "#000000",
+        "title": "Conheça Nossos Ministérios",
+        "images": [
+          {
+            "image": "https://data.decoassets.com/issacar/cbb76d96-b167-44e0-a718-d97c05cd1f6a/5.png",
+            "alt": "Issacar Kids"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/b7e21373-1de2-445f-89c9-8aee58c97532/4.png",
+            "alt": "Unidas"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/4ab43708-29c7-450c-ad71-3880a1c365b8/1.png",
+            "alt": "Lifeshope"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/b2a4ae28-885e-499d-bebc-eb7a314ed6a7/2.png",
+            "alt": "Homens com propósito"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/fcf1b3ad-b8c8-4304-9cda-a5f174c03f35/3.png",
+            "alt": "Mídia"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/c1bbb4c1-3f69-476d-9e42-8e6c0a8b8923/logo.png",
+            "alt": "asafe"
+          }
+        ]
+      }
+    },
+    {
       "__resolveType": "site/sections/ImageGalleryView.tsx",
       "folderId": "1hFavv6XYP__GlsktzoNhrIM6H4TujhxZ",
       "accessToken": "AIzaSyARuLcgh_9_DwywPJlez4A-l0Zg4XJZ6wo",
