@@ -60,7 +60,7 @@ export default function ImageGallery({
             <img
               src={item.image}
               alt={item.alt}
-              class="w-full h-64 object-cover rounded-lg shadow-md"
+              class="w-auto h-auto  shadow-md"
             />
           </div>
         ))}
