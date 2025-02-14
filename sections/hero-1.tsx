@@ -12,7 +12,7 @@ interface Props {
   images?: ImageItem[];
   /**
    * @description Title of the gallery
-   * @format rich-text
+   * @format string
    */
   title?: string;
   /**
