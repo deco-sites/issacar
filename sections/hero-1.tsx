@@ -62,13 +62,6 @@ export default function ImageGallery({
               alt={item.alt}
               class="w-full h-64 object-cover rounded-lg shadow-md"
             />
-            <a
-              href={item.image}
-              download
-              class="mt-4 btn btn-primary"
-            >
-              Download
-            </a>
           </div>
         ))}
       </div>
