@@ -13,7 +13,7 @@ export interface SocialItem {
 
 export const LoadingFallback = () => {
   return (
-   <div style={{ height: "716px" }} class="flex justify-center items-center">
+   <div style={{ height: "60px" }} class="flex justify-center items-center">
      <span class="loading loading-spinner" />
    </div>
   );
