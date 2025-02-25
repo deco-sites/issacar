@@ -2929,6 +2929,9 @@ input.tab:checked + .tab-content,
 .h-3 {
   height: 0.75rem;
 }
+.h-4 {
+  height: 1rem;
+}
 .h-48 {
   height: 12rem;
 }
@@ -3001,6 +3004,9 @@ input.tab:checked + .tab-content,
 .min-h-min {
   min-height: -moz-min-content;
   min-height: min-content;
+}
+.w-0 {
+  width: 0px;
 }
 .w-12 {
   width: 3rem;
@@ -3077,6 +3083,9 @@ input.tab:checked + .tab-content,
 }
 .min-w-\[4px\] {
   min-width: 4px;
+}
+.max-w-2xl {
+  max-width: 42rem;
 }
 .max-w-6xl {
   max-width: 72rem;
@@ -3455,6 +3464,14 @@ input.tab:checked + .tab-content,
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
@@ -3532,6 +3549,10 @@ input.tab:checked + .tab-content,
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .px-60 {
   padding-left: 15rem;
@@ -3959,6 +3980,10 @@ input.tab:checked + .tab-content,
       max-width: 1536px;
     }
   }
+}
+.hover\:bg-blue-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
