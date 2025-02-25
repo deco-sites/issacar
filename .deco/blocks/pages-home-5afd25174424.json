@@ -12,26 +12,42 @@
       "__resolveType": "HeaderDefault"
     },
     {
-      "__resolveType": "site/sections/Carousel.tsx",
-      "images": [
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rifometer.tsx",
+        "title": "Rifômetro",
+        "description": "Este é o percentual de rifas já atingido para o sorteio esse valor é atualizado diariamente",
+        "buttonLink": "/acaoiphone",
+        "buttonText": "Comprar uma Rifa",
+        "targetValue": 8001,
+        "currentValue": 1400
+      }
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
         {
-          "desktop": "https://data.decoassets.com/issacar/ec0d71ab-07da-4782-9e01-f9666c81af76/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px).png",
-          "mobile": "https://data.decoassets.com/issacar/fe8884ab-fbce-4081-a8fd-8efeff913acc/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px)-(412-x-660-px).png",
-          "alt": "Sorteio"
-        },
-        {
-          "desktop": "https://data.decoassets.com/issacar/3481b866-d769-4a06-bce1-fc9737d897f1/Esperanca-(1440-x-600-px).png",
-          "mobile": "https://data.decoassets.com/issacar/bb5d55d5-5f42-4eb5-8802-ee06e9e5eb99/Esperanca-(412-x-660-px).png",
-          "alt": "Esperança"
-        },
-        {
-          "desktop": "https://data.decoassets.com/issacar/3648a7cc-fb54-4bd3-aa3e-cf9dcdd1774a/Esperanca-(1440-x-600-px)-(1).png",
-          "mobile": "https://data.decoassets.com/issacar/18851408-f924-4c06-925a-78cb36e9ca61/Esperanca-(412-x-660-px)-(1).png",
-          "alt": "Quinta-Profética"
+          "value": {
+            "__resolveType": "site/sections/Carousel.tsx",
+            "images": [
+              {
+                "desktop": "https://data.decoassets.com/issacar/7fb11a2b-60a8-49a9-ba13-4fdc661d8917/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px)-(412-x-660-px)-(1440-x-600-px).png",
+                "mobile": "https://data.decoassets.com/issacar/da5d5ca7-8000-46a3-a092-fbbf15cd3aab/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px)-(412-x-660-px)-(412-x-660-px).png",
+                "alt": "Sorteio",
+                "action": {
+                  "href": "/acaoiphone",
+                  "label": "Participar"
+                }
+              }
+            ],
+            "preload": false,
+            "interval": 5
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
         }
-      ],
-      "interval": 5,
-      "preload": false
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
