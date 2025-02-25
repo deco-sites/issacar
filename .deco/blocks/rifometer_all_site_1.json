@@ -1,9 +1,0 @@
-{
-  "__resolveType": "site/sections/Rifometer.tsx",
-  "title": "Rifômetro",
-  "description": "Esse é o percentual de rifas vendidas até o momento o valor é atualizado diariamente",
-  "targetValue": 8000,
-  "currentValue": 1400,
-  "buttonLink": "/acaoiphone",
-  "buttonText": "Comprar uma rifa"
-}
