@@ -78,7 +78,7 @@ export default function ProgressBar(props: Props) {
           const percentage = Math.min(Math.round((current / target) * 100), 100);
           const progressBar = document.getElementById("progress-bar");
           const progressText = document.getElementById("progress-text");
-
+        
           if (progressBar && progressText) {
             progressBar.style.width = `${percentage}%`;
             progressText.textContent = `Faltam ${100 - percentage}% para atingir o valor total`;

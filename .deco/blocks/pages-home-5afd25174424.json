@@ -12,18 +12,6 @@
       "__resolveType": "HeaderDefault"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Rifometer.tsx",
-        "title": "Rifômetro",
-        "description": "Este é o percentual de rifas já atingido para o sorteio esse valor é atualizado diariamente",
-        "buttonLink": "/acaoiphone",
-        "buttonText": "Comprar uma Rifa",
-        "targetValue": 8001,
-        "currentValue": 1400
-      }
-    },
-    {
       "__resolveType": "website/flags/multivariate/section.ts",
       "variants": [
         {
