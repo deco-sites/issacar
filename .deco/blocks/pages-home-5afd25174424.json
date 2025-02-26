@@ -9,6 +9,18 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/RifometerSession.tsx",
+        "targetValue": 8000,
+        "currentValue": 1400,
+        "title": "Rifômetro",
+        "description": "Este é o percentual de rifas já atingido para o sorteio esse valor é atualizado diariamente",
+        "buttonLink": "/acaoiphone",
+        "buttonText": "Comprar"
+      }
+    },
+    {
       "__resolveType": "HeaderDefault"
     },
     {
@@ -207,13 +219,6 @@
           }
         ]
       }
-    },
-    {
-      "__resolveType": "site/sections/ImageGalleryView.tsx",
-      "folderId": "1hFavv6XYP__GlsktzoNhrIM6H4TujhxZ",
-      "accessToken": "AIzaSyARuLcgh_9_DwywPJlez4A-l0Zg4XJZ6wo",
-      "maxImages": 10,
-      "displayStyle": "grid"
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",

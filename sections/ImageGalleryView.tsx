@@ -1,16 +1,12 @@
 import ImageGalleryList from "site/islands/ImageGallery.tsx";
 
-interface Props {
-    folderId: string;
-    accessToken: string;
-    maxImages?: number;
-    displayStyle?: "grid" | "list";
-  }
+export interface Props {
+  folderId?: string;
+  pageSize?: number;
+}
 export default function ImageGalleryView({
     folderId = "mock-folder-id",
-    accessToken = "mock-access-token",
-    maxImages = 10,
-    displayStyle = "grid",
+  pageSize = 10,
 }: Props) {
    
   return (

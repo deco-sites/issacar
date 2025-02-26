@@ -5,6 +5,7 @@
 import * as $_app from "./routes/_app.tsx";
 import * as $CopyContent from "./islands/CopyContent.tsx";
 import * as $ImageGallery from "./islands/ImageGallery.tsx";
+import * as $Rifometer from "./islands/Rifometer.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -14,6 +15,7 @@ const manifest = {
   islands: {
     "./islands/CopyContent.tsx": $CopyContent,
     "./islands/ImageGallery.tsx": $ImageGallery,
+    "./islands/Rifometer.tsx": $Rifometer,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

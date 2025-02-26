@@ -8,6 +8,7 @@ import * as $$$$$$$$$$$2 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$3 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$4 from "./apps/deco/records.ts";
 import * as $$$$$$$$$$$5 from "./apps/site.ts";
+import * as $$$0 from "./loaders/DriveLoader.ts";
 import * as $$$$$$0 from "./sections/BlogPosts.tsx";
 import * as $$$$$$1 from "./sections/Carousel.tsx";
 import * as $$$$$$2 from "./sections/CopyContentSession.tsx";
@@ -26,12 +27,15 @@ import * as $$$$$$11 from "./sections/ImageSlider3.tsx";
 import * as $$$$$$12 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$13 from "./sections/Logos.tsx";
 import * as $$$$$$14 from "./sections/Maps.tsx";
-import * as $$$$$$15 from "./sections/Rifometer.tsx";
+import * as $$$$$$15 from "./sections/RifometerSession.tsx";
 import * as $$$$$$16 from "./sections/Social.tsx";
 import * as $$$$$$17 from "./sections/Testimonials.tsx";
 import * as $$$$$$18 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/DriveLoader.ts": $$$0,
+  },
   "sections": {
     "site/sections/BlogPosts.tsx": $$$$$$0,
     "site/sections/Carousel.tsx": $$$$$$1,
@@ -51,7 +55,7 @@ const manifest = {
     "site/sections/ImageWithParagraph.tsx": $$$$$$12,
     "site/sections/Logos.tsx": $$$$$$13,
     "site/sections/Maps.tsx": $$$$$$14,
-    "site/sections/Rifometer.tsx": $$$$$$15,
+    "site/sections/RifometerSession.tsx": $$$$$$15,
     "site/sections/Social.tsx": $$$$$$16,
     "site/sections/Testimonials.tsx": $$$$$$17,
     "site/sections/Theme/Theme.tsx": $$$$$$18,
