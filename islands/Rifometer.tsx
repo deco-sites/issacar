@@ -73,7 +73,7 @@ export default function ProgressBar({
 
       <p id="progress-text" className="text-lg mb-8"></p>
 
-      <a href={buttonLink} className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+      <a href={buttonLink} className="bg-blue-600 text-white px-6 py-2  hover:bg-blue-700">
         {buttonText}
       </a>
     </div>
