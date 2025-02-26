@@ -11,6 +11,18 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/RifometerSession.tsx",
+        "title": "Rifômetro",
+        "description": "Este é o percentual de rifas já atingido para o sorteio da rifa, esse valor é atualizado diariamente",
+        "targetValue": 8000,
+        "currentValue": 1400,
+        "buttonLink": "/#cta",
+        "buttonText": "Comprar Rifa"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Hero.tsx",
         "title": "<p>Já imaginou...</p><p></p>",
         "subtitle": "Receber um iphone novinho, ou ao valor em dinheiro no pix?",
@@ -24,8 +36,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/HeroNormal.tsx",
-        "title": "<p>Contribua para o Retiro Issacar</p>",
-        "description": "Ao participar dessa ação,você estará contribuindo para a realização do retiro espíritual de carnaval  para os jovens da Issacar church",
+        "title": "<p>Contribua para as ações da Juventude Issacar</p>",
+        "description": "Ao participar dessa ação,você estará contribuindo para a realização do retiro espíritual de carnaval, e da conferência Louvor e Adoração que ocorrerá em Julho,  para os jovens da Issacar church",
         "cta": [],
         "image": "https://data.decoassets.com/issacar/8fa68b21-970b-4674-9b99-4b34933ed087/Unsplash-picture.jpg"
       }
@@ -64,19 +76,19 @@
           {
             "value": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "showImage": true,
-              "image": "https://data.decoassets.com/issacar/f9b24526-1e85-4f23-93ee-f804f60e2875/Unsplash-picture.jpg",
               "title": "O Sorteio ocorrerá no dia 04/03",
               "description": "E será transmitido ao vivo pelo instagram @issacar.church",
               "tagline": " ",
-              "placement": "bottom",
+              "image": "https://data.decoassets.com/issacar/f9b24526-1e85-4f23-93ee-f804f60e2875/Unsplash-picture.jpg",
               "cta": [
                 {
                   "style": "Outline",
-                  "text": "LINK DO INSTAGRAM",
-                  "href": "https://www.instagram.com/issacar.church#"
+                  "href": "https://www.instagram.com/issacar.church#",
+                  "text": "LINK DO INSTAGRAM"
                 }
-              ]
+              ],
+              "placement": "bottom",
+              "showImage": true
             },
             "rule": {
               "__resolveType": "website/matchers/device.ts",
@@ -87,19 +99,19 @@
           {
             "value": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "showImage": true,
-              "image": "https://data.decoassets.com/issacar/f9b24526-1e85-4f23-93ee-f804f60e2875/Unsplash-picture.jpg",
               "title": "O Sorteio ocorrerá no dia 04/03",
               "description": "E será transmitido ao vivo pelo instagram @issacar.church",
               "tagline": " ",
-              "placement": "left",
+              "image": "https://data.decoassets.com/issacar/f9b24526-1e85-4f23-93ee-f804f60e2875/Unsplash-picture.jpg",
               "cta": [
                 {
                   "style": "Outline",
-                  "text": "LINK DO INSTAGRAM",
-                  "href": "https://www.instagram.com/issacar.church#"
+                  "href": "https://www.instagram.com/issacar.church#",
+                  "text": "LINK DO INSTAGRAM"
                 }
-              ]
+              ],
+              "placement": "left",
+              "showImage": true
             },
             "rule": {
               "__resolveType": "website/matchers/always.ts"

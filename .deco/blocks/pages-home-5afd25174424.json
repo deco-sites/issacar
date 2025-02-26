@@ -9,6 +9,9 @@
       }
     },
     {
+      "__resolveType": "HeaderDefault"
+    },
+    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/RifometerSession.tsx",
@@ -19,9 +22,6 @@
         "buttonLink": "/acaoiphone",
         "buttonText": "Comprar"
       }
-    },
-    {
-      "__resolveType": "HeaderDefault"
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",
