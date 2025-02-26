@@ -48,9 +48,9 @@ export interface Props {
 
 export const LoadingFallback = () => {
   return (
-   <div style={{ height: "716px" }} class="flex justify-center items-center">
-     <span class="loading loading-spinner" />
-   </div>
+    <div style={{ height: "716px" }} class="flex justify-center items-center">
+      <span class="loading loading-spinner" />
+    </div>
   );
 };
 
@@ -136,67 +136,67 @@ function Carousel({ images = [], preload, interval }: Props) {
 
   return (
     <nav id="banners">
-    <div
-      id={id}
-      class={clx(
-        "grid",
-        "grid-rows-[1fr_32px_1fr_64px]",
-        "grid-cols-[32px_1fr_32px] min-h-[660px]",
-        "sm:grid-cols-[112px_1fr_112px] sm:min-h-min",
-        "w-screen",
-      )}
-    >
-      <div class="col-span-full row-span-full">
-      <Slider class="carousel carousel-center w-full gap-6">
-          {images.map((image, index) => (
-            <Slider.Item index={index} class="carousel-item w-full">
-              <BannerItem image={image} lcp={index === 0 && preload} />
-            </Slider.Item>
-          ))}
-        </Slider>
-      </div>
-
-      <div class="hidden sm:flex items-center justify-center z-10 col-start-1 row-start-2">
-        <Slider.PrevButton
-          class="btn btn-neutral btn-outline btn-circle no-animation btn-sm relative rotate-180"
-          disabled={false}
-        >
-          <Icon id="ChevronRight" />
-        </Slider.PrevButton>
-      </div>
-
-      <div class="hidden sm:flex items-center justify-center z-10 col-start-3 row-start-2">
-        <Slider.NextButton
-          class="btn btn-neutral btn-outline btn-circle no-animation btn-sm relative"
-          disabled={false}
-        >
-          <Icon id="ChevronRight" />
-        </Slider.NextButton>
-      </div>
-
-      <ul
+      <div
+        id={id}
         class={clx(
-          "col-span-full row-start-4 z-10",
-          "carousel justify-center gap-3",
+          "grid",
+          "grid-rows-[1fr_32px_1fr_64px]",
+          "grid-cols-[32px_1fr_32px] min-h-[660px]",
+          "sm:grid-cols-[112px_1fr_112px] sm:min-h-min",
+          "w-screen",
         )}
       >
-        {images.map((_, index) => (
-          <li class="carousel-item">
-            <Slider.Dot
-              index={index}
-              class={clx(
-                "bg-white opacity-20 h-3 w-3 no-animation rounded-full",
-                "disabled:w-8 disabled:bg-base-100 disabled:opacity-100 transition-[width]",
-              )}
-            >
-            </Slider.Dot>
-          </li>
-        ))}
-      </ul>
+        <div class="col-span-full row-span-full">
+          <Slider class="carousel carousel-center w-full gap-6">
+            {images.map((image, index) => (
+              <Slider.Item index={index} class="carousel-item w-full">
+                <BannerItem image={image} lcp={index === 0 && preload} />
+              </Slider.Item>
+            ))}
+          </Slider>
+        </div>
 
-      <Slider.JS rootId={id} interval={interval && interval * 1e3} infinite />
-    </div>
-  </nav>
+        <div class="hidden sm:flex items-center justify-center z-10 col-start-1 row-start-2">
+          <Slider.PrevButton
+            class="btn btn-neutral btn-outline btn-circle no-animation btn-sm relative rotate-180"
+            disabled={false}
+          >
+            <Icon id="ChevronRight" />
+          </Slider.PrevButton>
+        </div>
+
+        <div class="hidden sm:flex items-center justify-center z-10 col-start-3 row-start-2">
+          <Slider.NextButton
+            class="btn btn-neutral btn-outline btn-circle no-animation btn-sm relative"
+            disabled={false}
+          >
+            <Icon id="ChevronRight" />
+          </Slider.NextButton>
+        </div>
+
+        <ul
+          class={clx(
+            "col-span-full row-start-4 z-10",
+            "carousel justify-center gap-3",
+          )}
+        >
+          {images.map((_, index) => (
+            <li class="carousel-item">
+              <Slider.Dot
+                index={index}
+                class={clx(
+                  "bg-white opacity-20 h-3 w-3 no-animation rounded-full",
+                  "disabled:w-8 disabled:bg-base-100 disabled:opacity-100 transition-[width]",
+                )}
+              >
+              </Slider.Dot>
+            </li>
+          ))}
+        </ul>
+
+        <Slider.JS rootId={id} interval={interval && interval * 1e3} infinite />
+      </div>
+    </nav>
   );
 }
 

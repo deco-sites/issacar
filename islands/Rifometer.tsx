@@ -36,7 +36,7 @@ const defaultProps: Props = {
   targetValue: 1000,
   currentValue: 900,
   buttonLink: "#",
-  buttonText: "Call to action"
+  buttonText: "Call to action",
 };
 
 export default function ProgressBar({
@@ -47,16 +47,20 @@ export default function ProgressBar({
   buttonLink = defaultProps.buttonLink,
   buttonText = defaultProps.buttonText,
 }: Props) {
-
   useEffect(() => {
     if (!currentValue || !targetValue) return;
-    const percentage = Math.min(Math.round((currentValue / targetValue) * 100), 100);
+    const percentage = Math.min(
+      Math.round((currentValue / targetValue) * 100),
+      100,
+    );
     const progressBar = document.getElementById("progress-bar");
     const progressText = document.getElementById("progress-text");
 
     if (progressBar && progressText) {
       progressBar.style.width = `${percentage}%`;
-      progressText.textContent = `Faltam ${100 - percentage}% para atingir o valor total`;
+      progressText.textContent = `Faltam ${
+        100 - percentage
+      }% para atingir o valor total`;
     } else {
       console.error("ProgressBar not found");
     }
@@ -68,12 +72,16 @@ export default function ProgressBar({
       <p className="text-lg mb-8 text-center">{description}</p>
 
       <div className="w-full bg-gray-200 rounded-full h-4 mb-4">
-        <div id="progress-bar" className="bg-blue-600 h-4 rounded-full w-0"></div>
+        <div id="progress-bar" className="bg-blue-600 h-4 rounded-full w-0">
+        </div>
       </div>
 
       <p id="progress-text" className="text-lg mb-8"></p>
 
-      <a href={buttonLink} className="bg-blue-600 text-white px-6 py-2  hover:bg-blue-700">
+      <a
+        href={buttonLink}
+        className="bg-blue-600 text-white px-6 py-2  hover:bg-blue-700"
+      >
         {buttonText}
       </a>
     </div>

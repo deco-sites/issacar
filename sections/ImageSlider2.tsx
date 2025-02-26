@@ -48,10 +48,12 @@ export default function ImageSlider(props: Props) {
             ({ interval }: { interval: number }) => {
               const container = document.getElementById("slider-container");
               let currentSlide = 0;
-              
+
               setInterval(() => {
                 currentSlide = (currentSlide + 1) % container.children.length;
-                container.style.transform = `translateX(-${currentSlide * 100}%)`;
+                container.style.transform = `translateX(-${
+                  currentSlide * 100
+                }%)`;
               }, interval);
             },
             { interval },

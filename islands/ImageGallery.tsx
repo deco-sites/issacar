@@ -1,4 +1,3 @@
-
 import Image from "apps/website/components/Image.tsx";
 
 interface DriveFile {
@@ -9,12 +8,10 @@ interface DriveFile {
 }
 
 interface Props {
-
   files?: DriveFile[];
 
   displayStyle?: "grid" | "list";
 }
-
 
 export default function ImageGalleryList(props: Props) {
   const {
@@ -22,13 +19,11 @@ export default function ImageGalleryList(props: Props) {
     displayStyle = "grid",
   } = props;
 
-
   function handleDownload(file: DriveFile) {
     if (!file.webContentLink) {
       alert("Link de download indisponível");
       return;
     }
-
 
     const a = document.createElement("a");
     a.href = file.webContentLink;
@@ -41,9 +36,10 @@ export default function ImageGalleryList(props: Props) {
 
   return (
     <div class="w-full p-4">
-      <div class={displayStyle === "grid"
-        ? "grid grid-cols-2 md:grid-cols-4 gap-4"
-        : "flex flex-col gap-4"}
+      <div
+        class={displayStyle === "grid"
+          ? "grid grid-cols-2 md:grid-cols-4 gap-4"
+          : "flex flex-col gap-4"}
       >
         {files.map((file) => (
           <div key={file.id} class="relative group">

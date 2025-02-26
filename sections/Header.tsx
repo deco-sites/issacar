@@ -25,12 +25,11 @@ export interface Nav {
 
 export const LoadingFallback = () => {
   return (
-   <div style={{ height: "716px" }} class="flex justify-center items-center">
-     <span class="loading loading-spinner" />
-   </div>
+    <div style={{ height: "716px" }} class="flex justify-center items-center">
+      <span class="loading loading-spinner" />
+    </div>
   );
 };
-
 
 export default function Header({
   logo = {
@@ -64,35 +63,35 @@ export default function Header({
         <div class="hidden items-center justify-between lg:flex w-full">
           {
             <ul class="flex">
-            {navigation.links.map((link) => (
-              <li>
-                <a
-                  href={link.url}
-                  aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul> 
+              {navigation.links.map((link) => (
+                <li>
+                  <a
+                    href={link.url}
+                    aria-label={link.label}
+                    class="link no-underline hover:underline p-4"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
           }
           {
-             <ul class="flex gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                {item?.text}
-              </a>
-            ))}
-          </ul> 
+            <ul class="flex gap-3">
+              {navigation.buttons?.map((item) => (
+                <a
+                  key={item?.id}
+                  id={item?.id}
+                  href={item?.href ?? "#"}
+                  target={item?.href.includes("http") ? "_blank" : "_self"}
+                  class={`font-normal btn btn-primary ${
+                    item.outline && "btn-outline"
+                  }`}
+                >
+                  {item?.text}
+                </a>
+              ))}
+            </ul>
           }
         </div>
 

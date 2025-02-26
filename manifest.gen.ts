@@ -8,7 +8,6 @@ import * as $$$$$$$$$$$2 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$3 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$4 from "./apps/deco/records.ts";
 import * as $$$$$$$$$$$5 from "./apps/site.ts";
-import * as $$$0 from "./loaders/DriveLoader.ts";
 import * as $$$$$$0 from "./sections/BlogPosts.tsx";
 import * as $$$$$$1 from "./sections/Carousel.tsx";
 import * as $$$$$$2 from "./sections/CopyContentSession.tsx";
@@ -32,9 +31,6 @@ import * as $$$$$$16 from "./sections/Testimonials.tsx";
 import * as $$$$$$17 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
-  "loaders": {
-    "site/loaders/DriveLoader.ts": $$$0,
-  },
   "sections": {
     "site/sections/BlogPosts.tsx": $$$$$$0,
     "site/sections/Carousel.tsx": $$$$$$1,

@@ -10,7 +10,7 @@ export interface Logo {
 export interface Props {
   title?: string;
   logos?: Logo[];
-  animate:boolean;
+  animate: boolean;
 }
 
 const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
@@ -21,16 +21,16 @@ const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
 
 export const LoadingFallback = () => {
   return (
-   <div style={{ height: "716px" }} class="flex justify-center items-center">
-     <span class="loading loading-spinner" />
-   </div>
+    <div style={{ height: "716px" }} class="flex justify-center items-center">
+      <span class="loading loading-spinner" />
+    </div>
   );
 };
 
 export default function Logos({
   title = "Edit this heading however you want",
   logos = IMG_PLACEHODLER,
-  animate=true
+  animate = true,
 }: Props) {
   const slideContent = (
     <div class="flex items-center gap-20">
@@ -51,7 +51,13 @@ export default function Logos({
       <div class="flex flex-col gap-12">
         <p class="text-center text-4xl">{title}</p>
         <div class="relative w-full overflow-hidden h-[4rem]">
-          <div class={`${animate?"animate-sliding":"justify-center"} absolute top-0 ${animate?"":"left-0"} flex ${animate?"flex-nowrap":""} h-full`}>
+          <div
+            class={`${
+              animate ? "animate-sliding" : "justify-center"
+            } absolute top-0 ${animate ? "" : "left-0"} flex ${
+              animate ? "flex-nowrap" : ""
+            } h-full`}
+          >
             {slideContent}
           </div>
         </div>

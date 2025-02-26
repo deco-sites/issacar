@@ -13,9 +13,9 @@ export interface SocialItem {
 
 export const LoadingFallback = () => {
   return (
-   <div style={{ height: "60px" }} class="flex justify-center items-center">
-     <span class="loading loading-spinner" />
-   </div>
+    <div style={{ height: "60px" }} class="flex justify-center items-center">
+      <span class="loading loading-spinner" />
+    </div>
   );
 };
 
@@ -23,7 +23,7 @@ export default function Social(
   { content, vertical = false, position }: {
     content?: { title?: string; items?: SocialItem[] };
     vertical?: boolean;
-    position?: "start"|"center"| "end";
+    position?: "start" | "center" | "end";
   },
 ) {
   return (
@@ -39,11 +39,11 @@ export default function Social(
                 vertical
                   ? "lg:flex-col lg:items-start"
                   : "flex-wrap items-center"
-              } ` }
+              } `}
             >
               {content.items.map((item) => {
                 return (
-                  <li >
+                  <li>
                     <a
                       href={item.link}
                       target="_blank"

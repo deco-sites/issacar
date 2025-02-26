@@ -2,7 +2,7 @@ export interface CTA {
   id?: string;
   href: string;
   text: string;
-  complement?:string;
+  complement?: string;
   style?: "Outline" | "Ghost";
 }
 
@@ -32,12 +32,11 @@ const PLACEMENT = {
 
 export const LoadingFallback = () => {
   return (
-   <div style={{ height: "716px" }} class="flex justify-center items-center">
-     <span class="loading loading-spinner" />
-   </div>
+    <div style={{ height: "716px" }} class="flex justify-center items-center">
+      <span class="loading loading-spinner" />
+    </div>
   );
 };
-
 
 export default function Maps({
   title = "Here's an intermediate size heading you can edit",
@@ -100,11 +99,9 @@ export default function Maps({
               >
                 <div class={`flex flex-col `}>
                   <p class={`font-medium`}>{item?.text}</p>
-                  <p class={`font-bold`}>{item?.complement}</p> 
-                  {item.style == "Ghost"} 
+                  <p class={`font-bold`}>{item?.complement}</p>
+                  {item.style == "Ghost"}
                 </div>
-                
-                
               </a>
             ))}
           </div>
