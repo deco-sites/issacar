@@ -14,13 +14,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/RifometerSession.tsx",
-        "targetValue": 8000,
-        "currentValue": 1400,
-        "title": "Rifômetro",
-        "description": "Este é o percentual de rifas já atingido para o sorteio esse valor é atualizado diariamente",
-        "buttonLink": "/acaoiphone",
-        "buttonText": "Comprar"
+        "__resolveType": "reusable_rifometer"
       }
     },
     {

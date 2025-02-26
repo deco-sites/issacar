@@ -11,13 +11,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/RifometerSession.tsx",
-        "title": "Rifômetro",
-        "description": "Este é o percentual de rifas já atingido para o sorteio da rifa, esse valor é atualizado diariamente",
-        "targetValue": 8000,
-        "currentValue": 1400,
-        "buttonLink": "/#cta",
-        "buttonText": "Comprar Rifa"
+        "__resolveType": "reusable_rifometer"
       }
     },
     {
@@ -99,7 +93,7 @@
           {
             "value": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "title": "O Sorteio ocorrerá no dia 04/03",
+              "title": "O Sorteio ocorrerá no dia 24/04",
               "description": "E será transmitido ao vivo pelo instagram @issacar.church",
               "tagline": " ",
               "image": "https://data.decoassets.com/issacar/f9b24526-1e85-4f23-93ee-f804f60e2875/Unsplash-picture.jpg",
@@ -139,11 +133,11 @@
                   "text": "Falar com Voluntário"
                 }
               ],
+              "placement": "bottom",
               "disableSpacing": {
                 "top": true,
                 "bottom": true
               },
-              "placement": "bottom",
               "idcustom": "cta"
             },
             "rule": {
@@ -166,11 +160,11 @@
                   "text": "Falar com Voluntário"
                 }
               ],
+              "placement": "right",
               "disableSpacing": {
                 "top": true,
                 "bottom": true
               },
-              "placement": "right",
               "idcustom": "cta"
             },
             "rule": {
