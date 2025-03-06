@@ -1,9 +1,9 @@
 {
   "__resolveType": "site/sections/RifometerSession.tsx",
   "targetValue": 8000,
-  "currentValue": 1801,
   "title": "Rifômetro",
   "description": "Este é o percentual de rifas atingido até o momento para o sorteio. Esse valor é atualizado diariamente e diminuirá à medida que nos aproximarmos do objetivo que viabiliza o sorteio.",
   "buttonLink": "https://wa.me/17981048717/?text=Quero+concorrer+ao+iphone14+ou+pix+na+conta",
-  "buttonText": "Comprar"
+  "buttonText": "Comprar",
+  "currentValue": 1921
 }
