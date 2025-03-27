@@ -151,7 +151,7 @@
             },
             "showImage": false,
             "isMobile": true,
-            "copyContent": "38.204.603/0001-88",
+            "copyContent": "24.283.887-0001/30",
             "idcustom": "contribute"
           },
           "rule": {
@@ -163,8 +163,8 @@
           "value": {
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Como contribuir",
-            "image": "https://data.decoassets.com/issacar/cfb82a10-936a-4c02-8ca7-36891071dd6e/DIZIMOS-E-OFERTAS-(640-x-640-px).png",
-            "description": "Utilizando a opção \"escanear\" do seu gerenciador de Pix",
+            "image": "https://assets.decocache.com/issacar/7503e4a5-e4b3-4b44-8505-c2df204a82b3/DIZIMOS-E-OFERTAS.png",
+            "description": "Igreja Assembléia de Deus Ministério Issacar\nCNPJ:24.283.887-0001/30 ",
             "cta": [],
             "placement": "right",
             "disableSpacing": {
