@@ -14,34 +14,15 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "reusable_rifometer"
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Lugar de adoração</p>",
+        "ctaActive": true,
+        "backgroundImage": "https://data.decoassets.com/issacar/14e2d176-8eee-405e-b947-b6db0ea829b6/IMG_7526.jpg",
+        "subtitle": null,
+        "ctaHref": "#local",
+        "ctaText": "Adore conosco",
+        "ctaBackgroundColor": "#8f8a8a"
       }
-    },
-    {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "site/sections/Carousel.tsx",
-            "images": [
-              {
-                "desktop": "https://data.decoassets.com/issacar/7fb11a2b-60a8-49a9-ba13-4fdc661d8917/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px)-(412-x-660-px)-(1440-x-600-px).png",
-                "mobile": "https://data.decoassets.com/issacar/da5d5ca7-8000-46a3-a092-fbbf15cd3aab/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px)-(412-x-660-px)-(412-x-660-px).png",
-                "alt": "Sorteio",
-                "action": {
-                  "href": "/acaoiphone",
-                  "label": "Participar"
-                }
-              }
-            ],
-            "preload": false,
-            "interval": 5
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
-        }
-      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -163,7 +144,7 @@
           "value": {
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
             "tagline": "Como contribuir",
-            "image": "https://assets.decocache.com/issacar/7503e4a5-e4b3-4b44-8505-c2df204a82b3/DIZIMOS-E-OFERTAS.png",
+            "image": "https://assets.decocache.com/issacar/562f1b9e-7e4e-40f1-baa7-0e0f54dcb373/Design-sem-nome.png",
             "description": "Igreja Assembléia de Deus Ministério Issacar\nCNPJ:24.283.887-0001/30 ",
             "cta": [],
             "placement": "right",
@@ -225,9 +206,9 @@
             "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
             "cta": [
               {
-                "href": "https://drive.google.com/drive/folders/19KqPRe7t8Loj_ynWZBtBvfyqsbGd8NjR?usp=sharing",
                 "id": "Site ",
-                "text": "Clique aqui e baixe as imagens do culto "
+                "text": "Clique aqui e baixe as imagens do culto ",
+                "href": "https://image-gallery-next-ph.vercel.app/"
               }
             ],
             "placement": "bottom",
@@ -246,7 +227,7 @@
             "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
             "cta": [
               {
-                "href": "https://drive.google.com/drive/folders/19KqPRe7t8Loj_ynWZBtBvfyqsbGd8NjR?usp=sharing",
+                "href": "https://image-gallery-next-ph.vercel.app/",
                 "id": "Site ",
                 "text": "Clique aqui e baixe as imagens do culto "
               }
