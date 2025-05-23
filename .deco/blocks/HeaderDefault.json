@@ -3,12 +3,8 @@
   "navigation": {
     "links": [
       {
-        "url": "#banners",
-        "label": "Avisos"
-      },
-      {
-        "label": "Como Contribuir",
-        "url": "/#contribute"
+        "url": "/#contribute",
+        "label": "Como Contribuir"
       },
       {
         "label": "Nossos Cultos",
