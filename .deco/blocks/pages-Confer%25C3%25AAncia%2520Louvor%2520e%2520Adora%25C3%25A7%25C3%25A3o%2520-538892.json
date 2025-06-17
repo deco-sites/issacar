@@ -1,0 +1,85 @@
+{
+  "name": "Conferência Louvor e Adoração ",
+  "path": "/conferencialouvoreadoracao",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "HeaderDefault"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Louvor &amp; Adoração</p>",
+        "backgroundImage": "https://assets.decocache.com/issacar/86319311-5937-4a43-81ad-d53f4b05aa59/IMG_0031.jpg",
+        "subtitle": "Até que ele venha",
+        "ctaActive": false
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/HeroNormal.tsx",
+        "title": "<p>Vamos adorar até que ele venha!</p>",
+        "cta": [],
+        "description": "A Conferência Louvor & Adoração da Issacar Church é um momento único de celebração e renovação espiritual, reunindo cristãos de toda a região em Barretos entre os dias 11 e 13 de julho. Serão três dias intensos de louvor vibrante, pregações inspiradoras e workshops práticos, todos voltados a aprofundar nossa adoração ao Senhor e fortalecer nossa fé em comunidade. Com uma programação cuidadosamente pensada para edificar corações e despertar dons, este encontro convida patrocinadores a fazer parte de uma experiência transformadora, impactando vidas e exaltando o nome de Jesus."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
+          {
+            "value": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "tagline": " ",
+              "title": "Contribua com o evento ",
+              "description": "Ou utilize nosso CNPJ: Igreja Assembléia de Deus Ministério Issacar \nCNPJ:24.283.887-0001/30 ",
+              "cta": [],
+              "isMobile": true
+            },
+            "rule": {
+              "__resolveType": "website/matchers/device.ts",
+              "mobile": true,
+              "tablet": true
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "image": "https://assets.decocache.com/issacar/562f1b9e-7e4e-40f1-baa7-0e0f54dcb373/Design-sem-nome.png",
+              "tagline": " ",
+              "title": "Contribua com o evento ",
+              "description": "Ou utilize nosso CNPJ: Igreja Assembléia de Deus Ministério Issacar \nCNPJ:24.283.887-0001/30 ",
+              "cta": []
+            },
+            "rule": {
+              "__resolveType": "website/matchers/always.ts"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Logos.tsx",
+        "title": "Quem já contribuiu",
+        "animate": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "FooterDefault"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -116,7 +116,7 @@
       }
     },
     {
-      "__resolveType": "Pix"
+      "__resolveType": "issacar_pix"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
