@@ -24,7 +24,7 @@
         "__resolveType": "site/sections/HeroNormal.tsx",
         "title": "<p>Vamos adorar até que ele venha!</p>",
         "cta": [],
-        "description": "A Conferência Louvor & Adoração da Issacar Church é um momento único de celebração e renovação espiritual, reunindo cristãos de toda a região em Barretos entre os dias 11, 12 e 13 de julho. Serão três dias intensos de louvor vibrante, pregações inspiradoras e workshops práticos, todos voltados a aprofundar nossa adoração ao Senhor e fortalecer nossa fé em comunidade. Com uma programação cuidadosamente pensada para edificar corações e despertar dons, este encontro convida patrocinadores a fazer parte de uma experiência transformadora, impactando vidas e exaltando o nome de Jesus."
+        "description": "A Conferência Louvor & Adoração da Issacar Church é uma oportunidade imperdível de celebrar e renovar a fé em um ambiente acolhedor e inspirador. De 11 a 13 de julho, em Barretos, cristãos de todas as idades e denominações se reunirão para três dias de adoração vibrante, mensagens edificantes e oficinas práticas que ajudarão você a aprofundar seu relacionamento com Deus e a descobrir novos dons espirituais. Nossa programação, cuidadosamente elaborada, foi pensada para tocar corações, fortalecer laços comunitários e despertar em cada participante um espírito de louvor genuíno. Venha viver uma experiência transformadora, conectando-se com pessoas que compartilham do mesmo propósito: exaltar o nome de Jesus e ser renovado na presença do Senhor. Participe!"
       }
     },
     {
@@ -57,7 +57,8 @@
               "cta": []
             },
             "rule": {
-              "__resolveType": "website/matchers/always.ts"
+              "__resolveType": "website/matchers/device.ts",
+              "desktop": true
             }
           }
         ]
