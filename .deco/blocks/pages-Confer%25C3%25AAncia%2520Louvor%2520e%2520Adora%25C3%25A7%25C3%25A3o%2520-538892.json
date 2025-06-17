@@ -30,6 +30,24 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "placement": "right",
+        "tagline": "Pastor",
+        "title": "Guilherme Tavares",
+        "description": " Guilherme Tavares é um grande homem de Deus com uma palavra poderosa e louvores profundamente baseados na palavra. Ministrará os louvores nos dias 11 e  12 e encerrará com uma palavra poderosa no dia 13",
+        "image": "https://assets.decocache.com/issacar/0ddae864-5556-407d-ba19-c9395675a50d/IMG_8081.jpg",
+        "cta": [
+          {
+            "style": "Outline",
+            "text": "Instagram",
+            "href": "https://www.instagram.com/guiilherme.tavares/#"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "website/flags/multivariate/section.ts",
         "variants": [
           {
