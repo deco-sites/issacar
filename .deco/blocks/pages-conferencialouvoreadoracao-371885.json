@@ -11,7 +11,11 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carousel.tsx"
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Louvor &amp; Adoração</p>",
+        "subtitle": "Até que ele venha!",
+        "ctaActive": false,
+        "backgroundImage": "https://assets.decocache.com/issacar/86319311-5937-4a43-81ad-d53f4b05aa59/IMG_0031.jpg"
       }
     },
     {

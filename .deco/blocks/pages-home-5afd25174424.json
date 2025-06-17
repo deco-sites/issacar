@@ -116,50 +116,7 @@
       }
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Dízimos e ofertas",
-            "description": "Para contribuir copie a chave pix abaixo, e cole em seu aplicativo de banco:",
-            "cta": [],
-            "placement": "bottom",
-            "title": "Como contribuir:",
-            "disableSpacing": {
-              "top": true,
-              "bottom": true
-            },
-            "showImage": false,
-            "isMobile": true,
-            "copyContent": "24.283.887-0001/30",
-            "idcustom": "contribute"
-          },
-          "rule": {
-            "__resolveType": "website/matchers/device.ts",
-            "mobile": true
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Como contribuir",
-            "image": "https://assets.decocache.com/issacar/562f1b9e-7e4e-40f1-baa7-0e0f54dcb373/Design-sem-nome.png",
-            "description": "Ou utilize nosso CNPJ: Igreja Assembléia de Deus Ministério Issacar \nCNPJ:24.283.887-0001/30 ",
-            "cta": [],
-            "placement": "right",
-            "disableSpacing": {
-              "top": false
-            },
-            "showImage": true,
-            "idcustom": "contribute",
-            "title": "Para contribuir escaneie o QR Code no seu aplicativo de banco"
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
-        }
-      ]
+      "__resolveType": "Pix"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
