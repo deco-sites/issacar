@@ -41,7 +41,8 @@
               "cta": [],
               "isMobile": true,
               "showImage": false,
-              "copyContent": "24.283.887-0001/30 "
+              "copyContent": "24.283.887-0001/30 ",
+              "placement": "bottom"
             },
             "rule": {
               "__resolveType": "website/matchers/device.ts",
