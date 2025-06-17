@@ -39,7 +39,9 @@
               "title": "Contribua com o evento ",
               "description": "Ou utilize nosso CNPJ: Igreja Assembléia de Deus Ministério Issacar \nCNPJ:24.283.887-0001/30 ",
               "cta": [],
-              "isMobile": true
+              "isMobile": true,
+              "showImage": false,
+              "copyContent": "24.283.887-0001/30 "
             },
             "rule": {
               "__resolveType": "website/matchers/device.ts",
