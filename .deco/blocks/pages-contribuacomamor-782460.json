@@ -1,6 +1,6 @@
 {
   "name": "contribuacomamor",
-  "path": "/example-path",
+  "path": "/contribuacomamor",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
