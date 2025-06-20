@@ -50,7 +50,11 @@
     }
   ],
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Issacar - Contribua com amor",
+    "description": "Contribua com a Issacar e ajude na manutenção dos ministérios que contribuam para o reino",
+    "canonical": "Contribua com a Issacar",
+    "type": "website"
   },
   "__resolveType": "website/pages/Page.tsx"
 }
