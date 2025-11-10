@@ -9,18 +9,16 @@
       {
         "label": "Nossos Cultos",
         "url": "/#local"
-      },
-      {
-        "label": "Fotos do Culto",
-        "url": "/#images"
-      },
-      {
-        "label": "Conferência Louvor&Adoração",
-        "url": "/conferencialouvoreadoracao"
-      },
-      {}
+      }
     ],
-    "buttons": []
+    "buttons": [
+      {
+        "id": "Fotos",
+        "href": "https://www.issacarimagens.site/",
+        "text": "Fotos do culto",
+        "outline": false
+      }
+    ]
   },
   "logo": {
     "src": "https://data.decoassets.com/issacar/08fe739a-b18b-47cc-b930-a5bb5059ca42/LOGO-DA-IGREJA.png"
