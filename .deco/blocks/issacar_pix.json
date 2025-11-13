@@ -16,7 +16,7 @@
         "showImage": false,
         "isMobile": true,
         "idcustom": "contribute",
-        "copyContent": "38.204.603/0001-88"
+        "copyContent": "6c99227e-c51a-45f5-9f43-47e1c19ddeb8"
       },
       "rule": {
         "__resolveType": "website/matchers/device.ts",
