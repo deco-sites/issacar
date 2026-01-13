@@ -1,0 +1,29 @@
+{
+  "__resolveType": "website/flags/multivariate/section.ts",
+  "variants": [
+    {
+      "value": {
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "tagline": "Dízimos e ofertas",
+        "description": "Para contribuir copie a chave pix abaixo, e cole em seu aplicativo de banco:",
+        "cta": [],
+        "placement": "bottom",
+        "title": "Como contribuir:",
+        "disableSpacing": {
+          "top": true,
+          "bottom": true
+        },
+        "showImage": false,
+        "isMobile": true,
+        "idcustom": "contribute",
+        "copyContent": "6c99227e-c51a-45f5-9f43-47e1c19ddeb8"
+      },
+      "rule": {
+        "__resolveType": "website/matchers/device.ts",
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      }
+    }
+  ]
+}

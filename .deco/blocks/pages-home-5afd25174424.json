@@ -12,26 +12,17 @@
       "__resolveType": "HeaderDefault"
     },
     {
-      "__resolveType": "site/sections/Carousel.tsx",
-      "images": [
-        {
-          "desktop": "https://data.decoassets.com/issacar/ec0d71ab-07da-4782-9e01-f9666c81af76/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px).png",
-          "mobile": "https://data.decoassets.com/issacar/fe8884ab-fbce-4081-a8fd-8efeff913acc/A-Gadgets-Mais-sorteara-brindes-para-3-sortudos-(1440-x-600-px)-(412-x-660-px).png",
-          "alt": "Sorteio"
-        },
-        {
-          "desktop": "https://data.decoassets.com/issacar/3481b866-d769-4a06-bce1-fc9737d897f1/Esperanca-(1440-x-600-px).png",
-          "mobile": "https://data.decoassets.com/issacar/bb5d55d5-5f42-4eb5-8802-ee06e9e5eb99/Esperanca-(412-x-660-px).png",
-          "alt": "Esperança"
-        },
-        {
-          "desktop": "https://data.decoassets.com/issacar/3648a7cc-fb54-4bd3-aa3e-cf9dcdd1774a/Esperanca-(1440-x-600-px)-(1).png",
-          "mobile": "https://data.decoassets.com/issacar/18851408-f924-4c06-925a-78cb36e9ca61/Esperanca-(412-x-660-px)-(1).png",
-          "alt": "Quinta-Profética"
-        }
-      ],
-      "interval": 5,
-      "preload": false
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Lugar de adoração</p>",
+        "ctaActive": true,
+        "backgroundImage": "https://data.decoassets.com/issacar/14e2d176-8eee-405e-b947-b6db0ea829b6/IMG_7526.jpg",
+        "subtitle": null,
+        "ctaHref": "#local",
+        "ctaText": "Adore conosco",
+        "ctaBackgroundColor": "#8f8a8a"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -125,50 +116,41 @@
       }
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Dízimos e ofertas",
-            "description": "Para contribuir copie a chave pix abaixo:",
-            "cta": [],
-            "placement": "bottom",
-            "title": "Como contribuir:",
-            "disableSpacing": {
-              "top": true,
-              "bottom": true
-            },
-            "showImage": false,
-            "isMobile": true,
-            "copyContent": "38.204.603/0001-88",
-            "idcustom": "contribute"
+      "__resolveType": "issacar_pix"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/hero-1.tsx",
+        "backgroundColor": "#000000",
+        "title": "Conheça Nossos Ministérios",
+        "images": [
+          {
+            "image": "https://data.decoassets.com/issacar/cbb76d96-b167-44e0-a718-d97c05cd1f6a/5.png",
+            "alt": "Issacar Kids"
           },
-          "rule": {
-            "__resolveType": "website/matchers/device.ts",
-            "mobile": true
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Como contribuir",
-            "image": "https://data.decoassets.com/issacar/cfb82a10-936a-4c02-8ca7-36891071dd6e/DIZIMOS-E-OFERTAS-(640-x-640-px).png",
-            "description": "Utilizando a opção \"escanear\" do seu gerenciador de Pix",
-            "cta": [],
-            "placement": "right",
-            "disableSpacing": {
-              "top": false
-            },
-            "showImage": true,
-            "idcustom": "contribute",
-            "title": "Para contribuir escaneie o QR Code "
+          {
+            "image": "https://data.decoassets.com/issacar/b7e21373-1de2-445f-89c9-8aee58c97532/4.png",
+            "alt": "Unidas"
           },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
+          {
+            "image": "https://data.decoassets.com/issacar/4ab43708-29c7-450c-ad71-3880a1c365b8/1.png",
+            "alt": "Lifeshope"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/b2a4ae28-885e-499d-bebc-eb7a314ed6a7/2.png",
+            "alt": "Homens com propósito"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/fcf1b3ad-b8c8-4304-9cda-a5f174c03f35/3.png",
+            "alt": "Mídia"
+          },
+          {
+            "image": "https://data.decoassets.com/issacar/c1bbb4c1-3f69-476d-9e42-8e6c0a8b8923/logo.png",
+            "alt": "asafe"
           }
-        }
-      ]
+        ]
+      }
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",
@@ -181,9 +163,9 @@
             "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
             "cta": [
               {
-                "href": "https://drive.google.com/drive/folders/19KqPRe7t8Loj_ynWZBtBvfyqsbGd8NjR?usp=sharing",
                 "id": "Site ",
-                "text": "Clique aqui e baixe as imagens do culto "
+                "text": "Clique aqui e baixe as imagens do culto ",
+                "href": "https://image-gallery-next-ph.vercel.app/"
               }
             ],
             "placement": "bottom",
@@ -202,7 +184,7 @@
             "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
             "cta": [
               {
-                "href": "https://drive.google.com/drive/folders/19KqPRe7t8Loj_ynWZBtBvfyqsbGd8NjR?usp=sharing",
+                "href": "https://image-gallery-next-ph.vercel.app/",
                 "id": "Site ",
                 "text": "Clique aqui e baixe as imagens do culto "
               }

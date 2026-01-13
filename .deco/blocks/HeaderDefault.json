@@ -3,31 +3,19 @@
   "navigation": {
     "links": [
       {
-        "url": "#banners",
-        "label": "Avisos"
-      },
-      {
-        "label": "Como Contribuir",
-        "url": "/#contribute"
+        "url": "/#contribute",
+        "label": "Como Contribuir"
       },
       {
         "label": "Nossos Cultos",
         "url": "/#local"
-      },
-      {
-        "label": "Fotos do Culto",
-        "url": "/#images"
-      },
-      {
-        "label": "Retiro Lifes",
-        "url": "/retiro"
       }
     ],
     "buttons": [
       {
-        "id": "RIFA",
-        "href": "https://wa.me/17981048717?text=Quero+concorrer+ao+iphone+ou+pix",
-        "text": "Participar da ação entre amigos",
+        "id": "Fotos",
+        "href": "https://www.issacarimagens.site/",
+        "text": "Fotos do culto",
         "outline": false
       }
     ]

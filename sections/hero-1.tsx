@@ -12,7 +12,7 @@ interface Props {
   images?: ImageItem[];
   /**
    * @description Title of the gallery
-   * @format rich-text
+   * @format string
    */
   title?: string;
   /**
@@ -24,9 +24,9 @@ interface Props {
 
 export const LoadingFallback = () => {
   return (
-   <div style={{ height: "716px" }} class="flex justify-center items-center">
-     <span class="loading loading-spinner" />
-   </div>
+    <div style={{ height: "716px" }} class="flex justify-center items-center">
+      <span class="loading loading-spinner" />
+    </div>
   );
 };
 
@@ -60,15 +60,8 @@ export default function ImageGallery({
             <img
               src={item.image}
               alt={item.alt}
-              class="w-full h-64 object-cover rounded-lg shadow-md"
+              class="w-auto h-auto  shadow-md"
             />
-            <a
-              href={item.image}
-              download
-              class="mt-4 btn btn-primary"
-            >
-              Download
-            </a>
           </div>
         ))}
       </div>

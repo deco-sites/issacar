@@ -20,12 +20,12 @@ import * as $$$$$$6 from "./sections/Hero.tsx";
 import * as $$$$$$20 from "./sections/hero2.tsx";
 import * as $$$$$$7 from "./sections/HeroNormal.tsx";
 import * as $$$$$$8 from "./sections/IASection.tsx";
-import * as $$$$$$9 from "./sections/ImageGallery.tsx";
-import * as $$$$$$10 from "./sections/ImageSlider2.tsx";
-import * as $$$$$$11 from "./sections/ImageSlider3.tsx";
-import * as $$$$$$12 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$13 from "./sections/Logos.tsx";
-import * as $$$$$$14 from "./sections/Maps.tsx";
+import * as $$$$$$9 from "./sections/ImageSlider2.tsx";
+import * as $$$$$$10 from "./sections/ImageSlider3.tsx";
+import * as $$$$$$11 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$12 from "./sections/Logos.tsx";
+import * as $$$$$$13 from "./sections/Maps.tsx";
+import * as $$$$$$14 from "./sections/RifometerSession.tsx";
 import * as $$$$$$15 from "./sections/Social.tsx";
 import * as $$$$$$16 from "./sections/Testimonials.tsx";
 import * as $$$$$$17 from "./sections/Theme/Theme.tsx";
@@ -44,12 +44,12 @@ const manifest = {
     "site/sections/hero2.tsx": $$$$$$20,
     "site/sections/HeroNormal.tsx": $$$$$$7,
     "site/sections/IASection.tsx": $$$$$$8,
-    "site/sections/ImageGallery.tsx": $$$$$$9,
-    "site/sections/ImageSlider2.tsx": $$$$$$10,
-    "site/sections/ImageSlider3.tsx": $$$$$$11,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$12,
-    "site/sections/Logos.tsx": $$$$$$13,
-    "site/sections/Maps.tsx": $$$$$$14,
+    "site/sections/ImageSlider2.tsx": $$$$$$9,
+    "site/sections/ImageSlider3.tsx": $$$$$$10,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$11,
+    "site/sections/Logos.tsx": $$$$$$12,
+    "site/sections/Maps.tsx": $$$$$$13,
+    "site/sections/RifometerSession.tsx": $$$$$$14,
     "site/sections/Social.tsx": $$$$$$15,
     "site/sections/Testimonials.tsx": $$$$$$16,
     "site/sections/Theme/Theme.tsx": $$$$$$17,

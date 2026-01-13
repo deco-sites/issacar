@@ -29,15 +29,17 @@ interface Props {
 const defaultProps: Props = {
   images: [
     {
-      image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC",
-      alt: "Slide 1"
+      image:
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC",
+      alt: "Slide 1",
     },
     {
-      image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC",
-      alt: "Slide 2"
-    }
+      image:
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC",
+      alt: "Slide 2",
+    },
   ],
-  showCTA: true
+  showCTA: true,
 };
 
 export default function ImageSlider(props: Props) {
@@ -49,7 +51,10 @@ export default function ImageSlider(props: Props) {
   return (
     <div class="relative w-full">
       <div class="overflow-hidden">
-        <div class="flex transition-transform duration-300" id="slider-container">
+        <div
+          class="flex transition-transform duration-300"
+          id="slider-container"
+        >
           {images.map((slide) => (
             <div class="w-full flex-none">
               <Image
@@ -87,7 +92,9 @@ export default function ImageSlider(props: Props) {
               placeholder="Enter your email"
               class="border p-2 rounded"
             />
-            <button class="bg-blue-500 text-white p-2 rounded">Subscribe</button>
+            <button class="bg-blue-500 text-white p-2 rounded">
+              Subscribe
+            </button>
           </form>
         </div>
       )}
@@ -103,7 +110,9 @@ export default function ImageSlider(props: Props) {
 
             const updateSlider = () => {
               if (container) {
-                container.style.transform = `translateX(-${currentSlide * 100}%)`;
+                container.style.transform = `translateX(-${
+                  currentSlide * 100
+                }%)`;
               }
               updateDots();
             };
@@ -117,7 +126,7 @@ export default function ImageSlider(props: Props) {
                     "w-3",
                     "h-3",
                     "rounded-full",
-                    i === currentSlide ? "bg-blue-500" : "bg-gray-300"
+                    i === currentSlide ? "bg-blue-500" : "bg-gray-300",
                   );
                   dot.onclick = () => {
                     currentSlide = i;

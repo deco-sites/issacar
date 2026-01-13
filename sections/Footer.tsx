@@ -25,12 +25,11 @@ export interface Social {
 
 export const LoadingFallback = () => {
   return (
-   <div style={{ height: "716px" }} class="flex justify-center items-center">
-     <span class="loading loading-spinner" />
-   </div>
+    <div style={{ height: "716px" }} class="flex justify-center items-center">
+      <span class="loading loading-spinner" />
+    </div>
   );
 };
-
 
 export interface Props {
   logo?: {
@@ -100,7 +99,7 @@ export default function Footer({
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
     href: "https://deco.cx",
   },
-  copyright = "© 2025 Issacar Church. All rights reserved.",
+  copyright = "© 2026 Issacar Church. All rights reserved.",
   bottomLinks = [
     { label: "Privacy Policy", href: "/" },
     { label: "Terms of Service", href: "/" },
