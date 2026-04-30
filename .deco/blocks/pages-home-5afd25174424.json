@@ -3,195 +3,30 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "SocialDefault"
-      }
-    },
-    {
-      "__resolveType": "HeaderDefault"
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Lugar de adoração</p>",
-        "ctaActive": true,
-        "backgroundImage": "https://data.decoassets.com/issacar/14e2d176-8eee-405e-b947-b6db0ea829b6/IMG_7526.jpg",
-        "subtitle": null,
-        "ctaHref": "#local",
-        "ctaText": "Adore conosco",
-        "ctaBackgroundColor": "#8f8a8a"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/flags/multivariate/section.ts",
-        "variants": [
-          {
-            "value": {
-              "__resolveType": "site/sections/Maps.tsx",
-              "title": "Adore conosco",
-              "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
-              "description": "Nossos cultos acontecem:",
-              "tagline": "Lugar de Adoração",
-              "showMap": true,
-              "placement": "bottom",
-              "cta": [
-                {
-                  "style": "Ghost",
-                  "href": "/#local",
-                  "text": "Aos Domingos",
-                  "complement": "19:00",
-                  "id": "Domingos"
-                },
-                {
-                  "style": "Ghost",
-                  "id": "TercasFeiras",
-                  "href": "/#local",
-                  "text": "Terças-Feiras| Mov.Unidas",
-                  "complement": "19:30"
-                },
-                {
-                  "style": "Ghost",
-                  "id": "QuintaFeira",
-                  "href": "/#local",
-                  "text": "Quintas-Feiras",
-                  "complement": "19:30"
-                }
-              ],
-              "mapWidth": "370",
-              "mapHeight": "400"
-            },
-            "rule": {
-              "__resolveType": "website/matchers/device.ts",
-              "mobile": true,
-              "tablet": true
-            }
-          },
-          {
-            "value": {
-              "__resolveType": "site/sections/Maps.tsx",
-              "title": "Adore conosco",
-              "api": "AIzaSyA6D4RF537w-e91Yl0-P6nlh_xmcZAEv5c",
-              "description": "Nossos cultos acontecem:",
-              "tagline": "Lugar de adoração",
-              "placement": "left",
-              "showMap": true,
-              "cta": [
-                {
-                  "style": "Ghost",
-                  "href": "/#local",
-                  "text": "As Quintas-Feiras",
-                  "complement": "19:30",
-                  "id": "Quinta-Feira"
-                },
-                {
-                  "style": "Ghost",
-                  "id": "Domingos",
-                  "href": "/#local",
-                  "text": "Aos Domingos",
-                  "complement": "19:00"
-                },
-                {
-                  "style": "Ghost",
-                  "id": "tercasfeiras",
-                  "href": "/#local",
-                  "text": "Terças-Feiras | Mov. Unidas",
-                  "complement": "19:30"
-                }
-              ],
-              "mapHeight": "400",
-              "mapWidth": "600",
-              "disableSpacing": {
-                "bottom": true
-              }
-            },
-            "rule": {
-              "__resolveType": "Desktop"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "issacar_pix"
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/hero-1.tsx",
-        "backgroundColor": "#000000",
-        "title": "Conheça Nossos Ministérios",
-        "images": [
-          {
-            "image": "https://data.decoassets.com/issacar/cbb76d96-b167-44e0-a718-d97c05cd1f6a/5.png",
-            "alt": "Issacar Kids"
-          },
-          {
-            "image": "https://data.decoassets.com/issacar/b7e21373-1de2-445f-89c9-8aee58c97532/4.png",
-            "alt": "Unidas"
-          },
-          {
-            "image": "https://data.decoassets.com/issacar/4ab43708-29c7-450c-ad71-3880a1c365b8/1.png",
-            "alt": "Lifeshope"
-          },
-          {
-            "image": "https://data.decoassets.com/issacar/b2a4ae28-885e-499d-bebc-eb7a314ed6a7/2.png",
-            "alt": "Homens com propósito"
-          },
-          {
-            "image": "https://data.decoassets.com/issacar/fcf1b3ad-b8c8-4304-9cda-a5f174c03f35/3.png",
-            "alt": "Mídia"
-          },
-          {
-            "image": "https://data.decoassets.com/issacar/c1bbb4c1-3f69-476d-9e42-8e6c0a8b8923/logo.png",
-            "alt": "asafe"
-          }
-        ]
-      }
-    },
-    {
       "__resolveType": "website/flags/multivariate/section.ts",
       "variants": [
         {
           "value": {
             "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Fotos do culto ",
-            "image": "https://data.decoassets.com/issacar/14e2d176-8eee-405e-b947-b6db0ea829b6/IMG_7526.jpg",
-            "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
-            "cta": [
-              {
-                "id": "Site ",
-                "text": "Clique aqui e baixe as imagens do culto ",
-                "href": "https://image-gallery-next-ph.vercel.app/"
-              }
-            ],
-            "placement": "bottom",
-            "title": "Foi fotografado pela mídia?",
-            "idcustom": "images"
-          },
-          "rule": {
-            "__resolveType": "Mobile"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ImageWithParagraph.tsx",
-            "tagline": "Fotos do culto ",
-            "image": "https://data.decoassets.com/issacar/14e2d176-8eee-405e-b947-b6db0ea829b6/IMG_7526.jpg",
-            "description": "Acesse nosso Google Drive, escolha suas imagens favoritas e compartilhe em suas redes sociais! Não se esqueça de marcar nosso perfil para podermos acompanhar e curtir sua publicação.",
-            "cta": [
-              {
-                "href": "https://image-gallery-next-ph.vercel.app/",
-                "id": "Site ",
-                "text": "Clique aqui e baixe as imagens do culto "
-              }
-            ],
+            "tagline": "Aviso",
             "placement": "left",
-            "title": "Foi fotografado pela mídia?",
-            "idcustom": "images"
+            "idcustom": "images",
+            "title": "Nosso site esta mudando para melhor",
+            "showImage": true,
+            "image": "https://decoims.com/issacar/ebf841db-93ac-4cfc-a8eb-b8aceb4e5030/An-image-depicting-maintenance",
+            "backgroundColor": "#ffff",
+            "cta": [
+              {
+                "style": "Ghost",
+                "href": "#",
+                "text": "#"
+              }
+            ],
+            "disableSpacing": {
+              "top": true,
+              "bottom": true
+            },
+            "description": "Estamos mudando nosso site para melhor, enquanto isso nos acompanhe nas redes sociais"
           },
           "rule": {
             "__resolveType": "website/matchers/always.ts"
@@ -200,7 +35,10 @@
       ]
     },
     {
-      "__resolveType": "FooterDefault"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "SocialDefault"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
