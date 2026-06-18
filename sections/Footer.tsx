@@ -51,7 +51,7 @@ export interface Props {
 export default function Footer({
   logo = {
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
+      "https://decoims.com/vtexadsnetwork/2784ee00-6000-4be2-8f0a-3668b2d80d41/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
     alt: "Logo",
   },
   links = [
@@ -96,7 +96,7 @@ export default function Footer({
   madeWith = {
     label: "Made with",
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
+      "https://decoims.com/vtexadsnetwork/79d1c67c-1fb3-421e-bf27-0dc0726e3d91/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
     href: "https://deco.cx",
   },
   copyright = "© 2026 Issacar Church. All rights reserved.",

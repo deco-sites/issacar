@@ -58,7 +58,7 @@ export function ErrorFallback(
 }
 
 const DEFAULT_IMAGE =
-  "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
+  "https://decoims.com/vtexadsnetwork/cdace7b3-72ec-410d-bcbf-7761a1f6e951/772e246e-1959-46ac-a309-3f25ab20af6f";
 
 export default function ImageWithParagraph({
   title = "Here's an intermediate size heading you can edit",

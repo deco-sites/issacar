@@ -26,7 +26,7 @@ export const LoadingFallback = () => {
 };
 
 const DEFAULT_IMAGE =
-  "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
+  "https://decoims.com/vtexadsnetwork/3cc7ca0f-aae5-4740-ad1f-f2618913c79e/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
 
 export default function BlogPosts({
   title = "Here's a component for you to showcase your blogposts",

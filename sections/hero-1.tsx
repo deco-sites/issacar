@@ -34,17 +34,17 @@ export default function ImageGallery({
   images = [
     {
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+        "https://decoims.com/als-storefront/08b81bf2-89e6-4ea4-8123-b0b1bee1f7be/ff6bb37e-0eab-40e1-a454-86856efc278e",
       alt: "Image 1",
     },
     {
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+        "https://decoims.com/als-storefront/08b81bf2-89e6-4ea4-8123-b0b1bee1f7be/ff6bb37e-0eab-40e1-a454-86856efc278e",
       alt: "Image 2",
     },
     {
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+        "https://decoims.com/als-storefront/08b81bf2-89e6-4ea4-8123-b0b1bee1f7be/ff6bb37e-0eab-40e1-a454-86856efc278e",
       alt: "Image 3",
     },
   ],

@@ -45,7 +45,7 @@ export default function HeroSection({
   ctaActive = true,
   ctaTextColor = "#ffffff",
   backgroundImage =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/6fe9404a-f69c-472a-b521-78f6c1f87326",
+    "https://decoims.com/oscarcalcados/e9e2c963-276d-4b87-814a-e8b041091a3b/6fe9404a-f69c-472a-b521-78f6c1f87326",
 }: Props) {
   return (
     <div class="relative h-screen flex items-center justify-center text-center">
