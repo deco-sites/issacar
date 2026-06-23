@@ -34,17 +34,17 @@ export default function ImageGallery({
   images = [
     {
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+        "https://decoims.com/issacar/f0683107-98cf-422f-9eed-211112e9f8b1/ff6bb37e-0eab-40e1-a454-86856efc278e.jpg",
       alt: "Image 1",
     },
     {
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+        "https://decoims.com/issacar/f0683107-98cf-422f-9eed-211112e9f8b1/ff6bb37e-0eab-40e1-a454-86856efc278e.jpg",
       alt: "Image 2",
     },
     {
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+        "https://decoims.com/issacar/f0683107-98cf-422f-9eed-211112e9f8b1/ff6bb37e-0eab-40e1-a454-86856efc278e.jpg",
       alt: "Image 3",
     },
   ],
